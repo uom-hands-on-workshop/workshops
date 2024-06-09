@@ -29,7 +29,7 @@ We will use a registration link to monitor participation interest in the worksho
 
 ## Workshops Overview
 
-**1. Introduction to Generative AI in T&L**
+**1. Introduction to Generative AI in T&Lfine**
 - Basics of AI, uses of AI in education, tips and tricks, ethical implications, SparkAI.
 
 **2. AI-Resilient Assessment Design**

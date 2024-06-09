@@ -13,7 +13,13 @@ parts:
   - caption: AI Literacy
     chapters:
     - file: extras/ailiteracy
-    - file: extras/genai       
+    - file: extras/genai 
+    - file: extras/genai2          
+      sections:
+        - file: extras/genai2prompts   
+  - caption: Tools
+    chapters:
+    - file: extras/spark
   - caption: Afterword
     chapters:
     - file: topics/contributors
