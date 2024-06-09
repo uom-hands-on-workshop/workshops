@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: introduction
+parts:
+  - caption: Workshops
+    chapters:
+    - file: topics/workshop1
+      sections:
+        - file: topics/activities1    
+        - file: topics/prompts1            
+  - caption: AI Literacy
+    chapters:
+    - file: extras/ailiteracy
+    - file: extras/genai       
+  - caption: Afterword
+    chapters:
+    - file: topics/contributors

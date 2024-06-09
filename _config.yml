@@ -1,0 +1,37 @@
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: UOM - GenAI Hands-on Workshop
+author: The University of Melbourne
+logo: resources/logo.png
+exclude_patterns: ["README.md"]  # Patterns to skip when building the book. Can be glob-style (for example "*skip.ipynb")
+
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+  exclude_patterns: ["README.md"]  # Patterns to skip when building the book. Can be glob-style (for example "*skip.ipynb")
+
+## Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - references.bib
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/uom-hands-on-workshop/workshops  # Online location of your book
+  path_to_book: docs  # Optional path to your book, relative to the repository root
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  favicon: resources/favicon.png
+  use_issues_button: true
+  use_repository_button: true
+  google_analytics_id: G-RYD1BC7LLQ

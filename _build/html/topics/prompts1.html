@@ -1,0 +1,1033 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Prompts &#8212; UOM - GenAI Hands-on Workshop</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-RYD1BC7LLQ"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'topics/prompts1';</script>
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="What is AI Literacy?" href="../extras/ailiteracy.html" />
+    <link rel="prev" title="Activities" href="activities1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../introduction.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="UOM - GenAI Hands-on Workshop - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="UOM - GenAI Hands-on Workshop - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../introduction.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Workshops</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="workshop1.html">Workshop 1</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="activities1.html">Activities</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Prompts</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">AI Literacy</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../extras/ailiteracy.html">What is AI Literacy?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../extras/genai.html">AI and LLMs</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Afterword</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="contributors.html">Contributors</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops/issues/new?title=Issue%20on%20page%20%2Ftopics/prompts1.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/topics/prompts1.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Prompts</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workshop-1-introduction-to-generative-ai-in-t-l-hands-on">Workshop 1: Introduction to Generative AI in T&amp;L (Hands-on)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#facilitator-led-activity-20-minutes">Facilitator-led Activity [20 minutes]</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#real-scenario-what-would-have-improved-your-learning-experience-in-this-subject">REAL SCENARIO: What would have improved your learning experience in this subject?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-steps">Activity Steps:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#discussions-about-misconceptions-hallucinations-ethics">Discussions about Misconceptions, Hallucinations, Ethics</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hands-on-activities-t-l-30-minutes">Hands-on Activities (T&amp;L) [30 minutes]</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hands-on-activities-tips-and-tricks-30-minutes">Hands-on Activities (Tips and Tricks) [30 minutes]</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#wrap-up-5-minutes">Wrap-up [5 minutes]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="prompts">
+<h1>Prompts<a class="headerlink" href="#prompts" title="Link to this heading">#</a></h1>
+<section id="workshop-1-introduction-to-generative-ai-in-t-l-hands-on">
+<h2>Workshop 1: Introduction to Generative AI in T&amp;L (Hands-on)<a class="headerlink" href="#workshop-1-introduction-to-generative-ai-in-t-l-hands-on" title="Link to this heading">#</a></h2>
+<section id="facilitator-led-activity-20-minutes">
+<h3>Facilitator-led Activity [20 minutes]<a class="headerlink" href="#facilitator-led-activity-20-minutes" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Participants follow exact activities on their computers.</p>
+<p><strong>Scenario</strong>: Actioning feedback to enhance student experience in our subjects (real scenario – SWEN subject)</p>
+<section id="real-scenario-what-would-have-improved-your-learning-experience-in-this-subject">
+<h4>REAL SCENARIO: What would have improved your learning experience in this subject?<a class="headerlink" href="#real-scenario-what-would-have-improved-your-learning-experience-in-this-subject" title="Link to this heading">#</a></h4>
+<p>This report lists all comments entered by students.</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span> - More refined/less vague project requirements 
+ - Less workload – this is too much for student studying full time.
+ - I think the lecture slides can be a bit challenging to read – especially the code part. I think the problem is that, when we try to put lots of code on one slide, then the text become rather small. Not sure what would be a better way though...
+ - The project part 2 was far too big for the time given and I feel like some expectations for that part were not overly clear. I really enjoyed the subject otherwise 
+ - Feedback needs to be provided sooner
+ - Marking rubric for reports, extremely depends on tutor&#39;s personal feelings
+ - Our team really felt the marking rubrics were under specified for parts 2, 3, and 4.
+ - Even though the performance stuff was kind of tacked onto the end of the course, I&#39;m really glad it was covered, as it wasn&#39;t something I had ever even considered when doing application development. In future, it would be nice to have a bit more guidance in this area.
+ - Team members is not friendly 
+ - Tutorials
+ - I will appreciate if there could be more guidances on assignments in tutorials 
+ - I would like more activities in classroom
+</pre></div>
+</div>
+<p>Link to subject handbook: <a class="reference external" href="https://handbook.unimelb.edu.au/2022/subjects/swen90007/assessment">https://handbook.unimelb.edu.au/2022/subjects/swen90007/assessment</a></p>
+<p>Project details and rubrics can be accessed <a class="reference download internal" download="" href="../_downloads/435d797512c003d35cd7991802a6f2db/SWEN90007Project2022_v1.pdf"><span class="xref download myst">here</span></a></p>
+<p>Tutorials: <a class="reference external" href="https://cis-projects.github.io/swen90007_course_notes/introduction/introduction.html">https://cis-projects.github.io/swen90007_course_notes/introduction/introduction.html</a></p>
+</section>
+<section id="activity-steps">
+<h4>Activity Steps:<a class="headerlink" href="#activity-steps" title="Link to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p><strong>Problem Identification (human vs SparkAI)</strong></p></li>
+</ol>
+<ul>
+<li><p><strong>Task</strong>: Identify problems in students’ comments.</p>
+<p>a. (human) Write your list of identified problems in students’ comments.</p>
+<p>b. (AI) Ask AI to identify problems in students’ comments.</p>
+<p>c. (human &amp; AI) combine the list of identified problems in students’ comments.</p>
+</li>
+<li><p><strong>Prompt Example</strong>:
+(human) Input:</p></li>
+</ul>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span> Identify the key problems mentioned in the following student comments:
+ - More refined/less vague project requirements.
+ - Less workload – this is too much for students studying full time.
+ - Lecture slides can be challenging to read, especially the code part.
+ - Project part 2 was too big for the time given and expectations were unclear.
+ - Feedback needs to be provided sooner.
+ - Marking rubric for reports depends on the tutor&#39;s personal feelings.
+ - Marking rubrics were under-specified for parts 2, 3, and 4.
+ - Performance coverage was good but needed more guidance.
+ - Team members were not friendly.
+ - Need more guidance on assignments in tutorials.
+ - Would like more activities in the classroom.
+</pre></div>
+</div>
+<p>Note that in this prompt, the comments from students were added as input to provide context to the LLM.</p>
+<p>(LLM) Output:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Based on the feedback provided by the students, the following key problems have been identified:
+
+1. Project Requirements
+   - Problem: The project requirements were perceived as vague and needed more refinement.
+   - Comment: &quot;More refined/less vague project requirements.&quot;
+
+2. Workload
+   - Problem: The workload was considered too heavy, especially for students studying full time.
+   - Comment: &quot;Less workload – this is too much for students studying full time.&quot;
+
+3. Lecture Slides
+   - Problem: Lecture slides, particularly those with code, were challenging to read due to small text.
+   - Comment: &quot;Lecture slides can be challenging to read, especially the code part.&quot;
+
+4. Project Expectations
+   - Problem: Part 2 of the project was too large for the time allotted, and expectations were unclear.
+   - Comment: &quot;Project part 2 was too big for the time given and expectations were unclear.&quot;
+
+5. Timely Feedback
+   - Problem: Feedback was not provided in a timely manner.
+   - Comment: &quot;Feedback needs to be provided sooner.&quot;
+
+6. Marking Rubric Subjectivity
+   - Problem: The marking rubric for reports was seen as dependent on the tutor&#39;s personal feelings.
+   - Comment: &quot;Marking rubric for reports depends on the tutor&#39;s personal feelings.&quot;
+
+7. Under-specified Marking Rubrics
+   - Problem: Marking rubrics for parts 2, 3, and 4 were under-specified.
+   - Comment: &quot;Marking rubrics were under-specified for parts 2, 3, and 4.&quot;
+
+8. Performance Guidance
+   - Problem: While performance topics were covered, more guidance was needed.
+   - Comment: &quot;Performance coverage was good but needed more guidance.&quot;
+
+9. Team Dynamics
+   - Problem: Issues with team members not being friendly.
+   - Comment: &quot;Team members were not friendly.&quot;
+
+10. Guidance on Assignments
+    - Problem: More guidance on assignments during tutorials was requested.
+    - Comment: &quot;Need more guidance on assignments in tutorials.&quot;
+
+11. Classroom Activities
+    - Problem: Desire for more activities in the classroom to enhance learning.
+    - Comment: &quot;Would like more activities in the classroom.&quot;
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p><strong>Prompt Engineering to Improve Outcomes From Initial Prompt</strong></p></li>
+</ol>
+<ul>
+<li><p><strong>Task</strong>: Improve outcomes by considering additional context.</p>
+<p>a. (human) Write an improved prompt to list identified problems in students’ comments.</p>
+<p>b. (human) Ask the LLM for some help to improve design a prompt to list identified problems in students’ comments.</p>
+<p>c. (human) Compare prompts, merge and polish your final prompt.</p>
+</li>
+<li><p><strong>Advanced Prompt Example</strong>:
+(human) Input:</p></li>
+</ul>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Analyse the following student comments to identify key problems and suggest actionable improvements. Provide the analysis in a structured format with headings for each identified problem, including a detailed description, suggested improvements, examples, and references. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
+
+Student Comments:
+1. More refined/less vague project requirements.
+2. Less workload – this is too much for students studying full time.
+3. Lecture slides can be challenging to read, especially the code part.
+4. Project part 2 was too big for the time given and expectations were unclear.
+5. Feedback needs to be provided sooner.
+6. Marking rubric for reports depends on the tutor&#39;s personal feelings.
+7. Marking rubrics were under-specified for parts 2, 3, and 4.
+8. Performance coverage was good but needed more guidance.
+9. Team members were not friendly.
+10. Need more guidance on assignments in tutorials.
+11. Would like more activities in the classroom.
+
+Output Format:
+- Problem #1: [Problem Title]
+  - Description: [Detailed description of the problem]
+  - Suggested Improvements:
+    - Improvement 1: [Description]
+    - Improvement 2: [Description]
+  - Examples: [Provide examples that support the suggested improvements]
+  - References: [Include any references or resources that support the analysis and improvements]
+
+- Problem #2: [Problem Title]
+  - Description: [Detailed description of the problem]
+  - Suggested Improvements:
+    - Improvement 1: [Description]
+    - Improvement 2: [Description]
+  - Examples: [Provide examples that support the suggested improvements]
+  - References: [Include any references or resources that support the analysis and improvements]
+
+... Continue this format for all identified problems.
+</pre></div>
+</div>
+<p>(LLM) Output:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Analysis of Student Comments for SWEN90007 Subject
+
+Problem #1: Vague Project Requirements
+- Description: Students felt that the project requirements were too vague, leading to confusion and a lack of direction.
+- Suggested Improvements:
+  - Improvement 1: Provide a detailed project requirements document with clear specifications, goals, and expectations.
+  - Improvement 2: Include examples of what a successful project should look like to help students understand the requirements.
+- Examples:
+  - Example project briefs from previous years that were highly rated.
+- References:
+  - &quot;Writing Effective Project Requirements&quot; by Karl Wiegers and Joy Beatty.
+  - SWEN90007 Project 2022_v1.pdf (detailed project description).
+
+Problem #2: Excessive Workload
+- Description: The workload for the course was considered too heavy, particularly for students studying full-time.
+- Suggested Improvements:
+  - Improvement 1: Break down the project into smaller, more manageable tasks with staggered deadlines.
+  - Improvement 2: Provide optional resources and extensions for students who need more time.
+- Examples:
+  - Introducing weekly milestones to ensure steady progress.
+- References:
+  - &quot;Managing Student Workload&quot; by John Biggs and Catherine Tang.
+
+Problem #3: Challenging Lecture Slides
+- Description: Lecture slides, especially those containing code, were difficult to read due to small text and dense information.
+- Suggested Improvements:
+  - Improvement 1: Use larger fonts and highlight key sections of the code to improve readability.
+  - Improvement 2: Provide downloadable, annotated code examples separate from the slides.
+- Examples:
+  - Annotated code snippets provided as supplementary material.
+- References:
+  - &quot;Effective Use of Presentation Slides in the Classroom&quot; by Garr Reynolds.
+
+Problem #4: Large Project Part 2
+- Description: Part 2 of the project was too extensive for the time given, and expectations were unclear.
+- Suggested Improvements:
+  - Improvement 1: Reduce the scope of Part 2 or provide additional time to complete it.
+  - Improvement 2: Offer detailed guidelines and examples of what is expected.
+- Examples:
+  - A clear rubric outlining the criteria for each section of Part 2.
+- References:
+  - SWEN90007 Project 2022_v1.pdf (detailed project description).
+
+Problem #5: Timely Feedback
+- Description: Students expressed the need for more timely feedback on their work.
+- Suggested Improvements:
+  - Improvement 1: Implement a feedback schedule with specific deadlines for when students can expect their feedback.
+  - Improvement 2: Use automated tools to provide instant feedback on certain aspects of their work.
+- Examples:
+  - Mid-project review sessions to provide interim feedback.
+- References:
+  - &quot;Feedback in Higher and Professional Education&quot; by David Boud and Elizabeth Molloy.
+
+Problem #6: Subjective Marking Rubric
+- Description: The marking rubric was perceived as being subjective and dependent on the tutor&#39;s personal feelings.
+- Suggested Improvements:
+  - Improvement 1: Develop a standardised rubric with clear, objective criteria.
+  - Improvement 2: Ensure that all tutors are calibrated and trained to apply the rubric consistently.
+- Examples:
+  - Rubric calibration sessions before the start of the course.
+- References:
+  - &quot;Developing and Using Rubrics for Assessment&quot; by Jon Mueller.
+
+Problem #7: Under-specified Marking Rubrics
+- Description: Students felt that the marking rubrics for parts 2, 3, and 4 were under-specified.
+- Suggested Improvements:
+  - Improvement 1: Provide detailed rubrics for each part of the project, specifying the criteria and weight of each component.
+  - Improvement 2: Include examples of graded work to illustrate the application of the rubric.
+- Examples:
+  - Sample graded projects with annotations explaining the scoring.
+- References:
+  - &quot;Assessment Clear and Simple: A Practical Guide for Institutions, Departments, and General Education&quot; by Barbara E. Walvoord.
+
+Problem #8: Performance Guidance
+- Description: While performance topics were covered, students needed more guidance in this area.
+- Suggested Improvements:
+  - Improvement 1: Integrate performance-related content throughout the course rather than just at the end.
+  - Improvement 2: Provide additional resources and examples related to performance optimisation.
+- Examples:
+  - Case studies on performance tuning in software projects.
+- References:
+  - &quot;Optimising Java: Practical Techniques for Improving JVM Application Performance&quot; by Benjamin J. Evans.
+
+Problem #9: Team Dynamics
+- Description: Issues with team members not being friendly or collaborative.
+- Suggested Improvements:
+  - Improvement 1: Facilitate team-building activities at the beginning of the course to foster better collaboration.
+  - Improvement 2: Implement peer evaluation mechanisms to address team dynamics issues.
+- Examples:
+  - Team charters and conflict resolution workshops.
+- References:
+  - &quot;Team Building: Proven Strategies for Improving Team Performance&quot; by W. G. Dyer.
+
+Problem #10: Guidance on Assignments
+- Description: Students requested more guidance on assignments during tutorials.
+- Suggested Improvements:
+  - Improvement 1: Allocate specific time during tutorials for assignment-related Q&amp;A sessions.
+  - Improvement 2: Provide detailed assignment guides and checklists.
+- Examples:
+  - Weekly assignment support sessions led by tutors.
+- References:
+  - &quot;The Lecturer&#39;s Toolkit: A Practical Guide to Assessment, Learning and Teaching&quot; by Phil Race.
+
+Problem #11: Classroom Activities
+- Description: Students wanted more activities in the classroom to enhance their learning experience.
+- Suggested Improvements:
+  - Improvement 1: Incorporate interactive activities and group work into lecture sessions.
+  - Improvement 2: Use technology, such as clickers and online polls, to make lectures more engaging.
+- Examples:
+  - Real-time quizzes and interactive problem-solving sessions.
+- References:
+  - &quot;Active Learning: Creating Excitement in the Classroom&quot; by Charles C. Bonwell and James A. Eison.
+</pre></div>
+</div>
+<ol class="arabic simple" start="3">
+<li><p><strong>Selection of One Problem and Content Development</strong></p></li>
+</ol>
+<ul>
+<li><p><strong>Task</strong>: Address issues related to rubrics and support teamwork.</p>
+<p>a. (human) Select one idea to be improved and developed with the support of AI</p>
+</li>
+<li><p><strong>Selected Problem: Rubrics (#7)</strong>:</p></li>
+<li><p><strong>Prompt Example</strong>:</p>
+<p>a. (human) Ask the LLM for some help on what prompts could be used to help improving the rubrics for parts 2, 3 and 4 of SWEN90007 project description.</p>
+</li>
+</ul>
+<p>(human) Input:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>What prompt can I use to generate improved rubrics for parts 2, 3 and 4 that address Problem #7: Under-specified Marking Rubrics?
+</pre></div>
+</div>
+<p>(LLM) Output:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Develop detailed and specific marking rubrics for Parts 2, 3, and 4 of the SWEN90007 project (Software Design and Architecture). Each rubric should extend the description of the listed criteria, clearly outlining the criteria, the weight of each component, and providing a comprehensive description that enhances the assessment breakdown for students, ensuring clarity and consistency. Include descriptions for different levels of performance (e.g., excellent, good, satisfactory, needs improvement) and provide examples to illustrate each level. Consider the context and requirements of the SWEN90007 subject as outlined in the project description. Format the output in a structured manner.
+
+Output Format:
+
+- Part N: [Name of Part]
+  - Criterion 1: [Criterion Name] ([Weight]%)
+    - Excellent (90-100): [Detailed description of what constitutes excellent performance]
+    - Good (75-89): [Detailed description of what constitutes good performance]
+    - Satisfactory (50-74): [Detailed description of what constitutes satisfactory performance]
+    - Needs Improvement (0-49): [Detailed description of what constitutes performance that needs improvement]
+
+Project Parts:
+
+1. Part 2: Design and Implementation
+   - Criteria and Description:
+     - Class Diagram: Evaluates the accuracy, detail, and comprehensiveness of the class diagram using correct UML notation. The diagram should include all necessary classes, relationships, and multiplicities.
+     - Pattern Description: Assesses the clarity, completeness, and contextualization of the pattern descriptions, including relevant diagrams to illustrate their use.
+     - Design Rationale: Evaluates the strength and clarity of the rationale for design choices, including supporting evidence and alignment with design principles.
+     - Functionality and Pattern Implementation: Checks the correctness and completeness of the implementation, including how well patterns are applied and the overall functionality of the application.
+   - Weight: Specify the percentage or points for each criterion.
+
+2. Part 3: Concurrency and Deployment
+   - Criteria and Description:
+     - Class Diagram: Evaluates the accuracy, detail, and comprehensiveness of the class diagram using correct UML notation, with a focus on concurrency-related classes and relationships.
+     - Concurrency Issues and Pattern Description: Assesses the identification and description of concurrency issues and the patterns used to address them, including diagrams and examples.
+     - Design Rationale for Concurrency Patterns: Evaluates the rationale for the chosen concurrency patterns, including supporting evidence and explanations.
+     - Testing Strategy and Outcomes: Assesses the thoroughness and clarity of the testing strategy for concurrency issues, as well as the documented outcomes.
+     - Functionality and Pattern Implementation: Checks the correctness and completeness of the implementation, including concurrency handling and overall functionality.
+   - Weight: Specify the percentage or points for each criterion.
+
+3. Part 4: Performance Reflection
+   - Criteria and Description:
+     - Performance Discussion: Evaluates the depth and insightfulness of the discussion on system performance, including concrete examples and analysis.
+     - Use of Design Patterns: Assesses the effective use of design patterns, including clear explanations and examples.
+     - Impact on Performance: Evaluates the explanation of how design patterns impacted performance, including detailed analysis and examples.
+   - Weight: Specify the percentage or points for each criterion.
+
+Provide the rubrics in a clear and structured manner, ensuring they are easy to understand and apply.
+</pre></div>
+</div>
+<p>(LLM) Output (as a result of the previous suggested prompt)</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Part 2: Design and Implementation
+- Criteria and Description:
+  - Class Diagram (20%): Evaluates the accuracy, detail, and comprehensiveness of the class diagram using correct UML notation. The diagram should include all necessary classes, relationships, and multiplicities.
+    - Excellent (90-100): Accurate, detailed, and comprehensive class diagram using correct UML notation, including all necessary classes, relationships, and multiplicities.
+    - Good (75-89): Mostly accurate class diagram with minor errors in UML notation or detail, including most necessary elements.
+    - Satisfactory (50-74): Basic class diagram with several errors or omissions, missing some necessary elements.
+    - Needs Improvement (0-49): Incomplete or incorrect class diagram with significant errors, missing many necessary elements.
+
+  - Pattern Description (40%): Assesses the clarity, completeness, and contextualisation of the pattern descriptions, including relevant diagrams to illustrate their use.
+    - Excellent (90-100): Clear, complete, and contextualised descriptions of patterns with relevant diagrams, demonstrating thorough understanding and application.
+    - Good (75-89): Detailed descriptions with minor omissions or errors, demonstrating good understanding and application.
+    - Satisfactory (50-74): Basic descriptions with some omissions or errors, demonstrating basic understanding and application.
+    - Needs Improvement (0-49): Incomplete or incorrect descriptions with significant errors, demonstrating poor understanding and application.
+
+  - Design Rationale (20%): Evaluates the strength and clarity of the rationale for design choices, including supporting evidence and alignment with design principles.
+    - Excellent (90-100): Strong, well-argued rationale for design choices with supporting evidence and alignment with design principles.
+    - Good (75-89): Adequate rationale with some supporting evidence and general alignment with design principles.
+    - Satisfactory (50-74): Basic rationale with limited evidence and alignment with design principles.
+    - Needs Improvement (0-49): Poor or no rationale with little to no supporting evidence or alignment with design principles.
+
+  - Functionality and Pattern Implementation (20%): Checks the correctness and completeness of the implementation, including how well patterns are applied and the overall functionality of the application.
+    - Excellent (90-100): Fully functional implementation with correctly applied patterns, demonstrating comprehensive understanding and skill.
+    - Good (75-89): Mostly functional implementation with minor issues, demonstrating good understanding and skill.
+    - Satisfactory (50-74): Basic implementation with several issues, demonstrating basic understanding and skill.
+    - Needs Improvement (0-49): Non-functional or incorrect implementation, demonstrating poor understanding and skill.
+
+Part 3: Concurrency and Deployment
+- Criteria and Description:
+  - Class Diagram (10%): Evaluates the accuracy, detail, and comprehensiveness of the class diagram using correct UML notation, with a focus on concurrency-related classes and relationships.
+    - Excellent (90-100): Accurate, detailed, and comprehensive class diagram using correct UML notation, including all necessary concurrency-related classes and relationships.
+    - Good (75-89): Mostly accurate class diagram with minor errors in UML notation or detail, including most necessary elements.
+    - Satisfactory (50-74): Basic class diagram with several errors or omissions, missing some necessary elements.
+    - Needs Improvement (0-49): Incomplete or incorrect class diagram with significant errors, missing many necessary elements.
+
+  - Concurrency Issues and Pattern Description (30%): Assesses the identification and description of concurrency issues and the patterns used to address them, including diagrams and examples.
+    - Excellent (90-100): Clear identification and detailed descriptions of all concurrency issues and patterns, including diagrams and examples.
+    - Good (75-89): Mostly clear identification with minor omissions or errors, including most necessary elements.
+    - Satisfactory (50-74): Basic identification with several omissions or errors, missing some necessary elements.
+    - Needs Improvement (0-49): Poor or incorrect identification with significant errors, missing many necessary elements.
+
+  - Design Rationale for Concurrency Patterns (20%): Evaluates the rationale for the chosen concurrency patterns, including supporting evidence and explanations.
+    - Excellent (90-100): Strong, well-argued rationale for concurrency pattern choices with supporting evidence and alignment with design principles.
+    - Good (75-89): Adequate rationale with some supporting evidence and general alignment with design principles.
+    - Satisfactory (50-74): Basic rationale with limited evidence and alignment with design principles.
+    - Needs Improvement (0-49): Poor or no rationale with little to no supporting evidence or alignment with design principles.
+
+  - Testing Strategy and Outcomes (20%): Assesses the thoroughness and clarity of the testing strategy for concurrency issues, as well as the documented outcomes.
+    - Excellent (90-100): Comprehensive testing strategy with clear and detailed outcomes, demonstrating thorough understanding and application.
+    - Good (75-89): Adequate testing strategy with mostly clear outcomes, demonstrating good understanding and application.
+    - Satisfactory (50-74): Basic testing strategy with several omissions, demonstrating basic understanding and application.
+    - Needs Improvement (0-49): Poor or incomplete testing strategy, demonstrating poor understanding and application.
+
+  - Functionality and Pattern Implementation (20%): Checks the correctness and completeness of the implementation, including concurrency handling and overall functionality.
+    - Excellent (90-100): Fully functional implementation with correctly applied patterns, demonstrating comprehensive understanding and skill.
+    - Good (75-89): Mostly functional implementation with minor issues, demonstrating good understanding and skill.
+    - Satisfactory (50-74): Basic implementation with several issues, demonstrating basic understanding and skill.
+    - Needs Improvement (0-49): Non-functional or incorrect implementation, demonstrating poor understanding and skill.
+
+Part 4: Performance Reflection
+- Criteria and Description:
+  - Performance Discussion (50%): Evaluates the depth and insightfulness of the discussion on system performance, including concrete examples and analysis.
+    - Excellent (90-100): Comprehensive and insightful discussion on system performance with detailed examples, demonstrating thorough understanding.
+    - Good (75-89): Adequate discussion with some examples, demonstrating good understanding.
+    - Satisfactory (50-74): Basic discussion with limited examples, demonstrating basic understanding.
+    - Needs Improvement (0-49): Poor or incomplete discussion with few to no examples, demonstrating poor understanding.
+
+  - Use of Design Patterns (30%): Assesses the effective use of design patterns, including clear explanations and examples.
+    - Excellent (90-100): Effective use of design patterns with clear explanations and examples, demonstrating comprehensive understanding.
+    - Good (75-89): Mostly effective use with minor omissions, demonstrating good understanding.
+    - Satisfactory (50-74): Basic use with several omissions, demonstrating basic understanding.
+    - Needs Improvement (0-49): Poor or ineffective use of design patterns, demonstrating poor understanding.
+
+  - Impact on Performance (20%): Evaluates the explanation of how design patterns impacted performance, including detailed analysis and examples.
+    - Excellent (90-100): Clear and detailed explanation of how design patterns impacted performance, demonstrating thorough understanding.
+    - Good (75-89): Adequate explanation with some details, demonstrating good understanding.
+    - Satisfactory (50-74): Basic explanation with limited details, demonstrating basic understanding.
+    - Needs Improvement (0-49): Poor or no explanation of impact on performance, demonstrating poor understanding.
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>Supporting Teamwork</strong>: Create an announcement or guidelines to support teamwork in SWEN90007, focusing on conflict resolution, collaboration strategies, and effective communication. Include examples and best practices.</p></li>
+</ul>
+</section>
+<section id="discussions-about-misconceptions-hallucinations-ethics">
+<h4>Discussions about Misconceptions, Hallucinations, Ethics<a class="headerlink" href="#discussions-about-misconceptions-hallucinations-ethics" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><strong>Discussions (led by facilitators)</strong>: Why are the suggested ideas good? Are there any research findings or best practices that support these ideas? Discuss any misconceptions or hallucinations that may arise during idea generation and how to address them.</p></li>
+</ul>
+</section>
+</section>
+<section id="hands-on-activities-t-l-30-minutes">
+<h3>Hands-on Activities (T&amp;L) [30 minutes]<a class="headerlink" href="#hands-on-activities-t-l-30-minutes" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Participants engage in T&amp;L hands-on activities with facilitator support.</p>
+<ul>
+<li><p><strong>Task: Selection of Another SES Problem and Content Development</strong></p>
+<p>a. (human) Select one new problem from the list below and interact with the LLM to find ways to address it. You should develop contents together with the LLM.</p>
+</li>
+</ul>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Problem #1: Vague Project Description
+Problem #2: Excessive Workload
+Problem #3: Challenging Lecture Slides
+Problem #5: Timely Feedback
+Problem #6: Subjective Marking Rubric
+Problem #8: Performance Guidance
+Problem #9: Team Dynamics
+Problem #10: Guidance on Assignments
+Problem #11: Classroom Activities
+</pre></div>
+</div>
+<ul>
+<li><p><strong>Task: Design Some Classroom Activities</strong>:</p>
+<p>a. (human) Interact with the LLM to address issues related to problem #11. You should chat with the LLM to identify options on how to promote classroom activities, select and develop one.</p>
+</li>
+</ul>
+</section>
+<section id="hands-on-activities-tips-and-tricks-30-minutes">
+<h3>Hands-on Activities (Tips and Tricks) [30 minutes]<a class="headerlink" href="#hands-on-activities-tips-and-tricks-30-minutes" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Participants engage in day-to-day hands-on activities with facilitator support (focus on productivity boost).</p>
+<ol class="arabic simple">
+<li><p><strong>Tasting Plate of Activities</strong></p></li>
+</ol>
+<ul class="simple">
+<li><p><strong>Whiteboards</strong>: From handwritten to typed notes (digitalisation of contents)</p></li>
+</ul>
+<figure class="align-default" id="whiteboard1">
+<img alt="../_images/whiteboard1.jpeg" src="../_images/whiteboard1.jpeg" />
+</figure>
+<figure class="align-default" id="whiteboard2">
+<img alt="../_images/whiteboard2.jpeg" src="../_images/whiteboard2.jpeg" />
+</figure>
+<p>Task: Can you digitalise the two images above and combine them in one text using a LLM?</p>
+<ul class="simple">
+<li><p><strong>Meeting Minutes</strong>: Documenting notes efficiently</p></li>
+<li><p><strong>Writing</strong>: Emails (one-to-one communication), announcements (one-to-many)</p></li>
+<li><p><strong>Discussion Board</strong>: Analytics on threads</p></li>
+<li><p><strong>Research</strong>: Summarising papers, supporting analysis, managing citations &amp; references</p></li>
+<li><p><strong>Proof-reading</strong>:</p></li>
+</ul>
+<section id="wrap-up-5-minutes">
+<h4>Wrap-up [5 minutes]<a class="headerlink" href="#wrap-up-5-minutes" title="Link to this heading">#</a></h4>
+<p><strong>Objective</strong>: Summarise the workshop and discuss key takeaways.</p>
+</section>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./topics"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="activities1.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Activities</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../extras/ailiteracy.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">What is AI Literacy?</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workshop-1-introduction-to-generative-ai-in-t-l-hands-on">Workshop 1: Introduction to Generative AI in T&amp;L (Hands-on)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#facilitator-led-activity-20-minutes">Facilitator-led Activity [20 minutes]</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#real-scenario-what-would-have-improved-your-learning-experience-in-this-subject">REAL SCENARIO: What would have improved your learning experience in this subject?</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-steps">Activity Steps:</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#discussions-about-misconceptions-hallucinations-ethics">Discussions about Misconceptions, Hallucinations, Ethics</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hands-on-activities-t-l-30-minutes">Hands-on Activities (T&amp;L) [30 minutes]</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#hands-on-activities-tips-and-tricks-30-minutes">Hands-on Activities (Tips and Tricks) [30 minutes]</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#wrap-up-5-minutes">Wrap-up [5 minutes]</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The University of Melbourne
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
