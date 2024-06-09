@@ -1,0 +1,744 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>AI and LLMs &#8212; UOM - GenAI Hands-on Workshop</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-RYD1BC7LLQ"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/genai';</script>
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributors" href="../topics/contributors.html" />
+    <link rel="prev" title="What is AI Literacy?" href="ailiteracy.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="../introduction.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="UOM - GenAI Hands-on Workshop - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="UOM - GenAI Hands-on Workshop - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../introduction.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Workshops</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../topics/workshop1.html">Workshop 1</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../topics/activities1.html">Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../topics/prompts1.html">Prompts</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">AI Literacy</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="ailiteracy.html">What is AI Literacy?</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">AI and LLMs</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Afterword</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../topics/contributors.html">Contributors</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops/issues/new?title=Issue%20on%20page%20%2Fextras/genai.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/extras/genai.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>AI and LLMs</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-artificial-intelligence-and-large-language-models-through-lego">Understanding Artificial Intelligence and Large Language Models through LEGO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-artificial-intelligence">What is Artificial Intelligence?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-basics-of-ai">The Basics of AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lego-analogy-building-with-lego-bricks">LEGO Analogy: Building with LEGO Bricks</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-large-language-models-llms">What are Large Language Models (LLMs)?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-llms">Understanding LLMs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lego-analogy-access-to-all-lego-creations">LEGO Analogy: Access to All LEGO Creations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-llms-work">How LLMs Work</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-potential-of-ai-and-llms">The Potential of AI and LLMs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#transforming-industries">Transforming Industries</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#revolutionising-education">Revolutionising Education</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-educators">Opportunities for Educators</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-students">Opportunities for Students</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-considerations">Ethical Considerations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="ai-and-llms">
+<h1>AI and LLMs<a class="headerlink" href="#ai-and-llms" title="Link to this heading">#</a></h1>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Official Statements from The University of Melbourne</p>
+<p>Always make sure you’re following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment</p>
+<ul class="simple">
+<li><p><strong>Official Statements from The University of Melbourne</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/</a></p></li>
+<li><p><strong>Please confirm with your subject coordinators if generative AI tools are permitted in your coursework and understand the guidelines for their use.</strong></p></li>
+</ul>
+</div>
+<section id="understanding-artificial-intelligence-and-large-language-models-through-lego">
+<h2>Understanding Artificial Intelligence and Large Language Models through LEGO<a class="headerlink" href="#understanding-artificial-intelligence-and-large-language-models-through-lego" title="Link to this heading">#</a></h2>
+<p>Artificial Intelligence (AI) is a fascinating and complex field, but it can be understood through simple analogies. One of the most effective ways to explain AI and large language models (LLMs) is by comparing them to LEGO bricks, which many of us have used to build various creations during our childhood.</p>
+<p>In this guide, we’ll use LEGO to explain:</p>
+<ol class="arabic simple">
+<li><p>What Artificial Intelligence is.</p></li>
+<li><p>How Large Language Models work.</p></li>
+<li><p>The potential and implications of AI and LLMs in our daily lives.</p></li>
+</ol>
+</section>
+<section id="what-is-artificial-intelligence">
+<h2>What is Artificial Intelligence?<a class="headerlink" href="#what-is-artificial-intelligence" title="Link to this heading">#</a></h2>
+<section id="the-basics-of-ai">
+<h3>The Basics of AI<a class="headerlink" href="#the-basics-of-ai" title="Link to this heading">#</a></h3>
+<p>Artificial Intelligence, or AI, refers to machines or software that can perform tasks that typically require human intelligence. These tasks include understanding language, recognising patterns, solving problems, and making decisions.</p>
+</section>
+<section id="lego-analogy-building-with-lego-bricks">
+<h3>LEGO Analogy: Building with LEGO Bricks<a class="headerlink" href="#lego-analogy-building-with-lego-bricks" title="Link to this heading">#</a></h3>
+<p>Think of AI as a sophisticated builder using LEGO bricks. Just like how you use LEGO pieces to create various structures, AI uses data and algorithms (the building blocks) to construct solutions to problems.</p>
+<ul class="simple">
+<li><p><strong>LEGO Bricks = Data</strong>: The pieces of information that AI uses.</p></li>
+</ul>
+<figure class="align-default" id="legobricks">
+<img alt="../_images/legobricks.jpg" src="../_images/legobricks.jpg" />
+</figure>
+<ul class="simple">
+<li><p><strong>Builder = Algorithm</strong>: The set of instructions that tells the AI how to use the data to build something meaningful.</p></li>
+</ul>
+<p>Just as a skilled builder can create complex models from simple LEGO bricks, AI can solve complex problems by processing vast amounts of data using advanced algorithms.</p>
+</section>
+</section>
+<section id="what-are-large-language-models-llms">
+<h2>What are Large Language Models (LLMs)?<a class="headerlink" href="#what-are-large-language-models-llms" title="Link to this heading">#</a></h2>
+<section id="understanding-llms">
+<h3>Understanding LLMs<a class="headerlink" href="#understanding-llms" title="Link to this heading">#</a></h3>
+<p>Large Language Models are a type of AI designed to understand and generate human language. They are trained on massive amounts of text data, learning the nuances of language to produce coherent and contextually relevant responses.</p>
+</section>
+<section id="lego-analogy-access-to-all-lego-creations">
+<h3>LEGO Analogy: Access to All LEGO Creations<a class="headerlink" href="#lego-analogy-access-to-all-lego-creations" title="Link to this heading">#</a></h3>
+<p>Imagine you have built LEGO houses in the past, each unique based on your cultural background, knowledge, and the LEGO parts you had. Now, what if you could access all the LEGO houses constructed by billions of people around the world? This vast collection represents the diverse ways people use LEGO to create structures.</p>
+<ul class="simple">
+<li><p><strong>Training Data = All LEGO Creations</strong>: LLMs are trained on a vast amount of text data, similar to having access to all LEGO creations ever made.</p></li>
+<li><p><strong>Knowledge Integration</strong>: If you had the knowledge of all these LEGO houses and everything else ever constructed using LEGO parts, you could build a house that better represents different cultures or mix ideas to create something entirely new, like a LEGO house in the Amazong and designed specifically for hosting an Australian BBQ.</p></li>
+</ul>
+<figure class="align-default" id="aussiebbqlego">
+<img alt="../_images/aussiebbqlego.png" src="../_images/aussiebbqlego.png" />
+</figure>
+</section>
+<section id="how-llms-work">
+<h3>How LLMs Work<a class="headerlink" href="#how-llms-work" title="Link to this heading">#</a></h3>
+<p>LLMs work by learning patterns from the massive amounts of text they are trained on. They don’t just memorise this data; they understand the relationships between words and concepts to generate new text that makes sense in context.</p>
+<ol class="arabic simple">
+<li><p><strong>Learning from Data</strong>: Just like learning how different LEGO pieces fit together, LLMs learn how words and sentences are structured.</p></li>
+<li><p><strong>Generating Text</strong>: When asked to generate text, LLMs use their learned knowledge to create responses that are contextually appropriate and coherent, similar to building a new LEGO house using the styles and techniques seen in other houses.</p></li>
+</ol>
+</section>
+</section>
+<section id="the-potential-of-ai-and-llms">
+<h2>The Potential of AI and LLMs<a class="headerlink" href="#the-potential-of-ai-and-llms" title="Link to this heading">#</a></h2>
+<p>Sure, here is the expanded section on how AI and LLMs have the potential to revolutionize education, with opportunities for both educators and students:</p>
+<section id="transforming-industries">
+<h3>Transforming Industries<a class="headerlink" href="#transforming-industries" title="Link to this heading">#</a></h3>
+<p>AI and LLMs have the potential to revolutionise many industries, from healthcare to education, by automating tasks, providing insights, and enhancing human capabilities.</p>
+</section>
+<section id="revolutionising-education">
+<h3>Revolutionising Education<a class="headerlink" href="#revolutionising-education" title="Link to this heading">#</a></h3>
+<p>AI and LLMs offer numerous opportunities to transform education for both educators and students. Here are some key areas where AI can make a significant impact:</p>
+<section id="opportunities-for-educators">
+<h4>Opportunities for Educators<a class="headerlink" href="#opportunities-for-educators" title="Link to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p><strong>Creation of Educational Content</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI tools like ChatGPT can help educators generate engaging lesson plans, quizzes, and interactive materials. For instance, a history teacher could use AI to create detailed timelines and interactive maps for lessons on ancient civilisations.</p></li>
+</ul>
+</li>
+<li><p><strong>Development of Activities</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI can assist in designing diverse and creative classroom activities. For example, language teachers can use AI to develop conversation prompts and role-playing scenarios that adapt to different proficiency levels.</p></li>
+</ul>
+</li>
+<li><p><strong>New Forms of Assessment</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI-driven assessments can provide more dynamic and interactive ways to evaluate student understanding. Tools like Gradescope use AI to streamline grading and provide instant feedback on assignments, helping educators identify areas where students struggle.</p></li>
+</ul>
+</li>
+<li><p><strong>Personalised Assistance</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI-powered virtual teaching assistants can help manage administrative tasks and provide real-time support to students. For example, tools like IBM Watson Tutor can assist educators by answering student queries and providing additional learning resources.</p></li>
+</ul>
+</li>
+<li><p><strong>Timely Feedback</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI systems can analyse student work and offer immediate feedback, allowing for continuous improvement. Platforms like Turnitin use AI to detect plagiarism and provide feedback on writing quality and originality.</p></li>
+</ul>
+</li>
+<li><p><strong>Socratic Conversations</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI can facilitate Socratic dialogues, encouraging deeper understanding and critical thinking. AI chatbots can simulate philosophical discussions, guiding students through complex topics by asking probing questions and encouraging reflection.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="opportunities-for-students">
+<h4>Opportunities for Students<a class="headerlink" href="#opportunities-for-students" title="Link to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p><strong>Personalised Learning</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI can tailor educational experiences to individual student needs, learning styles, and paces. Tools like Khanmigo use adaptive learning algorithms to provide customised learning paths, ensuring that students receive the right level of challenge and support.</p></li>
+</ul>
+</li>
+<li><p><strong>Content Creation</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI can assist students in creating content for projects and presentations. For instance, students can use AI-powered tools like Canva’s Magic Resize to quickly generate visually appealing slides and graphics.</p></li>
+</ul>
+</li>
+<li><p><strong>Enhanced Research</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI can support students in conducting research by summarising articles, suggesting relevant sources, and organising citations. Tools like Zotero integrate AI to help manage research materials efficiently.</p></li>
+</ul>
+</li>
+<li><p><strong>Interactive Learning Activities</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI can create immersive and interactive learning experiences. Virtual reality (VR) platforms like ClassVR use AI to develop simulations that allow students to explore historical events or scientific phenomena in a virtual environment.</p></li>
+</ul>
+</li>
+<li><p><strong>Real-time Feedback and Assistance</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI tutors and assistants provide students with immediate help and feedback on their work. For example, Duolingo uses AI to adapt language lessons in real-time, offering instant corrections and suggestions.</p></li>
+</ul>
+</li>
+<li><p><strong>Socratic Conversations</strong></p>
+<ul class="simple">
+<li><p><strong>Example</strong>: AI-driven chatbots can engage students in Socratic questioning, helping them develop critical thinking and problem-solving skills. Platforms like Khanmigo and Replika use AI to simulate thoughtful conversations that challenge students to consider different perspectives.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+<section id="ethical-considerations">
+<h3>Ethical Considerations<a class="headerlink" href="#ethical-considerations" title="Link to this heading">#</a></h3>
+<p>With great power comes great responsibility. It’s important to consider the ethical implications of AI and LLMs, such as privacy, bias, and the potential for misuse.</p>
+<ul class="simple">
+<li><p><strong>Privacy</strong>: Ensuring that AI systems respect user privacy and handle data securely.</p></li>
+<li><p><strong>Bias</strong>: Addressing biases in AI models to ensure fair and equitable outcomes.</p></li>
+<li><p><strong>Misuse</strong>: Preventing the use of AI for harmful purposes, such as spreading misinformation.</p></li>
+</ul>
+</section>
+</section>
+<section id="conclusion">
+<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h2>
+<p>Artificial Intelligence and Large Language Models are powerful technologies that can be better understood through the LEGO analogy. By thinking of AI as a builder using data (LEGO bricks) and algorithms (instructions), and LLMs as having access to all LEGO creations ever made, we can appreciate how these systems learn and generate meaningful results.</p>
+<p>As we continue to develop and integrate AI into our lives, it is essential to consider both the potential benefits and the ethical challenges. With careful and responsible use, AI and LLMs can significantly enhance our capabilities and transform various aspects of our society.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./extras"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ailiteracy.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">What is AI Literacy?</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../topics/contributors.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Contributors</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-artificial-intelligence-and-large-language-models-through-lego">Understanding Artificial Intelligence and Large Language Models through LEGO</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-artificial-intelligence">What is Artificial Intelligence?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#the-basics-of-ai">The Basics of AI</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lego-analogy-building-with-lego-bricks">LEGO Analogy: Building with LEGO Bricks</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-large-language-models-llms">What are Large Language Models (LLMs)?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-llms">Understanding LLMs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lego-analogy-access-to-all-lego-creations">LEGO Analogy: Access to All LEGO Creations</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-llms-work">How LLMs Work</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-potential-of-ai-and-llms">The Potential of AI and LLMs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#transforming-industries">Transforming Industries</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#revolutionising-education">Revolutionising Education</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-educators">Opportunities for Educators</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#opportunities-for-students">Opportunities for Students</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-considerations">Ethical Considerations</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The University of Melbourne
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

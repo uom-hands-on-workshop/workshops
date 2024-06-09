@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="./" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Welcome &#8212; UOM - GenAI Hands-on Workshop</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
+
+    <script src="_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="_static/copybutton.js?v=f281be69"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js?v=36754332"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-RYD1BC7LLQ"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'introduction';</script>
+    <link rel="icon" href="_static/favicon.png"/>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Workshop 1" href="topics/workshop1.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="#">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/logo.png" class="logo__image only-light" alt="UOM - GenAI Hands-on Workshop - Home"/>
+    <script>document.write(`<img src="_static/logo.png" class="logo__image only-dark" alt="UOM - GenAI Hands-on Workshop - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1 current active">
+                <a class="reference internal" href="#">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Workshops</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="topics/workshop1.html">Workshop 1</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="topics/activities1.html">Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="topics/prompts1.html">Prompts</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">AI Literacy</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="extras/ailiteracy.html">What is AI Literacy?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="extras/genai.html">AI and LLMs</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Afterword</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="topics/contributors.html">Contributors</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops/issues/new?title=Issue%20on%20page%20%2Fintroduction.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/introduction.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Welcome</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target Audience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#program-structure">Program Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workshops-overview">Workshops Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-activities">Key Activities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-outcomes">Expected Outcomes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#staffing-and-support">Staffing and Support</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-resources">Useful Resources</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="welcome">
+<h1>Welcome<a class="headerlink" href="#welcome" title="Link to this heading">#</a></h1>
+<p>Welcome to our Generative AI workshops! We’re excited to have you join us on this journey of integrating cutting-edge AI technologies into education. These workshops have been carefully designed, reviewed, and managed by a dedicated staff team at the University of Melbourne. Our goal is to equip educators - through hands-on and contextualised workshops - with the knowledge and tools to leverage generative AI in their teaching practices, fostering innovation, enhancing AI literacy, and addressing ethical considerations. As technology evolves, so will our workshops. We are committed to continuously updating and offering new sessions to keep pace with advancements in AI.</p>
+<section id="purpose">
+<h2>Purpose<a class="headerlink" href="#purpose" title="Link to this heading">#</a></h2>
+<p>The hands-on workshops are designed to support university staff with the knowledge and tools to integrate generative AI into their teaching practices. This educational initiative aims to enhance AI literacy, foster innovation, and address ethical considerations in the use of responsible AI in the classroom.</p>
+</section>
+<section id="target-audience">
+<h2>Target Audience<a class="headerlink" href="#target-audience" title="Link to this heading">#</a></h2>
+<p>University teachers and educators from various departments, schools, and faculties, irrespective of their prior experience with AI. The workshop program is structured to accommodate a diverse range of disciplines and proficiency levels.</p>
+</section>
+<section id="program-structure">
+<h2>Program Structure<a class="headerlink" href="#program-structure" title="Link to this heading">#</a></h2>
+<p>This program is organised in 5 main modules and is designed to accommodate the diverse schedules of university faculties. Each module within the program is structured to run for two weeks, during which the same hands-on session is offered six times (3 times per week).</p>
+<p>Each 90-minute session is divided into two primary components:</p>
+<ul class="simple">
+<li><p><strong>First 30 minutes - Theoretical insights and practical demonstrations</strong>: This part of the session focuses on introducing key AI concepts and demonstrating practical uses of AI tools relevant to the module’s focus. All participants engage in similar hands-on guided activities (facilitator-led activities).</p></li>
+<li><p><strong>Last Hour - Hands-on application and subject-specific tailoring</strong>: Participants engage in hands-on activities applying what they’ve learned to develop or refine AI-enhanced teaching materials and strategies specific to their academic disciplines.</p></li>
+</ul>
+<p>As each module’s session is repeated up to six times over the course of two weeks, participants can choose one session per module that best aligns with their schedule, ensuring maximum flexibility and accessibility. The repetitive scheduling of sessions ensures that all participants have an equal opportunity to engage with the content in a timely and convenient manner without having to rearrange their existing commitments. By offering multiple sessions for each module, our workshops should allow educators to integrate this training into their schedules, enhancing the likelihood of widespread participation and engagement.</p>
+<p>Activities within modules will be designed considering the use of SparkAI (but may also involve the use of different LLM depending on explored scenarios and examples). Sessions will be held across different locations on our campus (Parkville, VCA, and others).</p>
+<p>To kick off the program, we will start with Module 1 and assess how it goes. We will offer this module many times throughout the second half of the year (perhaps up to 20 times). We will monitor interest and adjust our plans as needed, using feedback from attendees to gauge their interest in further opportunities. This iterative approach will allow us to fine-tune the program based on participants’ preferences and needs, ensuring it remains relevant and impactful.</p>
+<p>We will use a registration link to monitor participation interest in the workshops.</p>
+</section>
+<section id="workshops-overview">
+<h2>Workshops Overview<a class="headerlink" href="#workshops-overview" title="Link to this heading">#</a></h2>
+<p><strong>1. Introduction to Generative AI in T&amp;L</strong></p>
+<ul class="simple">
+<li><p>Basics of AI, uses of AI in education, tips and tricks, ethical implications, SparkAI.</p></li>
+</ul>
+<p><strong>2. AI-Resilient Assessment Design</strong></p>
+<ul class="simple">
+<li><p>Preparing educators with strategies to update and design assessments that minimise academic misconduct risks associated with the use of generative AI, emphasising the integrity and fairness of evaluations.</p></li>
+</ul>
+<p><strong>3. Developing Creative Teaching Materials</strong></p>
+<ul class="simple">
+<li><p>Using AI to create engaging and innovative educational content that is Canvas and PowerPoint compatible (creative media with AI – videos, images, sounds, and so on).</p></li>
+</ul>
+<p><strong>4. Personalised Learning Through AI (finetuning SparkAI)</strong></p>
+<ul class="simple">
+<li><p>Customising learning experiences to meet diverse student needs (creating chatbots or specialised LLM for your subjects).</p></li>
+</ul>
+<p><strong>5. AI-Enhanced Formative Assessments</strong></p>
+<ul class="simple">
+<li><p>Integrating AI tools for responsible and continuous assessment and feedback.</p></li>
+</ul>
+</section>
+<section id="key-activities">
+<h2>Key Activities<a class="headerlink" href="#key-activities" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Hands-on exercises with AI tools such as SparkAI, ChatGPT, Co-Pilot, DALL-E, Midjourney.</p></li>
+<li><p>Role-playing sessions to explore ethical scenarios and academic integrity issues.</p></li>
+<li><p>Group discussions to foster collaboration and share best practices.</p></li>
+<li><p>Design and development of resources to be shared on Teams.</p></li>
+</ul>
+</section>
+<section id="expected-outcomes">
+<h2>Expected Outcomes<a class="headerlink" href="#expected-outcomes" title="Link to this heading">#</a></h2>
+<p>Leverage AI Literacy among participants. Participants will gain practical skills in using AI to enhance their teaching and learning methods (conscious, informed, responsible decisions). They will also develop a better understanding of the ethical considerations involved in deploying AI technologies in educational settings, fully aligned with UOM guidelines and policies.</p>
+<p>All developed materials will be made available to participants. Anyone should be able to reuse them in their faculties or lectures.</p>
+</section>
+<section id="staffing-and-support">
+<h2>Staffing and Support<a class="headerlink" href="#staffing-and-support" title="Link to this heading">#</a></h2>
+<p>20 participants per session. Each session will have the presence of 2 facilitators to ensure personalised guidance and support, facilitating a better learning environment. If sessions become too popular, we can offer new sessions in the 2-week window (or extend the module for extra weeks).</p>
+</section>
+<section id="useful-resources">
+<h2>Useful Resources<a class="headerlink" href="#useful-resources" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong><a class="reference external" href="https://spark.unimelb.edu.au/">SparkAI</a></strong>.</p></li>
+<li><p><strong><a class="reference external" href="https://www.unimelb.edu.au/generative-ai-taskforce">Generative AI Taskforce</a></strong>.</p></li>
+<li><p><strong><a class="reference external" href="https://academicintegrity.unimelb.edu.au/">Academic Integrity</a></strong>.</p></li>
+<li><p><strong><a class="reference external" href="https://eng.unimelb.edu.au/tll/communities/genai-cop">Generative AI Community of Practice</a></strong>.</p></li>
+</ul>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Join the Journey of Continuous Improvement</p>
+<p>Your feedback and contributions can significantly enhance the learning experience for future staff and students. Here’s how you can help:</p>
+<ul class="simple">
+<li><p><strong>Report Issues</strong>: Notice a typo or error? Raise an issue on GitHub and join our <a class="reference internal" href="afterword/hall_of_fame.html"><span class="doc std std-doc">Staff Hall of Fame</span></a> for contributors.</p></li>
+<li><p><strong>Collaborate</strong>: Have suggestions or topics you’d like to see included? Let’s <a class="reference internal" href="afterword/collaborate.html"><span class="doc std std-doc">Collaborate</span></a> and expand our knowledge base together.</p></li>
+</ul>
+<figure class="align-default">
+<img alt="_images/github_issue.png" src="_images/github_issue.png" />
+</figure>
+</div>
+<div class="admonition-to-cite-this-workshop-program admonition">
+<p class="admonition-title">To cite this workshop program</p>
+<p>Eduardo A. Oliveira, Shannon Rios, Cory dal Ponte (2024). Introduction to Generative AI in Education Through Hands-on Workshops. <a class="github reference external" href="https://github.com/uom-hands-on-workshop/workshops">uom-hands-on-workshop/workshops</a></p>
+</div>
+<p>Embark on this journey with us! Together, let’s build a foundation for a future where technology and innovation converge to create responsible solutions that matter.</p>
+<p>The workshop leaders,</p>
+<p><a class="reference external" href="https://findanexpert.unimelb.edu.au/profile/653031-eduardo-araujo-oliveira">Eduardo Oliveira</a>, <a class="reference external" href="https://findanexpert.unimelb.edu.au/profile/985603-shannon-rios">Dr Shannon Rios</a> and Cory dal Ponte.</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="right-next"
+       href="topics/workshop1.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Workshop 1</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#purpose">Purpose</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#target-audience">Target Audience</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#program-structure">Program Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#workshops-overview">Workshops Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-activities">Key Activities</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#expected-outcomes">Expected Outcomes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#staffing-and-support">Staffing and Support</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#useful-resources">Useful Resources</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By The University of Melbourne
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
