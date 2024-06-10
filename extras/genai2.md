@@ -12,12 +12,6 @@ Always make sure you're following the official University of Melbourne statement
 
 Welcome to our guide on integrating Generative AI into your subjects. This document aims to provide you with an understanding of how to effectively use generative AI tools, adhere to responsible practices, and access valuable resources to enhance your learning experience.
 
-Below are links to some University of Melbourne generative AI resources that you might find useful in your learning journey with us (also great to keep you posted on our initiatives here):
-- **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
-- **Assessment, AI and Academic Integrity**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/](https://melbourne-cshe.unimelb.edu.au/ai-aai/)
-- **Advice for students regarding Turnitin and AI writing detection**: [https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/](https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/)
-- **Using AI to enhance assessment**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/)
-
 ## What is Generative AI?
 
 Generative AI refers to artificial intelligence systems that can generate new content, including code, text, images, and more, based on the training data they have been fed. In software engineering, generative AI can assist in various tasks, such as coding, documentation, and testing, thereby augmenting the development process.

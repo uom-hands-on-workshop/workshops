@@ -2,6 +2,15 @@
 
 Welcome to our Generative AI workshops! We're excited to have you join us on this journey of integrating cutting-edge AI technologies into education. These workshops have been carefully designed, reviewed, and managed by a dedicated staff team at the University of Melbourne. Our goal is to equip educators - through hands-on and contextualised workshops - with the knowledge and tools to leverage generative AI in their teaching practices, fostering innovation, enhancing AI literacy, and addressing ethical considerations. As technology evolves, so will our workshops. We are committed to continuously updating and offering new sessions to keep pace with advancements in AI.
 
+Below are links to some University of Melbourne generative AI resources that you might find useful in your learning journey with us:
+- **[Official Statements from The University of Melbourne](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)**: List of official University of Melbourne statements and resources relating to AI, academic integrity, and assessment.
+- **[Using AI to enhance assessment](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/)**: Creative ideas in this domain.
+- **[SparkAI](https://spark.unimelb.edu.au/)**: Explore SparkAI, the University of Melbourne's AI platform designed to support educational and administrative tasks.
+- **[Generative AI Taskforce](https://www.unimelb.edu.au/generative-ai-taskforce)**: Learn about the taskforce dedicated to exploring and integrating generative AI technologies at the University of Melbourne.
+- **[Academic Integrity](https://academicintegrity.unimelb.edu.au/)**: Understand the principles and practices to uphold academic integrity within the university.
+- **[Generative AI Community of Practice](https://eng.unimelb.edu.au/tll/communities/genai-cop)**: Join our community of educators and researchers focused on the application of generative AI in education.
+
+
 ## Purpose
 
 The hands-on workshops are designed to support university staff with the knowledge and tools to integrate generative AI into their teaching practices. This educational initiative aims to enhance AI literacy, foster innovation, and address ethical considerations in the use of responsible AI in the classroom.
@@ -60,13 +69,6 @@ All developed materials will be made available to participants. Anyone should be
 ## Staffing and Support
 
 20 participants per session. Each session will have the presence of 2 facilitators to ensure personalised guidance and support, facilitating a better learning environment. If sessions become too popular, we can offer new sessions in the 2-week window (or extend the module for extra weeks).
-
-## Useful Resources
-
-- **[SparkAI](https://spark.unimelb.edu.au/)**.
-- **[Generative AI Taskforce](https://www.unimelb.edu.au/generative-ai-taskforce)**.
-- **[Academic Integrity](https://academicintegrity.unimelb.edu.au/)**.
-- **[Generative AI Community of Practice](https://eng.unimelb.edu.au/tll/communities/genai-cop)**.
 
 
 :::{admonition} Join the Journey of Continuous Improvement
