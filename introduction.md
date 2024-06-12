@@ -38,7 +38,7 @@ Your feedback and contributions can significantly enhance the learning experienc
 
 
 ```{admonition} To cite this workshop program
-Eduardo A. Oliveira, Shannon Rios, Cory dal Ponte (2024). Introduction to Generative AI in Education Through Hands-on Workshops. https://github.com/uom-hands-on-workshop/workshops
+Oliveira E. A., Rios, S., dal Ponte, C. (2024). Introduction to Generative AI in Education Through Hands-on Workshops. https://github.com/uom-hands-on-workshop/workshops
 ```
 
 Embark on this journey with us! Together, let's build a foundation for a future where technology and innovation converge to create responsible solutions that matter.
