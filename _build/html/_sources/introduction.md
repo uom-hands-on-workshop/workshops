@@ -1,61 +1,10 @@
 # Welcome
 
-Welcome to our Generative AI workshops! We're excited to have you join us on this journey of integrating cutting-edge AI technologies into education. These workshops have been carefully designed, reviewed, and managed by a dedicated staff team at the University of Melbourne. Our goal is to equip educators - through hands-on and contextualised workshops - with the knowledge and tools to leverage generative AI in their teaching practices, fostering innovation, enhancing AI literacy, and addressing ethical considerations. As technology evolves, so will our workshops. We are committed to continuously updating and offering new sessions to keep pace with advancements in AI.
-
-Below are links to some University of Melbourne generative AI resources that you might find useful in your learning journey with us:
-- **[Official Statements from The University of Melbourne](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)**: List of official University of Melbourne statements and resources relating to AI, academic integrity, and assessment.
-- **[Using AI to enhance assessment](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/)**:Creative ideas in this domain.
-- **[SparkAI](https://spark.unimelb.edu.au/)**: Explore SparkAI, the University of Melbourne's AI platform designed to support educational and administrative tasks.
-- **[Generative AI Taskforce](https://www.unimelb.edu.au/generative-ai-taskforce)**: Learn about the taskforce dedicated to exploring and integrating generative AI technologies at the University of Melbourne.
-- **[Academic Integrity](https://academicintegrity.unimelb.edu.au/)**: Understand the principles and practices to uphold academic integrity within the university.
-- **[Generative AI Community of Practice](https://eng.unimelb.edu.au/tll/communities/genai-cop)**: Join our community of educators and researchers focused on the application of generative AI in education.
-
-
-## Purpose
-
-The hands-on workshops are designed to support university staff with the knowledge and tools to integrate generative AI into their teaching practices. This educational initiative aims to enhance AI literacy, foster innovation, and address ethical considerations in the use of responsible AI in the classroom.
-
-## Target Audience
-
-University teachers and educators from various departments, schools, and faculties, irrespective of their prior experience with AI. The workshop program is structured to accommodate a diverse range of disciplines and proficiency levels.
-
-## Program Structure
-
-This program is organised in 5 main modules and is designed to accommodate the diverse schedules of university faculties. Each module within the program is structured to run for two weeks, during which the same hands-on session is offered six times (3 times per week).
-
-Each 90-minute session is divided into two primary components:
-
-- **First 30 minutes - Theoretical insights and practical demonstrations**: This part of the session focuses on introducing key AI concepts and demonstrating practical uses of AI tools relevant to the module’s focus. All participants engage in similar hands-on guided activities (facilitator-led activities).
-- **Last Hour - Hands-on application and subject-specific tailoring**: Participants engage in hands-on activities applying what they’ve learned to develop or refine AI-enhanced teaching materials and strategies specific to their academic disciplines.
-
-As each module's session is repeated up to six times over the course of two weeks, participants can choose one session per module that best aligns with their schedule, ensuring maximum flexibility and accessibility. The repetitive scheduling of sessions ensures that all participants have an equal opportunity to engage with the content in a timely and convenient manner without having to rearrange their existing commitments. By offering multiple sessions for each module, our workshops should allow educators to integrate this training into their schedules, enhancing the likelihood of widespread participation and engagement.
-
-Activities within modules will be designed considering the use of SparkAI (but may also involve the use of different LLM depending on explored scenarios and examples). Sessions will be held across different locations on our campus (Parkville, VCA, and others).
-
-To kick off the program, we will start with Module 1 and assess how it goes. We will offer this module many times throughout the second half of the year (perhaps up to 20 times). We will monitor interest and adjust our plans as needed, using feedback from attendees to gauge their interest in further opportunities. This iterative approach will allow us to fine-tune the program based on participants' preferences and needs, ensuring it remains relevant and impactful.
-
-We will use a registration link to monitor participation interest in the workshops.
-
-## Workshops Overview
-
-**1. Introduction to Generative AI in T&Lfine**
-- Basics of AI, uses of AI in education, tips and tricks, ethical implications, SparkAI.
-
-**2. AI-Resilient Assessment Design**
-- Preparing educators with strategies to update and design assessments that minimise academic misconduct risks associated with the use of generative AI, emphasising the integrity and fairness of evaluations.
-
-**3. Developing Creative Teaching Materials**
-- Using AI to create engaging and innovative educational content that is Canvas and PowerPoint compatible (creative media with AI – videos, images, sounds, and so on).
-
-**4. Personalised Learning Through AI (finetuning SparkAI)**
-- Customising learning experiences to meet diverse student needs (creating chatbots or specialised LLM for your subjects).
-
-**5. AI-Enhanced Formative Assessments**
-- Integrating AI tools for responsible and continuous assessment and feedback.
+Welcome to our Generative AI hands-on workshops! We're excited to have you join us on this journey of integrating cutting-edge AI technologies into education. These workshops have been carefully designed, reviewed, and managed by a dedicated staff team at the University of Melbourne. Our goal is to equip educators - through hands-on and contextualised workshops - with the knowledge and tools to leverage generative AI in their teaching practices, fostering innovation, enhancing AI literacy, and addressing ethical considerations. As technology evolves, so will our workshops. We are committed to continuously updating and offering new sessions to keep pace with advancements in AI.
 
 ## Key Activities
 
-- Hands-on exercises with AI tools such as SparkAI, ChatGPT, Co-Pilot, DALL-E, Midjourney.
+- **Hands-on exercises** with AI tools such as Spark, ChatGPT, Co-Pilot, DALL-E, Midjourney.
 - Role-playing sessions to explore ethical scenarios and academic integrity issues.
 - Group discussions to foster collaboration and share best practices.
 - Design and development of resources to be shared on Teams.
@@ -66,9 +15,15 @@ Leverage AI Literacy among participants. Participants will gain practical skills
 
 All developed materials will be made available to participants. Anyone should be able to reuse them in their faculties or lectures.
 
-## Staffing and Support
+## Additional Resources
 
-20 participants per session. Each session will have the presence of 2 facilitators to ensure personalised guidance and support, facilitating a better learning environment. If sessions become too popular, we can offer new sessions in the 2-week window (or extend the module for extra weeks).
+Below are links to some University of Melbourne generative AI resources that you might find useful in your learning journey with us:
+- **[Official Statements from The University of Melbourne](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)**: List of official University of Melbourne statements and resources relating to AI, academic integrity, and assessment.
+- **[Using AI to enhance assessment](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/)**: Creative ideas in this domain.
+- **[SparkAI](https://spark.unimelb.edu.au/)**: Explore SparkAI, the University of Melbourne's AI platform designed to support educational and administrative tasks.
+- **[Generative AI Taskforce](https://www.unimelb.edu.au/generative-ai-taskforce)**: Learn about the taskforce dedicated to exploring and integrating generative AI technologies at the University of Melbourne.
+- **[Academic Integrity](https://academicintegrity.unimelb.edu.au/)**: Understand the principles and practices to uphold academic integrity within the university.
+- **[Generative AI Community of Practice](https://eng.unimelb.edu.au/tll/communities/genai-cop)**: Join our community of educators and researchers focused on the application of generative AI in education.
 
 
 :::{admonition} Join the Journey of Continuous Improvement
@@ -85,7 +40,6 @@ Your feedback and contributions can significantly enhance the learning experienc
 ```{admonition} To cite this workshop program
 Eduardo A. Oliveira, Shannon Rios, Cory dal Ponte (2024). Introduction to Generative AI in Education Through Hands-on Workshops. https://github.com/uom-hands-on-workshop/workshops
 ```
-
 
 Embark on this journey with us! Together, let's build a foundation for a future where technology and innovation converge to create responsible solutions that matter.
 

@@ -4,12 +4,22 @@
 format: jb-book
 root: introduction
 parts:
+  - caption: Planning
+    chapters:
+    - file: topics/purpose
+    - file: topics/lessonplan
+    - file: topics/taskmanagement
   - caption: Workshops
     chapters:
+    - file: topics/workshopsoverview
     - file: topics/workshop1
       sections:
-        - file: topics/activities1    
-        - file: topics/prompts1            
+        - file: topics/scenario    
+        - file: topics/activities1
+          sections:
+            - file: topics/prompts1            
+        - file: topics/activities2
+        - file: topics/activities3
   - caption: AI Literacy
     chapters:
     - file: extras/ailiteracy
