@@ -29,9 +29,9 @@ Artificial Intelligence, or AI, refers to machines or software that can perform 
 Think of AI as a sophisticated builder using LEGO bricks. Just like how you use LEGO pieces to create various structures, AI uses data and algorithms (the building blocks) to construct solutions to problems.
 
 - **LEGO Bricks = Data**: The pieces of information that AI uses.
-```{figure} resources/legobricks.jpg
+```{figure} resources/vortexhead.png
 ---
-name: legobricks
+name: vortexhead
 ---
 ```
 - **Builder = Algorithm**: The set of instructions that tells the AI how to use the data to build something meaningful.

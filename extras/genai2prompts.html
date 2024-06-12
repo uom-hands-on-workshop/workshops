@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>What is AI Literacy? &#8212; UOM - GenAI Hands-on Workshop</title>
+    <title>Productivity Booster &#8212; UOM - GenAI Hands-on Workshop</title>
   
   
   
@@ -70,12 +70,12 @@
                 gtag('config', 'G-RYD1BC7LLQ');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/ailiteracy';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/genai2prompts';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="AI and LLMs" href="genai.html" />
-    <link rel="prev" title="Activity 3 [participants]" href="../topics/activities3.html" />
+    <link rel="next" title="Spark" href="spark.html" />
+    <link rel="prev" title="Generative AI" href="genai2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -212,10 +212,10 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">AI Literacy</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">What is AI Literacy?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ailiteracy.html">What is AI Literacy?</a></li>
 <li class="toctree-l1"><a class="reference internal" href="genai.html">AI and LLMs</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="genai2.html">Generative AI</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="genai2prompts.html">Productivity Booster</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="genai2.html">Generative AI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Productivity Booster</a></li>
 </ul>
 </li>
 </ul>
@@ -297,7 +297,7 @@
       
       
       
-      <li><a href="https://github.com/uom-hands-on-workshop/workshops/issues/new?title=Issue%20on%20page%20%2Fextras/ailiteracy.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops/issues/new?title=Issue%20on%20page%20%2Fextras/genai2prompts.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -327,7 +327,7 @@
       
       
       
-      <li><a href="../_sources/extras/ailiteracy.md" target="_blank"
+      <li><a href="../_sources/extras/genai2prompts.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -411,7 +411,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>What is AI Literacy?</h1>
+    <h1>Productivity Booster</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -421,33 +421,27 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-literacy-phases">AI Literacy Phases</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#know-and-understand-ai">Know and Understand AI</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-ai">What is AI?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-ai-concepts">Basic AI Concepts</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#importance-of-ai-literacy">Importance of AI Literacy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-prompts-for-educators">Examples of Prompts for Educators</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#whiteboards-converting-handwritten-texts-to-digital">Whiteboards: Converting Handwritten Texts to Digital</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-prompt">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-prompt">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-and-apply-ai">Use and Apply AI</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-applications-in-education">Practical Applications in Education</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-ai-tools-in-education">Examples of AI Tools in Education</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implementing-ai-in-the-classroom">Implementing AI in the Classroom</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-emails-and-announcements">Writing: Emails and Announcements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluate-and-create-ai">Evaluate and Create AI</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#higher-order-thinking-with-ai">Higher-Order Thinking with AI</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-ai-projects">Developing AI Projects</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluating-ai-applications">Evaluating AI Applications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-summarising-papers-and-managing-citations">Research: Summarising Papers and Managing Citations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-ethics">AI Ethics</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-ai-ethics">Understanding AI Ethics</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-concerns-in-ai">Ethical Concerns in AI</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching-ai-ethics">Teaching AI Ethics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#proof-reading-enhancing-writing">Proof-Reading: Enhancing Writing</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
             </nav>
         </div>
@@ -459,112 +453,128 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="what-is-ai-literacy">
-<h1>What is AI Literacy?<a class="headerlink" href="#what-is-ai-literacy" title="Link to this heading">#</a></h1>
-<div class="tip dropdown admonition">
-<p class="admonition-title">Official Statements from The University of Melbourne</p>
-<p>Always make sure you’re following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment</p>
-<ul class="simple">
-<li><p><strong>Official Statements from The University of Melbourne</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/</a></p></li>
-<li><p><strong>Please confirm with your subject coordinators if generative AI tools are permitted in your coursework and understand the guidelines for their use.</strong></p></li>
-</ul>
+  <section class="tex2jax_ignore mathjax_ignore" id="productivity-booster">
+<h1>Productivity Booster<a class="headerlink" href="#productivity-booster" title="Link to this heading">#</a></h1>
+<section id="examples-of-prompts-for-educators">
+<h2>Examples of Prompts for Educators<a class="headerlink" href="#examples-of-prompts-for-educators" title="Link to this heading">#</a></h2>
+<p>This guide provides examples of prompts that educators can use to leverage generative AI for various day-to-day activities. Each activity includes examples of bad, good, and advanced prompts, along with explanations of why they are categorised as such. These examples aim to help educators become more productive and efficient in their tasks.</p>
+</section>
+<section id="whiteboards-converting-handwritten-texts-to-digital">
+<h2>Whiteboards: Converting Handwritten Texts to Digital<a class="headerlink" href="#whiteboards-converting-handwritten-texts-to-digital" title="Link to this heading">#</a></h2>
+<blockquote>
+<div><p><strong>for the example below, you’d need to attach the photo of the recipe together with your prompt</strong></p>
+</div></blockquote>
+<figure class="align-default" id="recipe">
+<img alt="../_images/recipe.jpg" src="../_images/recipe.jpg" />
+</figure>
+<section id="simple-prompt">
+<h3>Simple Prompt<a class="headerlink" href="#simple-prompt" title="Link to this heading">#</a></h3>
+<p>“Convert my notes.”</p>
+<p><strong>Explanation</strong>: This prompt is too vague and lacks context. The AI may not understand what notes to convert, resulting in incomplete or inaccurate outputs.</p>
+<p>LLM output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Spinach and Tomato Rice (Indian)</span>
+
+<span class="c1">## Ingredients</span>
+<span class="o">-</span> <span class="mi">450</span><span class="n">g</span> <span class="n">rice</span>
+<span class="o">-</span> <span class="mi">450</span><span class="n">g</span> <span class="n">spinach</span><span class="p">,</span> <span class="n">chopped</span>
+<span class="o">-</span> <span class="mi">1</span> <span class="n">onion</span><span class="p">,</span> <span class="n">chopped</span> <span class="n">finely</span>
+<span class="o">-</span> <span class="mi">2</span> <span class="n">tomatoes</span><span class="p">,</span> <span class="n">chopped</span>
+<span class="o">-</span> <span class="mi">1</span><span class="o">/</span><span class="mi">2</span> <span class="n">teaspoon</span> <span class="n">turmeric</span>
+<span class="o">-</span> <span class="mi">1</span> <span class="n">teaspoon</span> <span class="n">ground</span> <span class="n">cumin</span>
+<span class="o">-</span> <span class="mi">2</span> <span class="n">cups</span> <span class="n">stock</span> <span class="ow">or</span> <span class="n">water</span>
+<span class="o">-</span> <span class="n">Oil</span>
+<span class="o">-</span> <span class="n">Salt</span> <span class="o">&amp;</span> <span class="n">pepper</span>
+
+<span class="c1">## Instructions</span>
+<span class="mf">1.</span> <span class="n">Put</span> <span class="n">the</span> <span class="n">rice</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">bowl</span><span class="p">,</span> <span class="n">cover</span> <span class="k">with</span> <span class="n">water</span><span class="p">,</span> <span class="ow">and</span> <span class="nb">set</span> <span class="n">aside</span> <span class="k">for</span> <span class="mi">30</span> <span class="n">minutes</span><span class="o">.</span> <span class="n">Drain</span><span class="o">.</span>
+<span class="mf">2.</span> <span class="n">Cook</span> <span class="n">the</span> <span class="n">spinach</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">little</span> <span class="n">boiling</span> <span class="n">water</span> <span class="k">for</span> <span class="mi">3</span><span class="o">-</span><span class="mi">5</span> <span class="n">minutes</span><span class="p">,</span> <span class="n">then</span> <span class="n">drain</span> <span class="n">thoroughly</span><span class="o">.</span>
+<span class="mf">3.</span> <span class="n">Heat</span> <span class="n">the</span> <span class="n">oil</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">large</span> <span class="n">pan</span> <span class="n">over</span> <span class="n">medium</span> <span class="n">heat</span><span class="p">,</span> <span class="ow">and</span> <span class="n">when</span> <span class="n">it</span> <span class="ow">is</span> <span class="n">hot</span><span class="p">,</span> <span class="n">sauté</span> <span class="n">the</span> <span class="n">onion</span><span class="o">.</span>
+<span class="mf">4.</span> <span class="n">Put</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">rice</span> <span class="ow">and</span> <span class="n">fry</span> <span class="n">lightly</span> <span class="k">for</span> <span class="mi">2</span><span class="o">-</span><span class="mi">3</span> <span class="n">minutes</span> <span class="n">before</span> <span class="n">adding</span> <span class="n">the</span> <span class="n">spinach</span><span class="o">.</span>
+</pre></div>
 </div>
-<p>Artificial Intelligence (AI) is transforming various industries, including education. As educators, understanding AI and its implications is essential to prepare students for the future. This little guide aims to provide educators with an introductory understanding of AI literacy, covering fundamental concepts, practical applications, ethical considerations, and more.</p>
-<p>AI literacy involves the ability to understand, use, evaluate, and create AI technologies. It encompasses a range of skills and knowledge areas that enable individuals to interact effectively with AI systems.</p>
-<section id="ai-literacy-phases">
-<h2>AI Literacy Phases<a class="headerlink" href="#ai-literacy-phases" title="Link to this heading">#</a></h2>
-<p>AI literacy can be conceptualised into four key phases: Know and Understand AI, Use and Apply AI, Evaluate and Create AI, and AI Ethics. These phases provide a structured approach to fostering comprehensive AI literacy among educators and students.</p>
 </section>
-<section id="know-and-understand-ai">
-<h2>Know and Understand AI<a class="headerlink" href="#know-and-understand-ai" title="Link to this heading">#</a></h2>
-<section id="what-is-ai">
-<h3>What is AI?<a class="headerlink" href="#what-is-ai" title="Link to this heading">#</a></h3>
-<p>AI refers to the simulation of human intelligence in machines programmed to think and learn like humans. It encompasses various technologies such as machine learning, natural language processing, and neural networks.</p>
-</section>
-<section id="basic-ai-concepts">
-<h3>Basic AI Concepts<a class="headerlink" href="#basic-ai-concepts" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>Machine Learning (ML)</strong>: A subset of AI that involves training algorithms to learn from data and make predictions or decisions.</p></li>
-<li><p><strong>Natural Language Processing (NLP)</strong>: The ability of machines to understand and respond to human language.</p></li>
-<li><p><strong>Neural Networks</strong>: Computational models inspired by the human brain, used in deep learning to recognise patterns and make complex decisions.</p></li>
-</ul>
-</section>
-<section id="importance-of-ai-literacy">
-<h3>Importance of AI Literacy<a class="headerlink" href="#importance-of-ai-literacy" title="Link to this heading">#</a></h3>
-<p>AI literacy involves understanding these basic concepts and how they are applied in everyday life. It is crucial for educators to grasp these ideas to effectively integrate AI into their teaching practices and help students navigate a future where AI is ubiquitous.</p>
-</section>
-</section>
-<section id="use-and-apply-ai">
-<h2>Use and Apply AI<a class="headerlink" href="#use-and-apply-ai" title="Link to this heading">#</a></h2>
-<section id="practical-applications-in-education">
-<h3>Practical Applications in Education<a class="headerlink" href="#practical-applications-in-education" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>Personalised Learning</strong>: AI can tailor educational experiences to individual student needs, providing customised content and support.</p></li>
-<li><p><strong>Administrative Efficiency</strong>: AI tools can automate administrative tasks, allowing educators to focus more on teaching.</p></li>
-<li><p><strong>Enhanced Learning Materials</strong>: AI can help create interactive and engaging learning materials, such as virtual labs and simulations.</p></li>
-</ul>
-</section>
-<section id="examples-of-ai-tools-in-education">
-<h3>Examples of AI Tools in Education<a class="headerlink" href="#examples-of-ai-tools-in-education" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>Chatbots</strong>: Provide instant support to students, answering queries and offering guidance.</p></li>
-<li><p><strong>Adaptive Learning Platforms</strong>: Adjust the difficulty level of tasks based on student performance.</p></li>
-<li><p><strong>AI-Powered Assessment Tools</strong>: Automate grading and provide detailed feedback.</p></li>
-</ul>
-</section>
-<section id="implementing-ai-in-the-classroom">
-<h3>Implementing AI in the Classroom<a class="headerlink" href="#implementing-ai-in-the-classroom" title="Link to this heading">#</a></h3>
-<p>Educators can start small by integrating AI tools into their existing curriculum. For example, using AI to analyse student feedback or employing adaptive learning software to support differentiated instruction.</p>
+<section id="advanced-prompt">
+<h3>Advanced Prompt<a class="headerlink" href="#advanced-prompt" title="Link to this heading">#</a></h3>
+<p>“Convert the following handwritten notes from mum’s yummy recipe ‘Spinach and Tomato Rice’ into a well-structured typed document. Organise the content into sections: ‘Ingredients’, ‘Instructions’, and ‘Cooking Time’. Also, recommend me a great occasion to cook this meal.”</p>
+<p><strong>Explanation</strong>: This prompt is highly detailed, specifying the structure of the output and ensuring the AI organises the information logically, making it easier to review and use.</p>
+<p>LLM output:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span># Spinach and Tomato Rice (Indian)
+
+## Ingredients
+- 450g rice
+- 450g spinach, chopped
+- 1 onion, chopped finely
+- 2 tomatoes, chopped
+- 1/2 teaspoon turmeric
+- 1 teaspoon ground cumin
+- 2 cups stock or water
+- Oil
+- Salt &amp; pepper
+
+## Instructions
+1. Put the rice in a bowl, cover with water, and set aside for 30 minutes. Drain.
+2. Cook the spinach in a little boiling water for 3-5 minutes, then drain thoroughly.
+3. Heat the oil in a large pan over medium heat, and when it is hot, sauté the onion.
+4. Add the tomatoes, turmeric, and ground cumin to the pan and cook until the tomatoes soften.
+5. Put in the rice and fry lightly for 2-3 minutes before adding the spinach.
+6. Add the stock or water, salt, and pepper. Stir well.
+7. Cover and cook on low heat until the rice is done and all the water is absorbed.
+
+## Cooking Time
+- Preparation Time: 10 minutes
+- Cooking Time: 30-40 minutes
+- Total Time: 40-50 minutes
+
+## Occasion
+This dish is perfect for a family dinner or a gathering with friends. Its flavorful and nutritious combination makes it an excellent choice for a weekend meal or a special occasion.
+
+Enjoy your delicious Spinach and Tomato Rice!
+</pre></div>
+</div>
 </section>
 </section>
-<section id="evaluate-and-create-ai">
-<h2>Evaluate and Create AI<a class="headerlink" href="#evaluate-and-create-ai" title="Link to this heading">#</a></h2>
-<section id="higher-order-thinking-with-ai">
-<h3>Higher-Order Thinking with AI<a class="headerlink" href="#higher-order-thinking-with-ai" title="Link to this heading">#</a></h3>
-<p>AI literacy goes beyond knowing and using AI; it involves evaluating and creating AI applications. This requires critical thinking and problem-solving skills.</p>
+<section id="writing-emails-and-announcements">
+<h2>Writing: Emails and Announcements<a class="headerlink" href="#writing-emails-and-announcements" title="Link to this heading">#</a></h2>
+<section id="id1">
+<h3>Simple Prompt<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<p>“Write an email to a colleague informing them about the upcoming faculty meeting on Monday at 10AM.”</p>
+<p><strong>Explanation</strong>: This prompt provides clear context and details about the email’s purpose and recipient, resulting in a more relevant and accurate output.</p>
 </section>
-<section id="developing-ai-projects">
-<h3>Developing AI Projects<a class="headerlink" href="#developing-ai-projects" title="Link to this heading">#</a></h3>
-<p>Encouraging students to create their own AI projects can deepen their understanding. Examples include:</p>
-<ul class="simple">
-<li><p><strong>Building Simple AI Models</strong>: Using tools like SparkAI to create specialised knowledge about the subject you teach.</p></li>
-<li><p><strong>Creating Chatbots</strong>: Developing chatbots that can assist with common queries.</p></li>
-</ul>
-</section>
-<section id="evaluating-ai-applications">
-<h3>Evaluating AI Applications<a class="headerlink" href="#evaluating-ai-applications" title="Link to this heading">#</a></h3>
-<p>Students (and ourselves) should learn to critically evaluate AI applications, considering factors such as accuracy, bias, and ethical implications. This can be done through class discussions, case studies, and project-based learning.</p>
+<section id="id2">
+<h3>Advanced Prompt<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<p>“Write a professional email to the faculty team announcing the upcoming meeting on Monday at 10AM. <strong>+ CONTEXT</strong>”
+Make sure you include the agenda items, the meeting location, and a request for any additional topics they would like to discuss.</p>
+<p><strong>Explanation</strong>: This prompt includes detailed instructions and context, ensuring the email is comprehensive, professional, and informative.</p>
 </section>
 </section>
-<section id="ai-ethics">
-<h2>AI Ethics<a class="headerlink" href="#ai-ethics" title="Link to this heading">#</a></h2>
-<section id="understanding-ai-ethics">
-<h3>Understanding AI Ethics<a class="headerlink" href="#understanding-ai-ethics" title="Link to this heading">#</a></h3>
-<p>AI ethics involves ensuring that AI technologies are developed and used responsibly. Key ethical principles include fairness, accountability, transparency, and privacy.</p>
+<section id="research-summarising-papers-and-managing-citations">
+<h2>Research: Summarising Papers and Managing Citations<a class="headerlink" href="#research-summarising-papers-and-managing-citations" title="Link to this heading">#</a></h2>
+<blockquote>
+<div><p><strong>for the example below, you’d need to attach a paper (or document) together with your prompt</strong></p>
+</div></blockquote>
+<section id="id3">
+<h3>Simple Prompt<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+<p>“Summarise the key findings and conclusions of this research paper.”</p>
+<p><strong>Explanation</strong>: This prompt specifies what aspects of the paper to focus on, resulting in a relevant and accurate summary.</p>
 </section>
-<section id="ethical-concerns-in-ai">
-<h3>Ethical Concerns in AI<a class="headerlink" href="#ethical-concerns-in-ai" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>Bias and Fairness</strong>: AI systems can perpetuate biases present in training data. Educators must teach students to recognise and address these biases.</p></li>
-<li><p><strong>Accountability</strong>: Determining who is responsible for decisions made by AI systems.</p></li>
-<li><p><strong>Transparency</strong>: Ensuring that AI systems are understandable and their decision-making processes are clear.</p></li>
-</ul>
-</section>
-<section id="teaching-ai-ethics">
-<h3>Teaching AI Ethics<a class="headerlink" href="#teaching-ai-ethics" title="Link to this heading">#</a></h3>
-<p>Incorporate discussions on AI ethics into the curriculum. Use real-world examples to illustrate ethical dilemmas and encourage students to think critically about the impact of AI on society.</p>
+<section id="id4">
+<h3>Advanced Prompt<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<p>“Summarise the key findings, methodology, and conclusions of this research paper on ‘TOPIC’. Additionally, generate a list of relevant citations in APA format and identify potential areas for further research.”</p>
+<p><strong>Explanation</strong>: This prompt is highly detailed and comprehensive, asking the AI to summarise multiple aspects of the paper and manage citations, providing a thorough and useful output for the educator.</p>
 </section>
 </section>
-<section id="conclusion">
-<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h2>
-<p>AI literacy is an essential skill for educators and students alike. By understanding, using, evaluating, and ethically applying AI, educators can prepare their students for a future where AI plays a significant role in various aspects of life. This guide provides a foundational understanding and practical insights to help educators embark on this journey.</p>
+<section id="proof-reading-enhancing-writing">
+<h2>Proof-Reading: Enhancing Writing<a class="headerlink" href="#proof-reading-enhancing-writing" title="Link to this heading">#</a></h2>
+<section id="id5">
+<h3>Simple Prompt<a class="headerlink" href="#id5" title="Link to this heading">#</a></h3>
+<p>“Proof-read my document.”</p>
+<p><strong>Explanation</strong>: This prompt is too vague and does not specify what to focus on during proof-reading, resulting in a potentially incomplete review.</p>
 </section>
-<section id="references">
-<h2>References<a class="headerlink" href="#references" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Ng, D. T. K., Leung, J. K. L., Chu, S. K. W., &amp; Qiao, M. S. (2021). Conceptualizing AI literacy: An exploratory review. Computers and Education: Artificial Intelligence, 2, 100041. <a class="reference external" href="https://doi.org/10.1016/j.caeai.2021.100041">https://doi.org/10.1016/j.caeai.2021.100041</a></p></li>
-<li><p>Manyika, J., Lund, S., Chui, M., Bughin, J., Woetzel, J., Batra, P., Ko, R., &amp; Sanghvi, S. (2017). Jobs lost, jobs gained: Workforce transitions in a time of automation. McKinsey Global Institute. <a class="reference external" href="https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages">https://www.mckinsey.com/featured-insights/future-of-work/jobs-lost-jobs-gained-what-the-future-of-work-will-mean-for-jobs-skills-and-wages</a></p></li>
-</ul>
+<section id="id6">
+<h3>Advanced Prompt<a class="headerlink" href="#id6" title="Link to this heading">#</a></h3>
+<p>“Proof-read my research paper on ‘TOPIC’. Check for grammar, spelling, and punctuation errors. Additionally, provide suggestions for improving clarity, coherence, and academic tone.”</p>
+<p><strong>Explanation</strong>: This prompt is detailed and comprehensive, asking the AI to not only proof-read for basic errors but also provide suggestions for enhancing the overall quality of the writing.</p>
+</section>
 </section>
 </section>
 
@@ -599,20 +609,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../topics/activities3.html"
+       href="genai2.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Activity 3 [participants]</p>
+        <p class="prev-next-title">Generative AI</p>
       </div>
     </a>
     <a class="right-next"
-       href="genai.html"
+       href="spark.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">AI and LLMs</p>
+        <p class="prev-next-title">Spark</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -632,33 +642,27 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-literacy-phases">AI Literacy Phases</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#know-and-understand-ai">Know and Understand AI</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-ai">What is AI?</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#basic-ai-concepts">Basic AI Concepts</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#importance-of-ai-literacy">Importance of AI Literacy</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-prompts-for-educators">Examples of Prompts for Educators</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#whiteboards-converting-handwritten-texts-to-digital">Whiteboards: Converting Handwritten Texts to Digital</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-prompt">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#advanced-prompt">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#use-and-apply-ai">Use and Apply AI</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#practical-applications-in-education">Practical Applications in Education</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-ai-tools-in-education">Examples of AI Tools in Education</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#implementing-ai-in-the-classroom">Implementing AI in the Classroom</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-emails-and-announcements">Writing: Emails and Announcements</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluate-and-create-ai">Evaluate and Create AI</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#higher-order-thinking-with-ai">Higher-Order Thinking with AI</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-ai-projects">Developing AI Projects</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#evaluating-ai-applications">Evaluating AI Applications</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#research-summarising-papers-and-managing-citations">Research: Summarising Papers and Managing Citations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-ethics">AI Ethics</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-ai-ethics">Understanding AI Ethics</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-concerns-in-ai">Ethical Concerns in AI</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#teaching-ai-ethics">Teaching AI Ethics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#proof-reading-enhancing-writing">Proof-Reading: Enhancing Writing</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Simple Prompt</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Advanced Prompt</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#references">References</a></li>
 </ul>
   </nav></div>
 

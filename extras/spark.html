@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Collaborate With Us &#8212; UOM - GenAI Hands-on Workshop</title>
+    <title>Spark &#8212; UOM - GenAI Hands-on Workshop</title>
   
   
   
@@ -70,10 +70,12 @@
                 gtag('config', 'G-RYD1BC7LLQ');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'afterword/collaborate';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/spark';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Contributors" href="../topics/contributors.html" />
+    <link rel="prev" title="Productivity Booster" href="genai2prompts.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -134,8 +136,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -212,16 +212,16 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">AI Literacy</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../extras/ailiteracy.html">What is AI Literacy?</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../extras/genai.html">AI and LLMs</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../extras/genai2.html">Generative AI</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="../extras/genai2prompts.html">Productivity Booster</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ailiteracy.html">What is AI Literacy?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="genai.html">AI and LLMs</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="genai2.html">Generative AI</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="genai2prompts.html">Productivity Booster</a></li>
 </ul>
 </li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Tools</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../extras/spark.html">Spark</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Spark</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Afterword</span></p>
 <ul class="nav bd-sidenav">
@@ -297,7 +297,7 @@
       
       
       
-      <li><a href="https://github.com/uom-hands-on-workshop/workshops/issues/new?title=Issue%20on%20page%20%2Fafterword/collaborate.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/uom-hands-on-workshop/workshops/issues/new?title=Issue%20on%20page%20%2Fextras/spark.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -327,7 +327,7 @@
       
       
       
-      <li><a href="../_sources/afterword/collaborate.ipynb" target="_blank"
+      <li><a href="../_sources/extras/spark.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -337,7 +337,7 @@
 <span class="btn__icon-container">
   <i class="fas fa-file"></i>
   </span>
-<span class="btn__text-container">.ipynb</span>
+<span class="btn__text-container">.md</span>
 </a>
 </li>
       
@@ -398,7 +398,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -409,11 +411,33 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Collaborate With Us</h1>
+    <h1>Spark</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adjusting-llm-settings">Adjusting LLM Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#selecting-the-chatgpt-llm">Selecting the ChatGPT LLM</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-and-adjusting-temperature">Understanding and Adjusting Temperature</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-temperature-settings">Examples of Temperature Settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sets-in-spark">Data Sets in Spark</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-data-sets">What are Data Sets?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-custom-data-sets">Creating Custom Data Sets</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -423,23 +447,81 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="collaborate-with-us">
-<h1>Collaborate With Us<a class="headerlink" href="#collaborate-with-us" title="Link to this heading">#</a></h1>
-<p>Do you have ideas how to improve these notes? Submit your ideas below and we will get back to you 😊</p>
-<div class="cell tag_remove-input docutils container">
-<div class="cell_output docutils container">
-<div class="output text_html">
-<iframe
-    src="https://q.surveys.unimelb.edu.au/jfe/form/SV_cUtfe5XeaFN7Eay"
-    width="640"
-    height="919"
-    frameborder="0"
-    marginheight="0"
-    marginwidth="0">
-    Loading…
-</iframe>
-</div></div>
-</div>
+  <section class="tex2jax_ignore mathjax_ignore" id="spark">
+<h1>Spark<a class="headerlink" href="#spark" title="Link to this heading">#</a></h1>
+<p>Spark is The University of Melbourne’s AI Language Model and can be accessed <a class="reference external" href="https://spark.unimelb.edu.au/">here</a>.</p>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
+<p>SparkAI is an advanced AI language model developed by the University of Melbourne to support various educational and administrative tasks within the university. This guide provides an overview of how users can adjust the LLM settings, including selecting the ChatGPT LLM and temperature for the secure chat thread.</p>
+</section>
+<section id="adjusting-llm-settings">
+<h2>Adjusting LLM Settings<a class="headerlink" href="#adjusting-llm-settings" title="Link to this heading">#</a></h2>
+<section id="selecting-the-chatgpt-llm">
+<h3>Selecting the ChatGPT LLM<a class="headerlink" href="#selecting-the-chatgpt-llm" title="Link to this heading">#</a></h3>
+<p>Users have the option to choose between two iterations of language models developed by OpenAI:</p>
+<ul class="simple">
+<li><p><strong>GPT-3.5 Turbo 16k</strong>: A refined version of the GPT-3 model. While it offers enhancements over GPT-3, its understanding of complex or specialised topics may still be limited.</p></li>
+<li><p><strong>GPT-4</strong>: The next evolution in OpenAI’s language models. GPT-4 is designed to provide significantly improved understanding of both general and specialised topics, offering more accurate and contextually relevant responses.</p></li>
+</ul>
+</section>
+<section id="understanding-and-adjusting-temperature">
+<h3>Understanding and Adjusting Temperature<a class="headerlink" href="#understanding-and-adjusting-temperature" title="Link to this heading">#</a></h3>
+<p>The temperature setting in a language model controls the randomness of the output. It determines how creative or focused the responses will be. Temperature values range from 0 to 1, where:</p>
+<ul class="simple">
+<li><p><strong>0</strong>: The model produces very focused and deterministic responses, prioritising accuracy over creativity.</p></li>
+<li><p><strong>0.5</strong>: The model balances creativity and focus, producing responses that are varied yet still relevant.</p></li>
+<li><p><strong>1</strong>: The model generates highly creative and varied responses, but at the cost of potential accuracy and focus.</p></li>
+</ul>
+<section id="examples-of-temperature-settings">
+<h4>Examples of Temperature Settings<a class="headerlink" href="#examples-of-temperature-settings" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><strong>Temperature 0</strong></p>
+<ul>
+<li><p><strong>Prompt</strong>: “Explain the significance of photosynthesis.”</p></li>
+<li><p><strong>Response</strong>: “Photosynthesis is the process by which green plants and some other organisms use sunlight to synthesise foods with the help of chlorophyll, producing oxygen as a byproduct.”</p></li>
+</ul>
+</li>
+<li><p><strong>Temperature 0.5</strong></p>
+<ul>
+<li><p><strong>Prompt</strong>: “Explain the significance of photosynthesis.”</p></li>
+<li><p><strong>Response</strong>: “Photosynthesis is a crucial process in which green plants and some other organisms convert sunlight into chemical energy, creating food in the form of glucose and releasing oxygen into the atmosphere. This process not only sustains the plant itself but also supports life on Earth by maintaining oxygen levels and serving as the base of the food chain.”</p></li>
+</ul>
+</li>
+<li><p><strong>Temperature 1</strong></p>
+<ul>
+<li><p><strong>Prompt</strong>: “Explain the significance of photosynthesis.”</p></li>
+<li><p><strong>Response</strong>: “Imagine a world without the green touch of plants! Photosynthesis is this magical process where plants, basking in sunlight, whip up their food from carbon dioxide and water, and generously release oxygen. It’s not just about plants feeding themselves; it’s about life breathing freely, an unseen dance of energy and life, a foundational harmony in the symphony of nature.”</p></li>
+</ul>
+</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="data-sets-in-spark">
+<h2>Data Sets in Spark<a class="headerlink" href="#data-sets-in-spark" title="Link to this heading">#</a></h2>
+<section id="what-are-data-sets">
+<h3>What are Data Sets?<a class="headerlink" href="#what-are-data-sets" title="Link to this heading">#</a></h3>
+<p>Data sets in Spark are curated pools of information that the AI model can reference when generating responses. When creating a project, users can choose between a global data set or a custom data set.</p>
+<ul class="simple">
+<li><p><strong>Global Data Sets</strong>: These are standardised data sets available to all users. They include a wide range of information and are designed to be broadly applicable to various contexts.</p></li>
+<li><p><strong>Custom Data Sets</strong>: These are personalised data sets created by individual users. Only the creator has access to their custom data sets, ensuring privacy and relevance to specific projects. <strong>Only you have access to the custom data sets that you create through your Spark profile.</strong></p></li>
+</ul>
+</section>
+<section id="creating-custom-data-sets">
+<h3>Creating Custom Data Sets<a class="headerlink" href="#creating-custom-data-sets" title="Link to this heading">#</a></h3>
+<p>Custom data sets offer a way to tailor the AI’s knowledge base to fit your specific needs. To create a custom data set:</p>
+<ol class="arabic simple">
+<li><p><strong>Collect Data</strong>: Gather the information that you want to include in your custom data set. This could be documents, research papers, internal reports, or any relevant data.</p></li>
+<li><p><strong>Upload Data</strong>: Use SparkAI’s interface to upload your collected data into the platform.</p></li>
+<li><p><strong>Configure Settings</strong>: Adjust the settings to specify how the AI model should use the data. This might include tagging, categorising, or prioritising certain information.</p></li>
+</ol>
+<p>By creating and using custom data sets, you ensure that the AI model in your project has access to the most relevant and accurate information, tailored specifically to your requirements.</p>
+</section>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<p>By understanding and adjusting the settings of SparkAI, users can tailor the AI’s performance to suit their specific needs, whether it’s for detailed, accurate responses or more creative and varied outputs. Choosing the right model (GPT-3.5 Turbo 16k or GPT-4) and setting the appropriate temperature can significantly enhance the effectiveness and relevance of the AI’s responses in different contexts.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -455,7 +537,7 @@ document.write(`
         },
         kernelOptions: {
             name: "python3",
-            path: "./afterword"
+            path: "./extras"
         },
         predefinedOutput: true
     }
@@ -472,6 +554,24 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="genai2prompts.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Productivity Booster</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../topics/contributors.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Contributors</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -479,7 +579,34 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adjusting-llm-settings">Adjusting LLM Settings</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#selecting-the-chatgpt-llm">Selecting the ChatGPT LLM</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#understanding-and-adjusting-temperature">Understanding and Adjusting Temperature</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-of-temperature-settings">Examples of Temperature Settings</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#data-sets-in-spark">Data Sets in Spark</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-data-sets">What are Data Sets?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-custom-data-sets">Creating Custom Data Sets</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">Summary</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
