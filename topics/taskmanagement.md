@@ -4,7 +4,7 @@
 |--------------------------------------------------------------------- |------------|------------------|-------|
 | Instructions for facilitators on how to run the sessions             | 2          | Shannon Rios     |  [ ]  |
 | Develop slides for workshop (Canva)                                  | 1          | Cory Dal Ponte   |  [ ]  |
-| Design Activity 1 [instructor-led activity]: what scenario? what prompts? | 4          | Eduardo Oliveira  |  [ ]  |
+| Design Activity 1 [instructor-led activity]: what scenario? what prompts? | 4          | Eduardo Oliveira and Shannon Rios |  [ ]  |
 | Test Activity 1 [hands-on activity]: How long that will take?        | 2          | ALL              |  [ ]  |
 | Develop slides to guide Activity 1 during Workshop                   | 1          | Eduardo Oliveira |  [ ]  |
 | Design Activity 2 [hands-on activity]: what scenario? what prompts?  | 4          | Shannon Rios     |  [ ]  |
