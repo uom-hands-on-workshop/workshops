@@ -2,7 +2,7 @@
 
 ## Topics
 
-**Introduction to Generative AI in T&Lfine** [:link:](workshop1)
+**Introduction to Generative AI in T&L** [:link:](workshop1)
 - Basics of AI, uses of AI in education, tips and tricks, ethical implications, Spark.
 
 **AI-Resilient Assessment Design**
