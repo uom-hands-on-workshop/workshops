@@ -7,7 +7,6 @@ parts:
   - caption: Planning
     chapters:
     - file: topics/purpose
-    - file: topics/lessonplan
     - file: topics/taskmanagement
   - caption: Workshops
     chapters:
