@@ -21,9 +21,3 @@
 | Admin: Create registration link                                      | 1          | Shannon Rios     |  [x]  |
 | Admin: Qualtrics survey                                              | 2          | Cory Dal Ponte   |  [x]  |
 
-
-Eduardo: 50h
-
-Shannon: 22h 
-
-Cory: 18h
