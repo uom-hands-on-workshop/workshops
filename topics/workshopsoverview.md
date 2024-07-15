@@ -34,4 +34,4 @@ Activities within workshops were designed considering the use of Spark (but may 
 
 To kick off the program, we will start with Workshop 1 and assess how it goes. We will offer this module many times throughout the second half of the year. We will monitor interest and adjust our plans as needed, using feedback from attendees to gauge their interest in further opportunities. This iterative approach will allow us to fine-tune the program based on participants' preferences and needs, ensuring it remains relevant and impactful.
 
-Participants will be able to [register to Workshop 1 here](https://www.eventbrite.com.au/e/hands-on-workshop-introduction-to-generative-ai-in-tl-tickets-945962528387?aff=oddtdtcreator).
+Participants can [register to Workshop 1 here](https://www.eventbrite.com.au/e/hands-on-workshop-introduction-to-generative-ai-in-tl-tickets-945962528387?aff=oddtdtcreator).

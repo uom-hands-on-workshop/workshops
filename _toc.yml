@@ -4,10 +4,6 @@
 format: jb-book
 root: introduction
 parts:
-  - caption: Planning
-    chapters:
-    - file: topics/purpose
-    - file: topics/taskmanagement
   - caption: Workshops
     chapters:
     - file: topics/workshopsoverview
@@ -32,3 +28,4 @@ parts:
   - caption: Afterword
     chapters:
     - file: topics/contributors
+    
