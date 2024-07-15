@@ -5,7 +5,7 @@
 **Total Duration**: 90 mins  
 **Objective**: Equip participants with foundational knowledge of generative AI, educational applications, tips and tricks, ethical considerations, and LLMs (Spark, ChatGPT, others).  
 **Pre-workshop reading?**: No prior reading required. **Please bring your computer to have fun with us :)**  
-**Pre workshop survey**: TBC (add link here)
+
 
 ## Purpose of Workshop 1
 
