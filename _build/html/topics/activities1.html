@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -74,8 +74,8 @@
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Prompts" href="prompts1.html" />
-    <link rel="prev" title="Scenario (SES 2022)" href="scenario.html" />
+    <link rel="next" title="Scenario (ESS 2022)" href="scenario.html" />
+    <link rel="prev" title="Lesson Plan" href="activitiesoverview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -200,9 +200,9 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="workshopsoverview.html">Overview</a></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="workshop1.html">Workshop 1</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="scenario.html">Scenario (SES 2022)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="activitiesoverview.html">Lesson Plan</a></li>
 <li class="toctree-l2 current active has-children"><a class="current reference internal" href="#">Activity 1 [facilitator-led]</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="prompts1.html">Prompts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="scenario.html">Scenario (ESS 2022)</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="activities2.html">Activity 2 [participants]</a></li>
@@ -421,9 +421,19 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-facilitators-introductions">[1-8mins] Facilitators’ introductions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-introduction-to-main-instructor-led-activity-enhancing-students-experience">[8-12mins] Introduction to main instructor-led activity: Enhancing Students Experience</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-activity-1-enhancing-students-experience-facilitator-led-participants-follow-along">[12-45mins] Activity 1 - Enhancing Students Experience (facilitator-led: participants follow along)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse-ess-feedback-identify-meaningful-themes-and-provide-suggestions-for-improvement">Analyse ESS feedback, identify meaningful themes and provide suggestions for improvement</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-condition-configuring-spark">[pre-condition] Configuring Spark:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#context-ess-example-for-activity-1">[context] ESS Example for Activity 1:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-activity-1-enhancing-students-experience-facilitator-led-participants-follow-along">[12-45mins] Activity 1 - Enhancing Students Experience (facilitator-led: participants follow along)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-identification-human-vs-spark">Problem Identification (human vs Spark)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#idea-generation-human-and-spark">Idea Generation (human and Spark)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#selection-of-one-idea">Selection of One Idea</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#content-development-demonstration-development-of-1-idea-only">Content Development (demonstration: development of 1 idea only)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-points">Bonus Points</a></li>
 </ul>
             </nav>
         </div>
@@ -437,79 +447,134 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="activity-1-facilitator-led">
 <h1>Activity 1 [facilitator-led]<a class="headerlink" href="#activity-1-facilitator-led" title="Link to this heading">#</a></h1>
-<section id="mins-facilitators-introductions">
-<h2>[1-8mins] Facilitators’ introductions<a class="headerlink" href="#mins-facilitators-introductions" title="Link to this heading">#</a></h2>
+<section id="analyse-ess-feedback-identify-meaningful-themes-and-provide-suggestions-for-improvement">
+<h2>Analyse ESS feedback, identify meaningful themes and provide suggestions for improvement<a class="headerlink" href="#analyse-ess-feedback-identify-meaningful-themes-and-provide-suggestions-for-improvement" title="Link to this heading">#</a></h2>
+<section id="pre-condition-configuring-spark">
+<h3>[pre-condition] Configuring Spark:<a class="headerlink" href="#pre-condition-configuring-spark" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Login to <a class="reference external" href="https://spark.unimelb.edu.au/">Spark</a></p></li>
+<li><p>Click on ‘+ New thread’ (left side of the screen, under ‘Secure Chat’)</p></li>
+<li><p>Click on ‘Thread Configuration’ (top right corner of new chat window)</p></li>
+<li><p>Select ‘OpenAI GPT 4 Turbo 128k (preview)’ as your LLM</p></li>
+<li><p>Set ‘Temperature’ to 0.5</p></li>
+<li><p>Click on ‘Apply’ button (top right corner of the screen)</p></li>
+</ol>
+</section>
+<section id="context-ess-example-for-activity-1">
+<h3>[context] ESS Example for Activity 1:<a class="headerlink" href="#context-ess-example-for-activity-1" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p>Activitity with participants</p>
-<ul>
-<li><p>Chat with each other (ice breaker)</p>
-<ul>
-<li><p>how often do you use genAI?</p></li>
-<li><p>what are you most excited or scared about the use of AI in T&amp;L?</p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Expectations setting</p>
-<ul>
-<li><p>Disclaimer: just one example for the workshop, not a recommendation of something that you should be doing</p></li>
-</ul>
-</li>
+<li><p><a class="reference internal" href="scenario.html"><span class="std std-doc">SWEN90007 Scenario</span></a></p></li>
 </ul>
 </section>
-<section id="mins-introduction-to-main-instructor-led-activity-enhancing-students-experience">
-<h2>[8-12mins] Introduction to main instructor-led activity: Enhancing Students Experience<a class="headerlink" href="#mins-introduction-to-main-instructor-led-activity-enhancing-students-experience" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p>Scenario intro (SES)</p></li>
-<li><p>Key takeaways (Better understanding on)</p>
-<ul>
-<li><p>Spark</p></li>
-<li><p>Misconceptions</p></li>
-<li><p>Hallucionations</p></li>
-<li><p>Prompt engineering</p></li>
-<li><p>Reliability</p></li>
-</ul>
-</li>
-</ul>
 </section>
 <section id="mins-activity-1-enhancing-students-experience-facilitator-led-participants-follow-along">
 <h2>[12-45mins] Activity 1 - Enhancing Students Experience (facilitator-led: participants follow along)<a class="headerlink" href="#mins-activity-1-enhancing-students-experience-facilitator-led-participants-follow-along" title="Link to this heading">#</a></h2>
+<section id="problem-identification-human-vs-spark">
+<h3>Problem Identification (human vs Spark)<a class="headerlink" href="#problem-identification-human-vs-spark" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Identify problems in students’ comments.</p>
+<p><strong>Steps</strong>:</p>
 <ol class="arabic simple">
-<li><p>Problem Identification (human vs Spark)</p></li>
-</ol>
-<ul class="simple">
-<li><p><strong>Task</strong>: Identify problems in students’ comments.</p>
-<ul>
 <li><p>(human) Write your list of identified problems in students’ comments.</p></li>
-<li><p>(AI) Ask AI to identify problems in students’ comments.</p></li>
-<li><p>(human &amp; AI) combine the list of identified problems in students’ comments.</p></li>
-</ul>
-</li>
-</ul>
-<ol class="arabic simple" start="2">
-<li><p>Idea Generation (human and Spark)</p></li>
+<li><p>(AI) Ask AI to identify problems in students’ comments. [copy and paste comments or upload document]</p></li>
 </ol>
-<ul class="simple">
-<li><p><strong>Task</strong>: Improve outcomes by considering additional context.</p>
-<ul>
-<li><p>(human) Write an improved prompt to list identified problems in students’ comments.</p></li>
-<li><p>(human) Ask the LLM to design a prompt to list identified problems in students’ comments.</p></li>
-<li><p>(human) Compare prompts’ results, merge and polish your final prompt.</p></li>
-</ul>
-</li>
-</ul>
+<p>(human) Input:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> Identify the key problems mentioned in the following student comments:
+ - More refined/less vague project requirements.
+ - Less workload – this is too much for students studying full time.
+ - Lecture slides can be challenging to read, especially the code part.
+ - Project part 2 was too big for the time given and expectations were unclear.
+ - Feedback needs to be provided sooner.
+ - Marking rubric for reports depends on the tutor&#39;s personal feelings.
+ - Marking rubrics were under-specified for parts 2, 3, and 4.
+ - Performance coverage was good but needed more guidance.
+ - Team members were not friendly.
+ - Need more guidance on assignments in tutorials.
+ - Would like more activities in the classroom.
+</pre></div>
+</div>
+<p>Note that in this prompt, the comments from students were added as input to provide context to the LLM.</p>
 <ol class="arabic simple" start="3">
-<li><p>Selection of One Idea and Content Development</p>
-<ul class="simple">
-<li><p>(human) Select one idea to be improved and developed with the support of AI</p></li>
-</ul>
-</li>
-<li><p>Content Development (demonstration: development of 1 idea and only)</p>
-<ul class="simple">
-<li><p>(human) Ask the LLM for some help on what prompts could be used to help improving your chosen problem.</p></li>
-</ul>
-</li>
+<li><p>(human &amp; AI) combine the list of identified problems in students’ comments.</p></li>
 </ol>
+<p><strong>Tips</strong>:</p>
+<ul class="simple">
+<li><p>Ensure the comments can be clearly identified in your prompt.</p></li>
+<li><p>Compare the human-generated list with the AI-generated list to identify any additional insights or overlooked issues.</p></li>
+</ul>
+</section>
+<section id="idea-generation-human-and-spark">
+<h3>Idea Generation (human and Spark)<a class="headerlink" href="#idea-generation-human-and-spark" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Improve outcomes by adding actionable improvements to it.</p>
+<p><strong>Steps</strong>:</p>
+<ol class="arabic simple">
+<li><p>(human) Ask the LLM to design a prompt to list actionable improvements to identified problems in students’ comments.</p></li>
+</ol>
+<p>(human) Input:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Considering identified key problems in students&#39; comments, please update that list with suggested actionable improvements. Provide the analysis in a structured format with headings for each identified problem, including a detailed description, suggested improvements and examples. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
+
+Student Comments:
+1. More refined/less vague project requirements.
+2. Less workload – this is too much for students studying full time.
+3. Lecture slides can be challenging to read, especially the code part.
+4. Project part 2 was too big for the time given and expectations were unclear.
+5. Feedback needs to be provided sooner.
+6. Marking rubric for reports depends on the tutor&#39;s personal feelings.
+7. Marking rubrics were under-specified for parts 2, 3, and 4.
+8. Performance coverage was good but needed more guidance.
+9. Team members were not friendly.
+10. Need more guidance on assignments in tutorials.
+11. Would like more activities in the classroom.
+</pre></div>
+</div>
+<ol class="arabic simple" start="2">
+<li><p>(human) Compare prompts’ results, merge and refine your final prompt.</p></li>
+</ol>
+<p><strong>Tips</strong>:</p>
+<ul class="simple">
+<li><p>Ensure the designed prompt is clear and specific to elicit detailed responses.</p></li>
+<li><p>Refine the final prompt by combining the strengths of both human and AI-generated prompts.</p></li>
+</ul>
+</section>
+<section id="selection-of-one-idea">
+<h3>Selection of One Idea<a class="headerlink" href="#selection-of-one-idea" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Select one idea to address a specific problem identified in students’ comments.</p>
+<p><strong>Steps</strong>:</p>
+<ol class="arabic simple">
+<li><p>(human) Select one idea to be improved and developed with the support of AI</p></li>
+</ol>
+<p><strong>Tips</strong>:</p>
+<ul class="simple">
+<li><p>Choose an idea that is feasible to be addressed and impactful.</p></li>
+<li><p>Ensure the idea is clearly defined before seeking AI assistance.</p></li>
+</ul>
+</section>
+<section id="content-development-demonstration-development-of-1-idea-only">
+<h3>Content Development (demonstration: development of 1 idea only)<a class="headerlink" href="#content-development-demonstration-development-of-1-idea-only" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Develop a practical solution to the selected problem using AI support.</p>
+<p><strong>Steps</strong>:</p>
+<ol class="arabic simple">
+<li><p>(human) Ask the LLM for some help on what prompts could be used to help improve your chosen problem.</p></li>
+</ol>
+<p>(human) Input:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>What prompt can I use to generate improved rubrics for parts 2, 3 and 4 that address the problem related to under-specified marking rubrics?
+</pre></div>
+</div>
+<p><strong>Tips</strong>:</p>
+<ul class="simple">
+<li><p>Review and refine AI suggestions to ensure they are practical and applicable.</p></li>
+<li><p>Implement the most effective suggestions and test them in a real lecture setting.</p></li>
+</ul>
+</section>
+</section>
+<section id="bonus-points">
+<h2>Bonus Points<a class="headerlink" href="#bonus-points" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Identify when the model hallucinates (creates inaccurate information).</p></li>
+<li><p>Identify limitations when using a one-shot prompt.</p></li>
+<li><p>Identify the biggest ‘wow moment’.</p></li>
+<li><p>Present your findings.</p></li>
+<li><p>Think-pair-share with your nearest colleagues.</p></li>
+</ul>
 </section>
 <div class="toctree-wrapper compound">
 </div>
@@ -546,20 +611,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="scenario.html"
+       href="activitiesoverview.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Scenario (SES 2022)</p>
+        <p class="prev-next-title">Lesson Plan</p>
       </div>
     </a>
     <a class="right-next"
-       href="prompts1.html"
+       href="scenario.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Prompts</p>
+        <p class="prev-next-title">Scenario (ESS 2022)</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -579,9 +644,19 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-facilitators-introductions">[1-8mins] Facilitators’ introductions</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-introduction-to-main-instructor-led-activity-enhancing-students-experience">[8-12mins] Introduction to main instructor-led activity: Enhancing Students Experience</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-activity-1-enhancing-students-experience-facilitator-led-participants-follow-along">[12-45mins] Activity 1 - Enhancing Students Experience (facilitator-led: participants follow along)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse-ess-feedback-identify-meaningful-themes-and-provide-suggestions-for-improvement">Analyse ESS feedback, identify meaningful themes and provide suggestions for improvement</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pre-condition-configuring-spark">[pre-condition] Configuring Spark:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#context-ess-example-for-activity-1">[context] ESS Example for Activity 1:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mins-activity-1-enhancing-students-experience-facilitator-led-participants-follow-along">[12-45mins] Activity 1 - Enhancing Students Experience (facilitator-led: participants follow along)</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#problem-identification-human-vs-spark">Problem Identification (human vs Spark)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#idea-generation-human-and-spark">Idea Generation (human and Spark)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#selection-of-one-idea">Selection of One Idea</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#content-development-demonstration-development-of-1-idea-only">Content Development (demonstration: development of 1 idea only)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-points">Bonus Points</a></li>
 </ul>
   </nav></div>
 

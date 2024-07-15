@@ -14,10 +14,10 @@ parts:
     - file: topics/workshopsoverview
     - file: topics/workshop1
       sections:
-        - file: topics/scenario    
+        - file: topics/activitiesoverview
         - file: topics/activities1
           sections:
-            - file: topics/prompts1            
+            - file: topics/scenario        
         - file: topics/activities2
         - file: topics/activities3
   - caption: AI Literacy
