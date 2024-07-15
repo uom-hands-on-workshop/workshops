@@ -110,7 +110,7 @@ Student Comments:
 (human) Input:
 
 ```text
-What prompt can I use to generate improved rubrics for parts 2, 3 and 4 that address the problem related to under-specified marking rubrics?
+What prompt can I use to generate improved rubrics for part 2 that address the problem related to under-specified marking rubrics?
 ```
 
 **Tips**:
