@@ -7,6 +7,11 @@ parts:
   - caption: AI Literacy
     chapters:
     - file: extras/ailiteracy
+      sections:
+        - file: extras/knowai
+        - file: extras/useai
+        - file: extras/evaluateai
+        - file: extras/ethicsai                
     - file: extras/genai 
     - file: extras/genai2          
   - caption: Workshops
