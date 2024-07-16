@@ -117,7 +117,6 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 **Example**:
 - Write an announcement for the subject X introducing the overall subject, the learning outcomes, and me as their lecturer. [upload course handbook]
 
-
 **Tips**:
 - Tailor the tone and content to your audience.
 - Include all relevant information clearly and concisely.
@@ -146,10 +145,13 @@ Make sure you include the agenda items, the meeting location, and a request for 
 **Example**:
 - I need help transcribing this image of a whiteboard. [upload image]
 
-
 **Tips**:
 - Ensure the handwriting is legible for better accuracy.
 - Review and correct the transcribed text.
+
+**Resources for this task**:
+- [Tough writing](resources/Whiteboard1.jpg)
+- [Clear writing](resources/Whiteboard2.jpg)
 
 #### Extended Example
 > **for the example below, you'd need to attach the photo of the recipe together with your prompt**
