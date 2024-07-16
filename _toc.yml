@@ -12,8 +12,7 @@ parts:
         - file: extras/useai
         - file: extras/evaluateai
         - file: extras/ethicsai                
-    - file: extras/genai 
-    - file: extras/genai2          
+    - file: extras/summary          
   - caption: Workshops
     chapters:
     - file: topics/workshopsoverview

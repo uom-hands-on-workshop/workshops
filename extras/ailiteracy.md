@@ -12,6 +12,10 @@ Artificial Intelligence (AI) is transforming various industries, including educa
 
 AI literacy involves the ability to understand, use, evaluate, and create AI technologies. It encompasses a range of skills and knowledge areas that enable individuals to interact effectively with AI systems. 
 
+## Importance of AI Literacy
+
+AI literacy involves understanding these basic concepts and how they are applied in everyday life. It is crucial for educators to grasp these ideas to effectively integrate AI into their teaching practices and help students navigate a future where AI is ubiquitous.
+
 ## AI Literacy Phases
 
 AI literacy can be conceptualised into four key phases: [Know and Understand AI](knowai.md), [Use and Apply AI](useai.md), [Evaluate and Create AI](evaluateai.md), and [AI Ethics](ethicsai.md). These phases provide a structured approach to fostering comprehensive AI literacy among educators and students.

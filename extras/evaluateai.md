@@ -14,3 +14,7 @@ Encouraging students to create their own AI projects can deepen their understand
 ## Evaluating AI Applications
 
 Students (and ourselves) should learn to critically evaluate AI applications, considering factors such as accuracy, bias, and ethical implications. This can be done through class discussions, case studies, and project-based learning.
+
+## Critical Review and Informed Decisions of GenAI
+
+Every piece of AI-generated content should be critically evaluated and reviewed. Inspect/Examine the relevance, accuracy, and appropriateness of the content in the context of its use. 
