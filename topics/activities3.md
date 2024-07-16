@@ -21,6 +21,13 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Highlight the main findings, conclusions, and recommendations.
 - Ensure the summary is concise and clear.
 
+
+**Resources for this task**:
+- [UNESCO Guidance for GenAI](resources/UNESCO.pdf)
+- [TEQSA Assessment Reform Age of AI](resources/TEQSA.pdf)
+- [Advancing Students and Education Strategy: 2023 - 2030](resources/ASES.pdf)
+
+
 #### Extended Example
 
 > **for the example below, you'd need to attach a paper (or document) together with your prompt**
@@ -34,6 +41,26 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 "Summarise the key findings, methodology, and conclusions of this research paper on 'TOPIC'. Additionally, generate a list of relevant citations in APA format and identify potential areas for further research."
 
 **Explanation**: This prompt is highly detailed and comprehensive, asking the AI to summarise multiple aspects of the paper and manage citations, providing a thorough and useful output for the educator.
+
+### Create Citations and Downloadable Reference Manager File from a Report
+
+**Objective**: Generate citations and a reference manager file from a report.
+
+**Steps**:
+1. Upload the report.
+2. Use a one-shot prompt to request an APA 7th end-text citation and a RIS file.
+
+**Example**:
+- Create an APA 7th end-text citation from this report [upload report] and a RIS file that I can download.
+
+**Tips**:
+- Ensure the citation format is correct.
+- Verify the RIS file can be imported into reference management software.
+
+**Resources for this task**:
+- [UNESCO Guidance for GenAI](resources/UNESCO.pdf)
+- [TEQSA Assessment Reform Age of AI](resources/TEQSA.pdf)
+- [Advancing Students and Education Strategy: 2023 - 2030](resources/ASES.pdf)
 
 ### Thematically Analyse Discussion Board Posts
 
@@ -52,6 +79,11 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Look for recurring topics, sentiments, and ideas.
 - Group similar responses together to form coherent themes.
 
+**Resources for this task**:
+- [Discussion Board Responses (Excel)](resources/DiscussionBoardExcel.xlsx)
+- [Discussion Board Responses (PDF)](resources/DiscussionBoardPDF.pdf)
+
+
 ### Create Interactive Visualisations Using a Dataset
 
 **Objective**: Transform data into interactive visual representations.
@@ -68,21 +100,10 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Ensure the visualisation is user-friendly and interactive.
 - Validate the accuracy of the data representation.
 
-### Create Citations and Downloadable Reference Manager File from a Report
+**Resources for this task**:
+- [Interactive Chart Screenshot](resources/IScreenshot.png)
+- [National Energy Market Data](resources/NEMData.csv)
 
-**Objective**: Generate citations and a reference manager file from a report.
-
-**Steps**:
-1. Upload the report.
-2. Use a one-shot prompt to request an APA 7th end-text citation and a RIS file.
-
-**Example**:
-- Create an APA 7th end-text citation from this report [upload report] and a RIS file that I can download.
-
-
-**Tips**:
-- Ensure the citation format is correct.
-- Verify the RIS file can be imported into reference management software.
 
 ### Write One-to-Many or One-to-One Communication
 
