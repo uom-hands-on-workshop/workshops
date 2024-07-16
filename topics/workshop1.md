@@ -4,14 +4,23 @@
 
 **Total Duration**: 90 mins  
 **Objective**: Equip participants with foundational knowledge of generative AI, educational applications, tips and tricks, ethical considerations, and LLMs (Spark, ChatGPT, others).  
-**Pre-workshop reading?**: No prior reading required. **Please bring your computer to have fun with us :)**  
+**Pre-workshop reading**: Familirise yourself with what is [AI Literacy](../extras/ailiteracy.md). 
+
+**Please bring your computer to have fun with us :)**  
 
 
 ## Purpose of Workshop 1
 
 The purpose of this workshop is to introduce educators to the fundamental concepts of generative AI and its applications in teaching and learning. No previous experience using generative AI is required. EVERYONE belongs here and is welcome to this session. 
 
-In this initial workshop, we will navigate ways to collaborate with generative AI tools to address SES comments and improve students' experiences in our subjects. Participants will gain practical knowledge and hands-on experience with AI tools, learn how to apply these tools to enhance their teaching practices, and explore the ethical implications of using AI in education.
+## Expected Outcomes
+
+By the end of this workshop participants will be able to:
+
+1. Define key concepts of generative AI and outline the potential applications that are relevant to their specific educational context.
+2. Demonstrate the use of generative AI tools, harnessing the multi-modal capabilities to enhance productivity in daily administrative and educational tasks.
+3. Apply and evaluate different prompting strategies for enhancing productivity in administrative and educational activities.
+4. Analyse the potential ethical considerations of using generative AI within an educational context.
 
 ## Out of Scope
 
@@ -23,13 +32,3 @@ While this workshop aims to provide a comprehensive introduction to generative A
 - **Advanced Use of Other Specific AI Tools**: In-depth training on specific AI tools beyond introductory tips and tricks will be provided in other sessions.
 
 This very first workshop is designed to lay the foundational knowledge, preparing participants for more advanced topics covered in subsequent workshops.
-
-## Takeaways
-
-- Participants will gain a foundational understanding of generative AI and its applications in teaching and learning.
-- Practical skills in using AI tools (Spark, ChatGPT, others) to enhance educational practices.
-- Awareness of ethical considerations and best practices for implementing AI in educational settings.
-- Access to resources and examples that can be applied to their own teaching contexts.
-- An ongoing opportunity to provide feedback and contribute to the evolution of the workshops.
-
-

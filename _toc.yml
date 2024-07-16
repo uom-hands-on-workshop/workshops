@@ -18,7 +18,6 @@ parts:
     - file: topics/workshopsoverview
     - file: topics/workshop1
       sections:
-        - file: topics/activitiesoverview
         - file: topics/activities1
           sections:
             - file: topics/scenario        

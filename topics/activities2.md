@@ -1,6 +1,6 @@
-# Activity 2 [participants]
+# Activity 2 
 
-## [45-70mins] Activity 2 - Enhancing Student Experience 2.0 (participant-led: Facilitators to support you!)
+## Activity 2 - Enhancing Student Experience 2.0
 
 In this activity, you will have a go at creating a new teaching and learning resource using genAI. The goal here is to experiment and have a go, not to create a perfect final solution, so don’t be afraid to ask lots of questions and test different approaches.
 

@@ -1,8 +1,8 @@
-# Activity 1 [facilitator-led]
+# Activity 1 
 
 ## Analyse ESS feedback, identify meaningful themes and provide suggestions for improvement
 
-### [pre-condition] Configuring Spark:
+### Configuring Spark:
 
 1. Login to [Spark](https://spark.unimelb.edu.au/)
 
@@ -16,13 +16,12 @@
 
 6. Click on 'Apply' button (top right corner of the screen)
 
-### [context] ESS Example for Activity 1:
+### ESS Example for Activity 1:
 
 - [SWEN90007 Scenario](scenario.md)
 
-## [12-45mins] Activity 1 - Enhancing Students Experience (facilitator-led: participants follow along) 
   
-### Problem Identification (human vs Spark)
+## Problem Identification (human vs Spark)
 
 **Objective**: Identify problems in students' comments.
 
@@ -56,7 +55,7 @@ Note that in this prompt, the comments from students were added as input to prov
 - Ensure the comments can be clearly identified in your prompt.
 - Compare the human-generated list with the AI-generated list to identify any additional insights or overlooked issues.
 
-### Idea Generation (human and Spark)
+## Idea Generation (human and Spark)
 
 **Objective**: Improve outcomes by adding actionable improvements to it.
 
@@ -89,7 +88,7 @@ Student Comments:
 - Ensure the designed prompt is clear and specific to elicit detailed responses.
 - Refine the final prompt by combining the strengths of both human and AI-generated prompts.
 
-### Selection of One Idea 
+## Selection of One Idea 
 
 **Objective**: Select one idea to address a specific problem identified in students' comments.
 
@@ -100,7 +99,7 @@ Student Comments:
 - Choose an idea that is feasible to be addressed and impactful.
 - Ensure the idea is clearly defined before seeking AI assistance.
 
-### Content Development (demonstration: development of 1 idea only)
+## Content Development (demonstration: development of 1 idea only)
 
 **Objective**: Develop a practical solution to the selected problem using AI support.
 
