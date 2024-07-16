@@ -10,7 +10,7 @@
 1. (human) Write your list of identified problems in students' comments.
 2. (AI) Ask AI to identify problems in students' comments. [copy and paste comments or upload document]
  
-  (human) Input:   
+(human) Input:   
 
 ```
  Identify the key problems mentioned in the following student comments:
