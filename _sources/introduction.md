@@ -9,14 +9,6 @@ Welcome to our Introduction to Generative AI in Education Through Hands-on Works
 - **Group discussions** to foster collaboration and share best practices.
 - **Design and development of resources** to be shared on Teams.
 
-## Expected Outcomes
-
-By the end of this workshop participants will be able to:
-
-1. Define key concepts of generative AI and outline the potential applications that are relevant to their specific educational context.
-2. Demonstrate the use of generative AI tools, harnessing the multi-modal capabilities to enhance productivity in daily administrative and educational tasks.
-3. Apply and evaluate different prompting strategies for enhancing productivity in administrative and educational activities.
-4. Analyse the potential ethical considerations of using generative AI within an educational context.
 
 ## Additional Resources
 
