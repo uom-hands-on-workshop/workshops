@@ -5,9 +5,9 @@ Welcome to our Introduction to Generative AI in Education Through Hands-on Works
 ## Key Activities
 
 - **Hands-on exercises** with AI tools such as Spark, ChatGPT, Claude, Co-Pilot, DALL-E, Midjourney.
-- Role-playing sessions to explore ethical scenarios and academic integrity issues.
-- Group discussions to foster collaboration and share best practices.
-- Design and development of resources to be shared on Teams.
+- **Role-playing sessions** to explore ethical scenarios and academic integrity issues.
+- **Group discussions** to foster collaboration and share best practices.
+- **Design and development of resources** to be shared on Teams.
 
 ## Expected Outcomes
 
