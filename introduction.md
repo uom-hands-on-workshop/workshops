@@ -11,34 +11,24 @@ Welcome to our Introduction to Generative AI in Education Through Hands-on Works
 
 ## Expected Outcomes
 
-Leverage AI Literacy among participants. Participants will gain practical skills in using AI to enhance their teaching and learning methods (conscious, informed, responsible decisions). They will also develop a better understanding of the ethical considerations involved in deploying AI technologies in educational settings, fully aligned with UOM guidelines and policies.
+By the end of this workshop participants will be able to:
 
-All developed materials will be made available to participants. Anyone should be able to reuse them in their faculties or lectures.
+1. Define key concepts of generative AI and outline the potential applications that are relevant to their specific educational context.
+2. Demonstrate the use of generative AI tools, harnessing the multi-modal capabilities to enhance productivity in daily administrative and educational tasks.
+3. Apply and evaluate different prompting strategies for enhancing productivity in administrative and educational activities.
+4. Analyse the potential ethical considerations of using generative AI within an educational context.
 
 ## Additional Resources
 
 Below are links to some University of Melbourne generative AI resources that you might find useful in your learning journey with us:
 - **[Official Statements from The University of Melbourne](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)**: List of official University of Melbourne statements and resources relating to AI, academic integrity, and assessment.
-- **[Using AI to enhance assessment](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/)**: Creative ideas in this domain.
 - **[Spark](https://spark.unimelb.edu.au/)**: Explore Spark, the University of Melbourne's AI platform designed to support educational and administrative tasks.
 - **[Generative AI Taskforce](https://www.unimelb.edu.au/generative-ai-taskforce)**: Learn about the taskforce dedicated to exploring and integrating generative AI technologies at the University of Melbourne.
-- **[Academic Integrity](https://academicintegrity.unimelb.edu.au/)**: Understand the principles and practices to uphold academic integrity within the university.
 - **[Generative AI Community of Practice](https://eng.unimelb.edu.au/tll/communities/genai-cop)**: Join our community of educators and researchers focused on the application of generative AI in education.
 
 
-:::{admonition} Join the Journey of Continuous Improvement
-:class: tip, dropdown
-Your feedback and contributions can significantly enhance the learning experience for future staff and students. Here's how you can help:
-- **Report Issues**: Notice a typo or error? Raise an issue on GitHub and join our [Staff Hall of Fame](afterword/hall_of_fame) for contributors.
-- **Collaborate**: Have suggestions or topics you'd like to see included? Let's [Collaborate](afterword/collaborate) and expand our knowledge base together.
-
-```{figure} resources/github_issue.png
-```
-:::
-
-
 ```{admonition} To cite this workshop program
-Oliveira E. A., Rios, S., dal Ponte, C. (2024). Introduction to Generative AI in Education Through Hands-on Workshops. https://github.com/uom-hands-on-workshop/workshops
+Oliveira E. A., Rios, S., Dal Ponte, C. (2024). Introduction to Generative AI in Education Through Hands-on Workshops. https://github.com/uom-hands-on-workshop/workshops
 ```
 
 Embark on this journey with us! Together, let's build a foundation for a future where technology and innovation converge to create responsible solutions that matter.
