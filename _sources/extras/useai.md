@@ -33,7 +33,7 @@ AI and LLMs offer numerous opportunities to transform education for both educato
 #### Opportunities for Students
 
 1. **Personalised Learning**
-   - **Example**: AI can tailor educational experiences to individual student needs, learning styles, and paces. Tools like Khanmigo use adaptive learning algorithms to provide customised learning paths, ensuring that students receive the right level of challenge and support.
+   - **Example**: AI can tailor educational experiences to individual student needs, learning preferences, and paces. Tools like Khanmigo use adaptive learning algorithms to provide customised learning paths, ensuring that students receive the right level of challenge and support.
    
 2. **Content Creation**
    - **Example**: AI can assist students in creating content for projects and presentations. For instance, students can use AI-powered tools like Canva's Magic Resize to quickly generate visually appealing slides and graphics.
