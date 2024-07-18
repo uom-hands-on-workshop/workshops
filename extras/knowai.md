@@ -12,13 +12,25 @@ Artificial Intelligence, or AI, refers to machines or software that can perform 
 - **Natural Language Processing (NLP)**: The ability of machines to understand and respond to human language.
 - **Neural Networks**: Computational models inspired by the human brain, used in deep learning to recognise patterns and make complex decisions.
 
-## What is Generative AI?
+### What is Generative AI?
 
 Generative AI refers to artificial intelligence systems that can generate new content, including code, text, images, and more, based on the training data they have been fed. In software engineering, generative AI can assist in various tasks, such as coding, documentation, and testing, thereby augmenting the development process.
 
-## Understanding Artificial Intelligence and Large Language Models through LEGO
+### What are Large Language Models (LLMs)?
 
-### LEGO Analogy: Building with LEGO Bricks
+#### Understanding LLMs
+
+Large Language Models are a type of AI designed to understand and generate human language. They are trained on massive amounts of text data, learning the nuances of language to produce coherent and contextually relevant responses.
+
+#### How LLMs Work
+
+LLMs work by learning patterns from the massive amounts of text they are trained on. They don’t just memorise this data; they understand the relationships between words and concepts to generate new text that makes sense in context.
+
+1. **Learning from Data**: Just like learning how different LEGO pieces fit together, LLMs learn how words and sentences are structured.
+2. **Generating Text**: When asked to generate text, LLMs use their learned knowledge to create responses that are contextually appropriate and coherent, similar to building a new LEGO house using the styles and techniques seen in other houses.
+
+
+### Analogy: Building with LEGO Bricks
 
 Think of AI as a sophisticated builder using LEGO bricks. Just like how you use LEGO pieces to create various structures, AI uses data and algorithms (the building blocks) to construct solutions to problems.
 
@@ -32,13 +44,7 @@ name: vortexhead
 
 Just as a skilled builder can create complex models from simple LEGO bricks, AI can solve complex problems by processing vast amounts of data using advanced algorithms.
 
-## What are Large Language Models (LLMs)?
-
-### Understanding LLMs
-
-Large Language Models are a type of AI designed to understand and generate human language. They are trained on massive amounts of text data, learning the nuances of language to produce coherent and contextually relevant responses.
-
-### LEGO Analogy: Access to All LEGO Creations
+#### Access to All LEGO Creations
 
 Imagine you have built LEGO houses in the past, each unique based on your cultural background, knowledge, and the LEGO parts you had. Now, what if you could access all the LEGO houses constructed by billions of people around the world? This vast collection represents the diverse ways people use LEGO to create structures.
 
@@ -51,9 +57,3 @@ name: aussiebbqlego
 ---
 ```
 
-### How LLMs Work
-
-LLMs work by learning patterns from the massive amounts of text they are trained on. They don’t just memorise this data; they understand the relationships between words and concepts to generate new text that makes sense in context.
-
-1. **Learning from Data**: Just like learning how different LEGO pieces fit together, LLMs learn how words and sentences are structured.
-2. **Generating Text**: When asked to generate text, LLMs use their learned knowledge to create responses that are contextually appropriate and coherent, similar to building a new LEGO house using the styles and techniques seen in other houses.

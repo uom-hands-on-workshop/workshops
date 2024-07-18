@@ -1,10 +1,10 @@
-# AI Ethics
+## AI Ethics
 
-## Understanding AI Ethics
+### Understanding AI Ethics
 
 AI ethics involves ensuring that AI technologies are developed and used responsibly. Key ethical principles include fairness, accountability, transparency, and privacy.
 
-## Ethical Concerns in AI
+### Ethical Concerns in AI
 
 - **Bias and Fairness**: AI systems can perpetuate biases present in training data. Educators must teach students to recognise and address these biases.
 - **Accountability**: Determining who is responsible for decisions made by AI systems.
@@ -12,11 +12,11 @@ AI ethics involves ensuring that AI technologies are developed and used responsi
 - **Privacy**: Ensuring that AI systems respect user privacy and handle data securely.
 - **Misuse**: Preventing the use of AI for harmful purposes, such as spreading misinformation.
 
-## Teaching AI Ethics
+### Teaching AI Ethics
 
 Incorporate discussions on AI ethics into the curriculum. Use real-world examples to illustrate ethical dilemmas and encourage students to think critically about the impact of AI on society.
 
-## Responsible Practices with GenAI
+### Responsible Practices with GenAI
 
 As part of our commitment to fostering innovative and ethical educational practices, we provide various resources, including generative AI prompts, to enhance your T&L experience. It's crucial to approach these tools with a mindset geared towards responsible use and collaboration. When using generative AI in your T&L, consider the following practices to ensure effectiveness, responsibility, awareness and integrity:
 
@@ -25,6 +25,6 @@ As part of our commitment to fostering innovative and ethical educational practi
 - **Cite Your Sources**: Make sure to acknowledge the use of these tools in your documentation when appropriate.
 - **Respect Privacy and Confidentiality**: Be cautious when feeding sensitive or proprietary data into generative AI systems, as this may raise privacy and confidentiality concerns. This is why we strongly recommend you use **[Spark](https://spark.unimelb.edu.au/)**.
 
-### Responsibility and Ownership
+#### Responsibility and Ownership
 
 While AI can automate parts of the creative T&L process, do not delegate critical decisions or ethical judgments to AI. Instead, if you decide to use genAI in your T&L process, use AI-generated content as a starting point for further development and refinement. The use of these technologies must be continuously reviewed and evaluated by experts (humans).
