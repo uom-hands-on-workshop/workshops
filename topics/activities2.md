@@ -32,12 +32,12 @@ Choose a resource to develop.
 Develop a resource with the aid of genAI.
 
 **Steps**
-1. Develop a clear statement for what it is you wish to achieve: You may want to use genAI to iterate and draft this statement. This statement will form the basis for a prompt and will also be used to evaluate the resource you create.
-2. Chunk the task appropriately: GenAI tools generally work best when working on something small and well-defined. While it is possible to create whole documents in “one-shot”, this can often be prone to hallucinations or oversimplification. A better approach is to break the task down into smaller, more manageable tasks that can each be independently verified.
-3. Iterate with genAI to develop material/content.
-4. Combine/refine: Build up the resource by refining the output of AI and combining it together.
-5. Evaluate: Evaluate the final output by referring back to the original purpose statement. This is a place where AI can also be quite useful to give another perspective on the evaluation, similar to you sharing your work with a colleague.
-6. Repeat: Loop back through the steps as necessary until you have a quality resource that you are happy with.
+1. **Develop a clear statement** for what it is you wish to achieve: You may want to use genAI to iterate and draft this statement. This statement will form the basis for a prompt and will also be used to evaluate the resource you create.
+2. **Chunk the task appropriately:** GenAI tools generally work best when working on something small and well-defined. While it is possible to create whole documents in “one-shot”, this can often be prone to hallucinations or oversimplification. A better approach is to break the task down into smaller, more manageable tasks that can each be independently verified.
+3. **Iterate with genAI** to develop material/content.
+4. **Combine/refine:** Build up the resource by refining the output of AI and combining it together.
+5. **Evaluate:** Evaluate the final output by referring back to the original purpose statement. This is a place where AI can also be quite useful to give another perspective on the evaluation, similar to you sharing your work with a colleague.
+6. **Repeat:** Loop back through the steps as necessary until you have a quality resource that you are happy with.
 
 **Tips**
 - Working with AI should be an iterative process. Don’t expect to get a perfect result the first time.
