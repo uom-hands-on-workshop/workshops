@@ -91,12 +91,18 @@ Your generated list of identified issues and categories:
 **Objective**: Develop a practical solution to the selected problem using AI support.
 
 **Steps**:
-1. (human) Ask the LLM for some help on what prompts could be used to help improve your chosen problem.
+1. (human) Ask the LLM for some help on how to help improve your chosen problem.
 
 (human) Input:
 
 ```text
-What prompt can I use to generate improved rubrics for part 2 that address the problem related to under-specified marking rubrics?
+ChatGPT: Please expand the existing Part 2 rubric considering the exact same existing criteria as specified in the attached document [upload project specification]. Expand each criterion with EMRN four-level evaluation.
+```
+
+(human) Input:
+
+```text
+Spark: Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
 ```
 
 **Tips**:
