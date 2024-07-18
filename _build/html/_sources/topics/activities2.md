@@ -1,10 +1,10 @@
-# Activity 2 
+## Activity 2 
 
-## Activity 2 - Enhancing Student Experience 2.0
+### Activity 2 - Enhancing Student Experience 2.0
 
 In this activity, you will have a go at creating a new teaching and learning resource using genAI. The goal here is to experiment and have a go, not to create a perfect final solution, so don’t be afraid to ask lots of questions and test different approaches.
 
-## Task Selection 
+### Task Selection 
 
 **Objective**
 Choose a resource to develop.
@@ -26,7 +26,7 @@ Choose a resource to develop.
 - Ensure the idea is clearly defined before seeking AI assistance.
 - Make sure that you have the relevant resources on hand to develop the idea (e.g., course notes, knowledge, any constraints or contextual information that is relevant).
 
-## Content Development
+### Content Development
 
 **Objective**
 Develop a resource with the aid of genAI.

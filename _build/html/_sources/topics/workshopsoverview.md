@@ -1,12 +1,12 @@
-# Overview
+## Overview
 
-## Topics
+### Topics
 
-### Current Workshop
+#### Current Workshop
 [**Introduction to Generative AI in T&L**](workshop1)
 - Basics of AI, uses of AI in education, tips and tricks, ethical implications, Spark.
 
-### Future ones
+#### Future Workshops
 
 **AI-Resilient Assessment Design**
 - Preparing educators with strategies to update and design assessments that minimise academic misconduct risks associated with the use of generative AI, emphasising the integrity and fairness of evaluations.
@@ -21,7 +21,7 @@
 - Integrating AI tools for responsible and continuous assessment and feedback.
 
 
-## Design
+### Design
 
 All workshops will be organised in 90-minute sessions. Each 90-minute session is divided into two primary components:
 

@@ -1,16 +1,16 @@
-# Use and Apply AI
+## Use and Apply AI
 
-## The Potential of AI and LLMs
+### The Potential of AI and LLMs
 
-### Transforming Industries
+#### Transforming Industries
 
 AI and LLMs have the potential to revolutionise many industries, from healthcare to education, by automating tasks, providing insights, and enhancing human capabilities.
 
-### Revolutionising Education
+#### Revolutionising Education
 
 AI and LLMs offer numerous opportunities to transform education for both educators and students. Here are some key areas where AI can make a significant impact:
 
-#### Opportunities for Educators
+##### Opportunities for Educators
 
 1. **Creation of Educational Content**
    - **Example**: AI tools like ChatGPT can help educators generate engaging lesson plans, quizzes, and interactive materials. For instance, a history teacher could use AI to create detailed timelines and interactive maps for lessons on ancient civilisations.
@@ -30,7 +30,7 @@ AI and LLMs offer numerous opportunities to transform education for both educato
 6. **Socratic Conversations**
    - **Example**: AI can facilitate Socratic dialogues, encouraging deeper understanding and critical thinking. AI chatbots can simulate philosophical discussions, guiding students through complex topics by asking probing questions and encouraging reflection.
 
-#### Opportunities for Students
+##### Opportunities for Students
 
 1. **Personalised Learning**
    - **Example**: AI can tailor educational experiences to individual student needs, learning preferences, and paces. Tools like Khanmigo use adaptive learning algorithms to provide customised learning paths, ensuring that students receive the right level of challenge and support.
@@ -50,7 +50,7 @@ AI and LLMs offer numerous opportunities to transform education for both educato
 6. **Socratic Conversations**
    - **Example**: AI-driven chatbots can engage students in Socratic questioning, helping them develop critical thinking and problem-solving skills. Platforms like Khanmigo and Replika use AI to simulate thoughtful conversations that challenge students to consider different perspectives.
 
-### AI as a Collaborative Tool
+#### AI as a Collaborative Tool
 
 Generative AI offers significant potential to aid in the creative and development T&L processes. However, it's essential to view AI as a partner, not a replacement for your work, contributions and critical thinking. Use AI to generate ideas, draft solutions, and explore possibilities, but remember that the final generated outcomes should reflect your unique contribution and understanding. You are in control and should continue to make informed-decisions in this interactive process with AI.
 
