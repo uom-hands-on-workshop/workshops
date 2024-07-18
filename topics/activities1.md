@@ -32,7 +32,7 @@
 (human) Input:   
 
 ```
- Identify the key problems mentioned in the following student comments:
+Considering the Student Experience Survey results from SWEN90007 subject below, please help me identify and categorise the key issues mentioned by students in the survey.
  - More refined/less vague project requirements.
  - Less workload – this is too much for students studying full time.
  - Lecture slides can be challenging to read, especially the code part.
@@ -57,32 +57,19 @@ Note that in this prompt, the comments from students were added as input to prov
 
 ## Idea Generation (human and Spark)
 
-**Objective**: Improve outcomes by adding actionable improvements to it.
+**Objective**: Improve outcomes by adding actionable improvements and estimations to it.
 
 **Steps**:
-1. (human) Ask the LLM to design a prompt to list actionable improvements to identified problems in students' comments.
+1. (human) Ask the LLM to update identified issues and categories to include actionable improvements and estimations to address them.
 
 (human) Input:
 
 ```
-Considering identified key problems in students' comments, please update that list with suggested actionable improvements. Provide the analysis in a structured format with headings for each identified problem, including a detailed description, suggested improvements and examples. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
+Considering your identified key problems and categories in students' comments, please update your list with suggested actionable improvements. For each suggestion on how to minimise identified problems, please use t-shirt sizing for estimating the task required to address the issue and explain your estimation. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
 
-Student Comments:
-1. More refined/less vague project requirements.
-2. Less workload – this is too much for students studying full time.
-3. Lecture slides can be challenging to read, especially the code part.
-4. Project part 2 was too big for the time given and expectations were unclear.
-5. Feedback needs to be provided sooner.
-6. Marking rubric for reports depends on the tutor's personal feelings.
-7. Marking rubrics were under-specified for parts 2, 3, and 4.
-8. Performance coverage was good but needed more guidance.
-9. Team members were not friendly.
-10. Need more guidance on assignments in tutorials.
-11. Would like more activities in the classroom.
+Your generated list of identified issues and categories:
+[INCLUDE LIST]
 ```
-
-
-2. (human) Compare prompts' results, merge and refine your final prompt.  
 
 **Tips**:
 - Ensure the designed prompt is clear and specific to elicit detailed responses.
