@@ -49,7 +49,7 @@ Considering the Student Experience Survey results from SWEN90007 subject below, 
 Note that in this prompt, the comments from students were added as input to provide context to the LLM.
 
 
-3. (human & AI) combine the list of identified problems in students' comments.
+3. (human & AI) review and refine the list of identified problems in students' comments.
 
 **Tips**:
 - Ensure the comments can be clearly identified in your prompt.
