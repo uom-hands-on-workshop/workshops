@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -468,7 +468,7 @@ document.write(`
 <li><p>(AI) Ask AI to identify problems in students’ comments. [copy and paste comments or upload document]</p></li>
 </ol>
 <p>(human) Input:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> Identify the key problems mentioned in the following student comments:
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Considering the Student Experience Survey results from SWEN90007 subject below, please help me identify and categorise the key issues mentioned by students in the survey.
  - More refined/less vague project requirements.
  - Less workload – this is too much for students studying full time.
  - Lecture slides can be challenging to read, especially the code part.
@@ -494,31 +494,18 @@ document.write(`
 </section>
 <section id="idea-generation-human-and-spark">
 <h2>Idea Generation (human and Spark)<a class="headerlink" href="#idea-generation-human-and-spark" title="Link to this heading">#</a></h2>
-<p><strong>Objective</strong>: Improve outcomes by adding actionable improvements to it.</p>
+<p><strong>Objective</strong>: Improve outcomes by adding actionable improvements and estimations to it.</p>
 <p><strong>Steps</strong>:</p>
 <ol class="arabic simple">
-<li><p>(human) Ask the LLM to design a prompt to list actionable improvements to identified problems in students’ comments.</p></li>
+<li><p>(human) Ask the LLM to update identified issues and categories to include actionable improvements and estimations to address them.</p></li>
 </ol>
 <p>(human) Input:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Considering identified key problems in students&#39; comments, please update that list with suggested actionable improvements. Provide the analysis in a structured format with headings for each identified problem, including a detailed description, suggested improvements and examples. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Considering</span> <span class="n">your</span> <span class="n">identified</span> <span class="n">key</span> <span class="n">problems</span> <span class="ow">and</span> <span class="n">categories</span> <span class="ow">in</span> <span class="n">students</span><span class="s1">&#39; comments, please update your list with suggested actionable improvements. For each suggestion on how to minimise identified problems, please use t-shirt sizing for estimating the task required to address the issue and explain your estimation. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.</span>
 
-Student Comments:
-1. More refined/less vague project requirements.
-2. Less workload – this is too much for students studying full time.
-3. Lecture slides can be challenging to read, especially the code part.
-4. Project part 2 was too big for the time given and expectations were unclear.
-5. Feedback needs to be provided sooner.
-6. Marking rubric for reports depends on the tutor&#39;s personal feelings.
-7. Marking rubrics were under-specified for parts 2, 3, and 4.
-8. Performance coverage was good but needed more guidance.
-9. Team members were not friendly.
-10. Need more guidance on assignments in tutorials.
-11. Would like more activities in the classroom.
+<span class="n">Your</span> <span class="n">generated</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">identified</span> <span class="n">issues</span> <span class="ow">and</span> <span class="n">categories</span><span class="p">:</span>
+<span class="p">[</span><span class="n">INCLUDE</span> <span class="n">LIST</span><span class="p">]</span>
 </pre></div>
 </div>
-<ol class="arabic simple" start="2">
-<li><p>(human) Compare prompts’ results, merge and refine your final prompt.</p></li>
-</ol>
 <p><strong>Tips</strong>:</p>
 <ul class="simple">
 <li><p>Ensure the designed prompt is clear and specific to elicit detailed responses.</p></li>
