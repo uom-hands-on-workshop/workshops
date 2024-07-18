@@ -1,10 +1,10 @@
-# Activity 3 
+## Activity 3 
 
-## Activity 3 - Productivity Challenge Instructions
+### Activity 3 - Productivity Challenge Instructions
 
 Complete as many of the following tasks as you’d like. Use the provided examples and steps to guide your process. At the end of the activity, think-pair-share and discuss your experience.
 
-### Summarise Key Points from a Report (Using ChatGPT or Claude)
+#### Summarise Key Points from a Report (Using ChatGPT or Claude)
 
 **Objective**: Extract and condense the essential information from a given report.
 
@@ -19,10 +19,10 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - [TEQSA Assessment Reform Age of AI](resources/TEQSA.pdf)
 - [Advancing Students and Education Strategy: 2023 - 2030](resources/ASES.pdf)
 
-##### Simple Prompt
+**Simple Prompt**
 "Summarise the key findings and conclusions of this report."
 
-##### Advanced Prompt
+**Advanced Prompt**
 "Using the attached report, please summarise the key findings, conclusions, and recommendations of this report. Provide direct quotes that highlight the key findings."
 
 **Tips**:
@@ -30,7 +30,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Ensure the summary is concise and clear.
 
 
-### Create Citations and Downloadable Reference Manager File from a Report (Using ChatGPT or Claude)
+#### Create Citations and Downloadable Reference Manager File from a Report (Using ChatGPT or Claude)
 
 **Objective**: Generate citations and a reference manager file from a report.
 
@@ -44,10 +44,10 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - [TEQSA Assessment Reform Age of AI](resources/TEQSA.pdf)
 - [Advancing Students and Education Strategy: 2023 - 2030](resources/ASES.pdf)
 
-##### Simple Prompt
+**Simple Prompt**
 - Create an APA 7th end-text citation from this report [upload report]. 
 
-##### Advanced Prompt
+**Advanced Prompt**
 - Using the uploaded report, please first create an APA 7th end-text citation. Next, create a downloadable RIS file for this citation. 
 
 **Tips**:
@@ -55,7 +55,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Verify the RIS file can be imported into reference management software.
 
 
-### Thematically Analyse Discussion Board Posts (Using SparkAI)
+#### Thematically Analyse Discussion Board Posts (Using SparkAI)
 
 **Objective**: Identify and categorise themes from discussion board responses.
 
@@ -68,7 +68,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - [Discussion Board Responses (Excel)](resources/DiscussionBoardExcel.xlsx)
 - [Discussion Board Responses (PDF)](resources/DiscussionBoardPDF.pdf)
 
-##### Simple Prompt
+**Simple Prompt**
 - I need help to analyse themes from discussion board responses from question X. [copy and paste discussion board responses from excel]
 
 **Tips**:
@@ -76,7 +76,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Group similar responses together to form coherent themes.
 
 
-### Create Interactive Visualisations Using a Dataset (Using Claude)
+#### Create Interactive Visualisations Using a Dataset (Using Claude)
 
 **Objective**: Transform data into interactive visual representations.
 
@@ -90,10 +90,10 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - [National Energy Market Data](resources/NEMData.csv)
 
 
-##### Simple Prompt
+**Simple Prompt**
 - Recreate this chart [attach screenshot] as an interactive chart using this dataset. [upload dataset]
 
-##### Advanced Prompt
+**Advanced Prompt**
 - Can you please recreate the interactive line chart that I've uploaded (the screenshot). Populate the line chart with the entire day worth of data within csv file - ensure there are at least 12 datapoints on the line to interact with. Can you include a bar at the top (like in the screenshot) with heading numbers such as spot price, demand that update as I interact with the line chart. Only use supported libraries.
 
 **Tips**:
@@ -101,7 +101,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Validate the accuracy of the data representation.
 
 
-### Write One-to-Many or One-to-One Communication (Using ChatGPT, Claude, or SparkAI)
+#### Write One-to-Many or One-to-One Communication (Using ChatGPT, Claude, or SparkAI)
 
 **Objective**: Draft effective and clear communication messages.
 
@@ -110,11 +110,11 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 2. Use a one-shot prompt to request the drafted message.
 3. Review and customise the message as needed.
 
-##### Simple Prompt
+**Simple Prompt**
 "Write an email to a colleague informing them about the upcoming faculty meeting on Monday at 10AM."
 
 
-##### Advanced Prompt
+**Advanced Prompt**
 "Write a professional email to the faculty team announcing the upcoming meeting on Monday at 10AM. [+ include more CONTEXT]"
 Make sure you include the agenda items, the meeting location, and a request for any additional topics they would like to discuss.
 
@@ -124,7 +124,7 @@ Make sure you include the agenda items, the meeting location, and a request for 
 
 
 
-### Digitise Whiteboard and Handwritten Notes
+#### Digitise Whiteboard and Handwritten Notes
 
 **Objective**: Convert handwritten notes into digital text.
 
@@ -142,85 +142,19 @@ Make sure you include the agenda items, the meeting location, and a request for 
 **Resources for this task**:
 - [Tough writing](resources/Whiteboard1.jpg)
 - [Clear writing](resources/Whiteboard2.jpg)
-
-#### Extended Example
-> **for the example below, you'd need to attach the photo of the recipe together with your prompt**
-
-```{figure} resources/recipe.jpg
----
-name: recipe
----
-```
-
-##### Simple Prompt
-"Convert my notes."
-
-**Explanation**: This prompt is too vague and lacks context. The AI may not understand what notes to convert, resulting in incomplete or inaccurate outputs.
-
-LLM output:
-```
-# Spinach and Tomato Rice (Indian)
-
-## Ingredients
-- 450g rice
-- 450g spinach, chopped
-- 1 onion, chopped finely
-- 2 tomatoes, chopped
-- 1/2 teaspoon turmeric
-- 1 teaspoon ground cumin
-- 2 cups stock or water
-- Oil
-- Salt & pepper
-
-## Instructions
-1. Put the rice in a bowl, cover with water, and set aside for 30 minutes. Drain.
-2. Cook the spinach in a little boiling water for 3-5 minutes, then drain thoroughly.
-3. Heat the oil in a large pan over medium heat, and when it is hot, sauté the onion.
-4. Put in the rice and fry lightly for 2-3 minutes before adding the spinach.
-```
-
-##### Advanced Prompt
-"Convert the following handwritten notes from mum's yummy recipe 'Spinach and Tomato Rice' into a well-structured typed document. Organise the content into sections: 'Ingredients', 'Instructions', and 'Cooking Time'. Also, recommend me a great occasion to cook this meal." 
-
-**Explanation**: This prompt is highly detailed, specifying the structure of the output and ensuring the AI organises the information logically, making it easier to review and use.
-
-LLM output:
-```
-# Spinach and Tomato Rice (Indian)
-
-## Ingredients
-- 450g rice
-- 450g spinach, chopped
-- 1 onion, chopped finely
-- 2 tomatoes, chopped
-- 1/2 teaspoon turmeric
-- 1 teaspoon ground cumin
-- 2 cups stock or water
-- Oil
-- Salt & pepper
-
-## Instructions
-1. Put the rice in a bowl, cover with water, and set aside for 30 minutes. Drain.
-2. Cook the spinach in a little boiling water for 3-5 minutes, then drain thoroughly.
-3. Heat the oil in a large pan over medium heat, and when it is hot, sauté the onion.
-4. Add the tomatoes, turmeric, and ground cumin to the pan and cook until the tomatoes soften.
-5. Put in the rice and fry lightly for 2-3 minutes before adding the spinach.
-6. Add the stock or water, salt, and pepper. Stir well.
-7. Cover and cook on low heat until the rice is done and all the water is absorbed.
-
-## Cooking Time
-- Preparation Time: 10 minutes
-- Cooking Time: 30-40 minutes
-- Total Time: 40-50 minutes
-
-## Occasion
-This dish is perfect for a family dinner or a gathering with friends. Its flavorful and nutritious combination makes it an excellent choice for a weekend meal or a special occasion.
-
-Enjoy your delicious Spinach and Tomato Rice!
-```
+- [Recipe file](resources/recipe.jpg)
 
 
-### Bonus Points
+**Simple Prompt**
+"Transcribe my hand written notes."
+
+
+**Advanced Prompt**
+"Convert the following handwritten notes from (X resource) into a well-structured word document that I can download. Organise the content into sections. 
+
+
+
+#### Bonus Points
 
 - Identify when the model hallucinates (creates inaccurate information).
 - Identify limitations when using a one-shot prompt.

@@ -1,6 +1,6 @@
-# Workshop 1
+## Workshop 1
 
-## Introduction to Generative AI in T&L
+### Introduction to Generative AI in T&L
 
 **Total Duration**: 90 mins  
 **Objective**: Equip participants with foundational knowledge of generative AI, educational applications, tips and tricks, ethical considerations, and LLMs (Spark, ChatGPT, others).  
@@ -9,11 +9,11 @@
 **Please bring your computer to have fun with us :)**  
 
 
-## Purpose of Workshop 1
+### Purpose of Workshop 1
 
 The purpose of this workshop is to introduce educators to the fundamental concepts of generative AI and its applications in teaching and learning. No previous experience using generative AI is required. EVERYONE belongs here and is welcome to this session. 
 
-## Expected Outcomes
+### Expected Outcomes
 
 By the end of this workshop participants will be able to:
 
@@ -22,7 +22,7 @@ By the end of this workshop participants will be able to:
 3. Apply and evaluate different prompting strategies for enhancing productivity in administrative and educational activities.
 4. Analyse the potential ethical considerations of using generative AI within an educational context.
 
-## Out of Scope
+### Out of Scope
 
 While this workshop aims to provide a comprehensive introduction to generative AI in teaching and learning, there are several topics that will not be covered in this session. These include:
 
