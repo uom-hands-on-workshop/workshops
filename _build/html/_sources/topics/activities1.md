@@ -17,7 +17,7 @@
 6. Click on 'Apply' button (top right corner of the screen)
 
 
-#### LLMs
+#### LLMs:
 
 **ChatGPT**: [https://chatgpt.com/?model=gpt-4o](https://chatgpt.com/?model=gpt-4o)
 
