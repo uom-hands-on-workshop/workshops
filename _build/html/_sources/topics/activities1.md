@@ -48,6 +48,8 @@ Considering the Student Experience Survey results from SWEN90007 subject below, 
   
 Note that in this prompt, the comments from students were added as input to provide context to the LLM.
 
+**ChatGPT**: [https://chatgpt.com/?model=gpt-4o](https://chatgpt.com/?model=gpt-4o)
+**Spark**: [https://spark.unimelb.edu.au/](https://spark.unimelb.edu.au/)
 
 3. (human & AI) review and refine the list of identified problems in students' comments.
 
@@ -68,7 +70,7 @@ Note that in this prompt, the comments from students were added as input to prov
 Considering your identified key problems and categories in students' comments, please update your list with suggested actionable improvements. For each suggestion on how to minimise identified problems, please use t-shirt sizing for estimating the task required to address the issue and explain your estimation. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
 
 Your generated list of identified issues and categories:
-[INCLUDE LIST]
+[replace this text with the list of identified issues and categories you identified in the previous task]
 ```
 
 **Tips**:
@@ -95,14 +97,18 @@ Your generated list of identified issues and categories:
 
 (human) Input:
 
+ChatGPT: 
+
 ```text
-ChatGPT: Please expand the existing Part 2 rubric considering the exact same existing criteria as specified in the attached document [upload project specification]. Expand each criterion with EMRN four-level evaluation.
+Please expand the existing Part 2 rubric considering the exact same existing criteria as specified in the attached document [upload project specification]. Expand each criterion with EMRN four-level evaluation.
 ```
 
 (human) Input:
 
+Spark: 
+
 ```text
-Spark: Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
+Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
 ```
 
 **Tips**:
