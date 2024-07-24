@@ -16,6 +16,13 @@
 
 6. Click on 'Apply' button (top right corner of the screen)
 
+
+#### LLMs
+
+**ChatGPT**: [https://chatgpt.com/?model=gpt-4o](https://chatgpt.com/?model=gpt-4o)
+
+**Spark**: [https://spark.unimelb.edu.au/](https://spark.unimelb.edu.au/)
+
 #### ESS Example for Activity 1:
 
 - [SWEN90007 Scenario](scenario.md)
@@ -48,8 +55,6 @@ Considering the Student Experience Survey results from SWEN90007 subject below, 
   
 Note that in this prompt, the comments from students were added as input to provide context to the LLM.
 
-**ChatGPT**: [https://chatgpt.com/?model=gpt-4o](https://chatgpt.com/?model=gpt-4o)
-**Spark**: [https://spark.unimelb.edu.au/](https://spark.unimelb.edu.au/)
 
 3. (human & AI) review and refine the list of identified problems in students' comments.
 
