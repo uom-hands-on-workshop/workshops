@@ -76,7 +76,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Group similar responses together to form coherent themes.
 
 
-#### Create Interactive Visualisations Using a Dataset (Using Claude](https://claude.ai))
+#### Create Interactive Visualisations Using a Dataset (Using [Claude](https://claude.ai))
 
 **Objective**: Transform data into interactive visual representations.
 
