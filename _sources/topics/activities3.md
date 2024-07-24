@@ -4,7 +4,7 @@
 
 Complete as many of the following tasks as you’d like. Use the provided examples and steps to guide your process. At the end of the activity, think-pair-share and discuss your experience.
 
-#### Summarise Key Points from a Report (Using ChatGPT or Claude)
+#### Summarise Key Points from a Report (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai))
 
 **Objective**: Extract and condense the essential information from a given report.
 
@@ -30,7 +30,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Ensure the summary is concise and clear.
 
 
-#### Create Citations and Downloadable Reference Manager File from a Report (Using ChatGPT or Claude)
+#### Create Citations and Downloadable Reference Manager File from a Report (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai))
 
 **Objective**: Generate citations and a reference manager file from a report.
 
@@ -76,7 +76,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Group similar responses together to form coherent themes.
 
 
-#### Create Interactive Visualisations Using a Dataset (Using Claude)
+#### Create Interactive Visualisations Using a Dataset (Using Claude](https://claude.ai))
 
 **Objective**: Transform data into interactive visual representations.
 
@@ -101,7 +101,7 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Validate the accuracy of the data representation.
 
 
-#### Write One-to-Many or One-to-One Communication (Using ChatGPT, Claude, or SparkAI)
+#### Write One-to-Many or One-to-One Communication (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai), or SparkAI)
 
 **Objective**: Draft effective and clear communication messages.
 
@@ -124,7 +124,7 @@ Make sure you include the agenda items, the meeting location, and a request for 
 
 
 
-#### Digitise Whiteboard and Handwritten Notes
+#### Digitise Whiteboard and Handwritten Notes (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai))
 
 **Objective**: Convert handwritten notes into digital text.
 
