@@ -40,14 +40,13 @@
 
 ```
 Considering the Student Experience Survey results from SWEN90007 subject below, please help me identify and categorise the key issues mentioned by students in the survey.
- - More refined/less vague project requirements.
- - Less workload – this is too much for students studying full time.
- - Lecture slides can be challenging to read, especially the code part.
- - Project part 2 was too big for the time given and expectations were unclear.
+ - Less vague project requirements.
+ - Less workload – this is too much for students.
+ - Lecture slides with code can be challenging to read.
+ - Project part 2 was too big for the time given and expectations were not always clear.
  - Feedback needs to be provided sooner.
  - Marking rubric for reports depends on the tutor's personal feelings.
  - Marking rubrics were under-specified for parts 2, 3, and 4.
- - Performance coverage was good but needed more guidance.
  - Team members were not friendly.
  - Need more guidance on assignments in tutorials.
  - Would like more activities in the classroom.
