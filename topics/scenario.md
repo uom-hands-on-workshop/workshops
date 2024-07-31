@@ -37,7 +37,6 @@ This report lists all comments entered by students.
 
 - Project details and rubrics can be accessed [here](resources/SWEN90007Project2022_v1.pdf)
 
-- Subject notes can be accessed [here](resources/SWEN90007_Course_Notes_2022_SM2.pdf)
 
 - Tutorials: [https://cis-projects.github.io/swen90007_course_notes/introduction/introduction.html](https://cis-projects.github.io/swen90007_course_notes/introduction/introduction.html)
 
