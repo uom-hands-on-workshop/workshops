@@ -417,10 +417,10 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-productivity-challenge-instructions">Activity 3 - Productivity Challenge Instructions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-interactive-visualisations-using-a-dataset-using-claude">Create Interactive Visualisations Using a Dataset (Using Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summarise-key-points-from-a-report-using-chatgpt-or-claude">Summarise Key Points from a Report (Using ChatGPT or Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-citations-and-downloadable-reference-manager-file-from-a-report-using-chatgpt-or-claude">Create Citations and Downloadable Reference Manager File from a Report (Using ChatGPT or Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#thematically-analyse-discussion-board-posts-using-sparkai">Thematically Analyse Discussion Board Posts (Using SparkAI)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-interactive-visualisations-using-a-dataset-using-claude">Create Interactive Visualisations Using a Dataset (Using Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-one-to-many-or-one-to-one-communication-using-chatgpt-or-claude-or-sparkai">Write One-to-Many or One-to-One Communication (Using ChatGPT or Claude, or SparkAI)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#digitise-whiteboard-and-handwritten-notes-using-chatgpt-or-claude">Digitise Whiteboard and Handwritten Notes (Using ChatGPT or Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-points">Bonus Points</a></li>
@@ -442,6 +442,34 @@ document.write(`
 <section id="activity-3-productivity-challenge-instructions">
 <h2>Activity 3 - Productivity Challenge Instructions<a class="headerlink" href="#activity-3-productivity-challenge-instructions" title="Link to this heading">#</a></h2>
 <p>Complete as many of the following tasks as you’d like. Use the provided examples and steps to guide your process. At the end of the activity, think-pair-share and discuss your experience.</p>
+<section id="create-interactive-visualisations-using-a-dataset-using-claude">
+<h3>Create Interactive Visualisations Using a Dataset (Using <a class="reference external" href="https://claude.ai">Claude</a>)<a class="headerlink" href="#create-interactive-visualisations-using-a-dataset-using-claude" title="Link to this heading">#</a></h3>
+<p><strong>Objective</strong>: Transform data into interactive visual representations.</p>
+<p><strong>Steps</strong>:</p>
+<ol class="arabic simple">
+<li><p>Upload the dataset and a screenshot of the chart you want to recreate.</p></li>
+<li><p>Use a simple prompt to request the creation of an interactive chart.</p></li>
+<li><p>Verify the visualisation works as intended</p></li>
+</ol>
+<p><strong>Resources for this task</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference download internal" download="" href="../_downloads/146f36f0f4f8f109691037d59f7ab1d6/IScreenshot.png"><span class="xref download myst">Interactive Chart Screenshot</span></a></p></li>
+<li><p><a class="reference download internal" download="" href="../_downloads/ae695e82efa4c108b32a0818c04c06e0/NEMData.csv"><span class="xref download myst">National Energy Market Data</span></a></p></li>
+</ul>
+<p><strong>Simple Prompt</strong></p>
+<ul class="simple">
+<li><p>Recreate this chart [attach screenshot] as an interactive chart using this dataset. [upload dataset]</p></li>
+</ul>
+<p><strong>Advanced Prompt</strong></p>
+<ul class="simple">
+<li><p>Can you please recreate the interactive line chart that I’ve uploaded (the screenshot). Populate the line chart with the entire day worth of data within csv file - ensure there are at least 12 datapoints on the line to interact with. Can you include a bar at the top (like in the screenshot) with heading numbers such as spot price, demand that update as I interact with the line chart. Only use supported libraries.</p></li>
+</ul>
+<p><strong>Tips</strong>:</p>
+<ul class="simple">
+<li><p>Ensure the visualisation is user-friendly and interactive.</p></li>
+<li><p>Validate the accuracy of the data representation.</p></li>
+</ul>
+</section>
 <section id="summarise-key-points-from-a-report-using-chatgpt-or-claude">
 <h3>Summarise Key Points from a Report (Using <a class="reference external" href="https://chatgpt.com">ChatGPT</a> or <a class="reference external" href="https://claude.ai">Claude</a>)<a class="headerlink" href="#summarise-key-points-from-a-report-using-chatgpt-or-claude" title="Link to this heading">#</a></h3>
 <p><strong>Objective</strong>: Extract and condense the essential information from a given report.</p>
@@ -519,34 +547,6 @@ document.write(`
 <ul class="simple">
 <li><p>Look for recurring topics, sentiments, and ideas.</p></li>
 <li><p>Group similar responses together to form coherent themes.</p></li>
-</ul>
-</section>
-<section id="create-interactive-visualisations-using-a-dataset-using-claude">
-<h3>Create Interactive Visualisations Using a Dataset (Using <a class="reference external" href="https://claude.ai">Claude</a>)<a class="headerlink" href="#create-interactive-visualisations-using-a-dataset-using-claude" title="Link to this heading">#</a></h3>
-<p><strong>Objective</strong>: Transform data into interactive visual representations.</p>
-<p><strong>Steps</strong>:</p>
-<ol class="arabic simple">
-<li><p>Upload the dataset and a screenshot of the chart you want to recreate.</p></li>
-<li><p>Use a simple prompt to request the creation of an interactive chart.</p></li>
-<li><p>Verify the visualisation works as intended</p></li>
-</ol>
-<p><strong>Resources for this task</strong>:</p>
-<ul class="simple">
-<li><p><a class="reference download internal" download="" href="../_downloads/146f36f0f4f8f109691037d59f7ab1d6/IScreenshot.png"><span class="xref download myst">Interactive Chart Screenshot</span></a></p></li>
-<li><p><a class="reference download internal" download="" href="../_downloads/ae695e82efa4c108b32a0818c04c06e0/NEMData.csv"><span class="xref download myst">National Energy Market Data</span></a></p></li>
-</ul>
-<p><strong>Simple Prompt</strong></p>
-<ul class="simple">
-<li><p>Recreate this chart [attach screenshot] as an interactive chart using this dataset. [upload dataset]</p></li>
-</ul>
-<p><strong>Advanced Prompt</strong></p>
-<ul class="simple">
-<li><p>Can you please recreate the interactive line chart that I’ve uploaded (the screenshot). Populate the line chart with the entire day worth of data within csv file - ensure there are at least 12 datapoints on the line to interact with. Can you include a bar at the top (like in the screenshot) with heading numbers such as spot price, demand that update as I interact with the line chart. Only use supported libraries.</p></li>
-</ul>
-<p><strong>Tips</strong>:</p>
-<ul class="simple">
-<li><p>Ensure the visualisation is user-friendly and interactive.</p></li>
-<li><p>Validate the accuracy of the data representation.</p></li>
 </ul>
 </section>
 <section id="write-one-to-many-or-one-to-one-communication-using-chatgpt-or-claude-or-sparkai">
@@ -675,10 +675,10 @@ Make sure you include the agenda items, the meeting location, and a request for 
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-productivity-challenge-instructions">Activity 3 - Productivity Challenge Instructions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-interactive-visualisations-using-a-dataset-using-claude">Create Interactive Visualisations Using a Dataset (Using Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summarise-key-points-from-a-report-using-chatgpt-or-claude">Summarise Key Points from a Report (Using ChatGPT or Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-citations-and-downloadable-reference-manager-file-from-a-report-using-chatgpt-or-claude">Create Citations and Downloadable Reference Manager File from a Report (Using ChatGPT or Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#thematically-analyse-discussion-board-posts-using-sparkai">Thematically Analyse Discussion Board Posts (Using SparkAI)</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#create-interactive-visualisations-using-a-dataset-using-claude">Create Interactive Visualisations Using a Dataset (Using Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#write-one-to-many-or-one-to-one-communication-using-chatgpt-or-claude-or-sparkai">Write One-to-Many or One-to-One Communication (Using ChatGPT or Claude, or SparkAI)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#digitise-whiteboard-and-handwritten-notes-using-chatgpt-or-claude">Digitise Whiteboard and Handwritten Notes (Using ChatGPT or Claude)</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bonus-points">Bonus Points</a></li>

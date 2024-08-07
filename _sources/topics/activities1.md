@@ -8,11 +8,11 @@
 
 2. Click on '+ New thread' (left side of the screen, under 'Secure Chat')
 
-3. Click on 'Thread Configuration' (top right corner of new chat window)
+3. Click on 'Secure Chat Configuration' (bottom left corner of the screen)
 
 4. Select 'OpenAI GPT 4 Turbo 128k (preview)' as your LLM
 
-5. Set 'Temperature' to 0.5
+5. Set 'Temperature' to 0.8
 
 6. Click on 'Apply' button (top right corner of the screen)
 
@@ -34,7 +34,7 @@
 
 **Steps**:
 1. (human) Write your list of identified problems in students' comments.
-2. (AI) Ask AI to identify problems in students' comments. [copy and paste comments or upload document]
+2. (AI) Ask AI to identify problems in students' comments. [copy and paste the prompt below]
 
 (human) Input:   
 
@@ -92,32 +92,6 @@ Your generated list of identified issues and categories:
 - Choose an idea that is feasible to be addressed and impactful.
 - Ensure the idea is clearly defined before seeking AI assistance.
 
-### Content Development (demonstration: development of 1 idea only)
-
-**Objective**: Develop a practical solution to the selected problem using AI support.
-
-**Steps**:
-1. (human) Ask the LLM for some help on how to help improve your chosen problem.
-
-(human) Input:
-
-ChatGPT: 
-
-```text
-Please expand the existing Part 2 rubric considering the exact same existing criteria as specified in the attached document [upload project specification]. Expand each criterion with EMRN four-level evaluation.
-```
-
-(human) Input:
-
-Spark: 
-
-```text
-Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
-```
-
-**Tips**:
-- Review and refine AI suggestions to ensure they are practical and applicable.
-- Implement the most effective suggestions and test them in a real lecture setting.
 
 ### Bonus Points
 
