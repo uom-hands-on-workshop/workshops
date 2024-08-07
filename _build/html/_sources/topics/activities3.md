@@ -4,6 +4,31 @@
 
 Complete as many of the following tasks as you’d like. Use the provided examples and steps to guide your process. At the end of the activity, think-pair-share and discuss your experience.
 
+#### Create Interactive Visualisations Using a Dataset (Using [Claude](https://claude.ai))
+
+**Objective**: Transform data into interactive visual representations.
+
+**Steps**:
+1. Upload the dataset and a screenshot of the chart you want to recreate.
+2. Use a simple prompt to request the creation of an interactive chart.
+3. Verify the visualisation works as intended 
+
+**Resources for this task**:
+- [Interactive Chart Screenshot](resources/IScreenshot.png)
+- [National Energy Market Data](resources/NEMData.csv)
+
+
+**Simple Prompt**
+- Recreate this chart [attach screenshot] as an interactive chart using this dataset. [upload dataset]
+
+**Advanced Prompt**
+- Can you please recreate the interactive line chart that I've uploaded (the screenshot). Populate the line chart with the entire day worth of data within csv file - ensure there are at least 12 datapoints on the line to interact with. Can you include a bar at the top (like in the screenshot) with heading numbers such as spot price, demand that update as I interact with the line chart. Only use supported libraries.
+
+**Tips**:
+- Ensure the visualisation is user-friendly and interactive.
+- Validate the accuracy of the data representation.
+
+
 #### Summarise Key Points from a Report (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai))
 
 **Objective**: Extract and condense the essential information from a given report.
@@ -76,31 +101,6 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - Group similar responses together to form coherent themes.
 
 
-#### Create Interactive Visualisations Using a Dataset (Using [Claude](https://claude.ai))
-
-**Objective**: Transform data into interactive visual representations.
-
-**Steps**:
-1. Upload the dataset and a screenshot of the chart you want to recreate.
-2. Use a simple prompt to request the creation of an interactive chart.
-3. Verify the visualisation works as intended 
-
-**Resources for this task**:
-- [Interactive Chart Screenshot](resources/IScreenshot.png)
-- [National Energy Market Data](resources/NEMData.csv)
-
-
-**Simple Prompt**
-- Recreate this chart [attach screenshot] as an interactive chart using this dataset. [upload dataset]
-
-**Advanced Prompt**
-- Can you please recreate the interactive line chart that I've uploaded (the screenshot). Populate the line chart with the entire day worth of data within csv file - ensure there are at least 12 datapoints on the line to interact with. Can you include a bar at the top (like in the screenshot) with heading numbers such as spot price, demand that update as I interact with the line chart. Only use supported libraries.
-
-**Tips**:
-- Ensure the visualisation is user-friendly and interactive.
-- Validate the accuracy of the data representation.
-
-
 #### Write One-to-Many or One-to-One Communication (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai), or SparkAI)
 
 **Objective**: Draft effective and clear communication messages.
@@ -121,7 +121,6 @@ Make sure you include the agenda items, the meeting location, and a request for 
 **Tips**:
 - Tailor the tone and content to your audience.
 - Include all relevant information clearly and concisely.
-
 
 
 #### Digitise Whiteboard and Handwritten Notes (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai))
