@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -506,9 +506,6 @@ document.write(`
 </ol>
 <p>(human) Input:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Considering</span> <span class="n">your</span> <span class="n">identified</span> <span class="n">key</span> <span class="n">problems</span> <span class="ow">and</span> <span class="n">categories</span> <span class="ow">in</span> <span class="n">students</span><span class="s1">&#39; comments, please update your list with suggested actionable improvements. For each suggestion on how to minimise identified problems, please use t-shirt sizing for estimating the task required to address the issue and explain your estimation. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.</span>
-
-<span class="n">Your</span> <span class="n">generated</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">identified</span> <span class="n">issues</span> <span class="ow">and</span> <span class="n">categories</span><span class="p">:</span>
-<span class="p">[</span><span class="n">replace</span> <span class="n">this</span> <span class="n">text</span> <span class="k">with</span> <span class="n">the</span> <span class="nb">list</span> <span class="n">of</span> <span class="n">identified</span> <span class="n">issues</span> <span class="ow">and</span> <span class="n">categories</span> <span class="n">you</span> <span class="n">identified</span> <span class="ow">in</span> <span class="n">the</span> <span class="n">previous</span> <span class="n">task</span><span class="p">]</span>
 </pre></div>
 </div>
 <p><strong>Tips</strong>:</p>
@@ -535,10 +532,12 @@ document.write(`
 <p><strong>Objective</strong>: Develop a practical solution to the selected problem using AI support.</p>
 <p><strong>Steps</strong>:</p>
 <ol class="arabic simple">
-<li><p>(human) Ask the LLM for some help on how to help improve your chosen problem.</p></li>
+<li><p>Download the rubric <a class="reference download internal" download="" href="../_downloads/435d797512c003d35cd7991802a6f2db/SWEN90007Project2022_v1.pdf"><span class="xref download myst">here</span></a></p></li>
+<li><p>Click “Attach Files” and upload the document</p></li>
+<li><p>Copy and paste the prompt below into the chat window</p></li>
 </ol>
-<p>(human) Input:</p>
-<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the attached rubric table [make sure you upload rubric together with this prompt]. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
+<p><strong>Prompt</strong></p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the attached rubric table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
 </pre></div>
 </div>
 <p><strong>Tips</strong>:</p>
