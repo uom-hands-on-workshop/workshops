@@ -72,9 +72,6 @@ Note that in this prompt, the comments from students were added as input to prov
 
 ```
 Considering your identified key problems and categories in students' comments, please update your list with suggested actionable improvements. For each suggestion on how to minimise identified problems, please use t-shirt sizing for estimating the task required to address the issue and explain your estimation. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
-
-Your generated list of identified issues and categories:
-[replace this text with the list of identified issues and categories you identified in the previous task]
 ```
 
 **Tips**:
@@ -97,12 +94,13 @@ Your generated list of identified issues and categories:
 **Objective**: Develop a practical solution to the selected problem using AI support.
 
 **Steps**:
-1. (human) Ask the LLM for some help on how to help improve your chosen problem.
+1. Download the rubric [here](resources/SWEN90007Project2022_v1.pdf)
+2. Click "Attach Files" and upload the document 
+3. Copy and paste the prompt below into the chat window
 
-(human) Input:
-
+**Prompt**
 ```text
-Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the attached rubric table [make sure you upload rubric together with this prompt]. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
+Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the attached rubric table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
 ```
 
 **Tips**:

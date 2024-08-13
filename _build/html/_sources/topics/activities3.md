@@ -19,10 +19,14 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 
 
 **Simple Prompt**
-- Recreate this chart [attach screenshot] as an interactive chart using this dataset. [upload dataset]
+```
+Recreate this chart in the screenshot, as an interactive chart using this dataset in the csv file.
+```
 
 **Advanced Prompt**
-- Can you please recreate the interactive line chart that I've uploaded (the screenshot). Populate the line chart with the entire day worth of data within csv file - ensure there are at least 12 datapoints on the line to interact with. Can you include a bar at the top (like in the screenshot) with heading numbers such as spot price, demand that update as I interact with the line chart. Only use supported libraries.
+```
+Can you please recreate the interactive line chart that I've uploaded (the screenshot). Populate the line chart with the entire day worth of data within csv file - ensure there are at least 12 datapoints on the line to interact with. Can you include a bar at the top (like in the screenshot) with heading numbers such as spot price, demand that update as I interact with the line chart. Only use supported libraries.
+```
 
 **Tips**:
 - Ensure the visualisation is user-friendly and interactive.
@@ -45,10 +49,14 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - [Advancing Students and Education Strategy: 2023 - 2030](resources/ASES.pdf)
 
 **Simple Prompt**
-"Summarise the key findings and conclusions of this report."
+```
+Summarise the key findings and conclusions of this report.
+```
 
 **Advanced Prompt**
-"Using the attached report, please summarise the key findings, conclusions, and recommendations of this report. Provide direct quotes that highlight the key findings."
+```
+Using the attached report, please summarise the key findings, conclusions, and recommendations of this report. Provide direct quotes that highlight the key findings.
+```
 
 **Tips**:
 - Highlight the main findings, conclusions, and recommendations.
@@ -70,10 +78,14 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - [Advancing Students and Education Strategy: 2023 - 2030](resources/ASES.pdf)
 
 **Simple Prompt**
-- Create an APA 7th end-text citation from this report [upload report]. 
+```
+Create an APA 7th end-text citation from this report [upload report]. 
+```
 
 **Advanced Prompt**
-- Using the uploaded report, please first create an APA 7th end-text citation. Next, create a downloadable RIS file for this citation. 
+```
+Using the uploaded report, please first create an APA 7th end-text citation. Next, create a downloadable RIS file for this citation. 
+```
 
 **Tips**:
 - Ensure the citation format is correct.
@@ -94,7 +106,9 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 - [Discussion Board Responses (PDF)](resources/DiscussionBoardPDF.pdf)
 
 **Simple Prompt**
-- I need help to analyse themes from discussion board responses from question X. [copy and paste discussion board responses from excel]
+```
+I need help to analyse themes from discussion board responses from question X. 
+```
 
 **Tips**:
 - Look for recurring topics, sentiments, and ideas.
@@ -111,12 +125,15 @@ Complete as many of the following tasks as you’d like. Use the provided exampl
 3. Review and customise the message as needed.
 
 **Simple Prompt**
-"Write an email to a colleague informing them about the upcoming faculty meeting on Monday at 10AM."
-
+```
+Write an email to a colleague informing them about the upcoming faculty meeting on Monday at 10AM.
+```
 
 **Advanced Prompt**
-"Write a professional email to the faculty team announcing the upcoming meeting on Monday at 10AM. [+ include more CONTEXT]"
+```
+Write a professional email to the faculty team announcing the upcoming meeting on Monday at 10AM. [+ include more CONTEXT]"
 Make sure you include the agenda items, the meeting location, and a request for any additional topics they would like to discuss.
+```
 
 **Tips**:
 - Tailor the tone and content to your audience.
@@ -131,8 +148,10 @@ Make sure you include the agenda items, the meeting location, and a request for 
 1. Upload an image of the whiteboard notes.
 2. Use a one-shot prompt to request transcription.
 
-**Example**:
-- I need help transcribing this image of a whiteboard. [upload image]
+**Simple prompt**:
+```
+I need help transcribing this image of a whiteboard.
+```
 
 **Tips**:
 - Ensure the handwriting is legible for better accuracy.
@@ -145,12 +164,14 @@ Make sure you include the agenda items, the meeting location, and a request for 
 
 
 **Simple Prompt**
-"Transcribe my hand written notes."
-
+```
+Transcribe my hand written notes.
+```
 
 **Advanced Prompt**
-"Convert the following handwritten notes from (X resource) into a well-structured word document that I can download. Organise the content into sections. 
-
+```
+Convert the following handwritten notes from the file I uploaded into a well-structured word document that I can download. Organise the content into sections. 
+```
 
 
 #### Bonus Points
