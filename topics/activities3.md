@@ -92,29 +92,6 @@ Using the uploaded report, please first create an APA 7th end-text citation. Nex
 - Verify the RIS file can be imported into reference management software.
 
 
-#### Thematically Analyse Discussion Board Posts (Using SparkAI)
-
-**Objective**: Identify and categorise themes from discussion board responses.
-
-**Steps**:
-1. Copy and paste the discussion board responses into SparkAI
-2. Use a one-shot prompt to request a thematic analysis.
-3. Review the identified themes and adjust if necessary.
-
-**Resources for this task**:
-- [Discussion Board Responses (Excel)](resources/DiscussionBoardExcel.xlsx)
-- [Discussion Board Responses (PDF)](resources/DiscussionBoardPDF.pdf)
-
-**Simple Prompt**
-```
-I need help to analyse themes from discussion board responses from question X. 
-```
-
-**Tips**:
-- Look for recurring topics, sentiments, and ideas.
-- Group similar responses together to form coherent themes.
-
-
 #### Write One-to-Many or One-to-One Communication (Using [ChatGPT](https://chatgpt.com) or [Claude](https://claude.ai), or SparkAI)
 
 **Objective**: Draft effective and clear communication messages.
