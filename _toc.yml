@@ -26,6 +26,7 @@ parts:
   - caption: Tools
     chapters:
     - file: extras/spark
+    - file: topics/toolsforeducators
   - caption: Afterword
     chapters:
     - file: topics/contributors
