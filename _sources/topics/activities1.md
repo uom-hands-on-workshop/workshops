@@ -71,7 +71,7 @@ Note that in this prompt, the comments from students were added as input to prov
 (human) Input:
 
 ```
-Considering your identified key problems and categories in students' comments, please update your list with suggested actionable improvements. For each suggestion on how to minimise identified problems, please use t-shirt sizing for estimating the task required to address the issue and explain your estimation. Consider the context of the SWEN90007 subject (Software Design and Architecture) (document here attached), including project requirements, workload, lecture materials, feedback processes, and team dynamics.
+Considering your identified key problems and categories in students' comments, please update your list with suggested actionable improvements. For each suggestion on how to minimise identified problems, please use t-shirt sizing for estimating the task required to address the issue and explain your estimation.
 ```
 
 **Tips**:
@@ -100,7 +100,7 @@ Considering your identified key problems and categories in students' comments, p
 
 **Prompt**
 ```text
-Please expand the existing Part 2 rubric (identified in the assessment breakdown page) considering the exact same existing criteria as specified in the attached rubric table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
+Please expand the existing Part 2 rubric considering the exact same existing criteria as specified in the attached rubric table. Expand each criterion with EMRN four-level evaluation. Make sure marks distribution remain the same for the four criterion assessed in Part 2.
 ```
 
 **Tips**:
