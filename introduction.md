@@ -4,7 +4,7 @@ Welcome to our Introduction to Generative AI in Education Through Hands-on Works
 
 ## Key Activities
 
-- **Hands-on exercises** with AI tools such as Spark, ChatGPT, Claude, Co-Pilot, DALL-E, Midjourney.
+- **Hands-on exercises** with AI tools such as Spark, ChatGPT, Claude, Co-Pilot, DALL-E, Midjourney, and more.
 - **Role-playing sessions** to explore ethical scenarios and academic integrity issues.
 - **Group discussions** to foster collaboration and share best practices.
 - **Design and development of resources** to be shared on Teams.
@@ -17,6 +17,8 @@ Below are links to some University of Melbourne generative AI resources that you
 - **[Spark](https://spark.unimelb.edu.au/)**: Explore Spark, the University of Melbourne's AI platform designed to support educational and administrative tasks.
 - **[Generative AI Taskforce](https://www.unimelb.edu.au/generative-ai-taskforce)**: Learn about the taskforce dedicated to exploring and integrating generative AI technologies at the University of Melbourne.
 - **[Generative AI Community of Practice](https://eng.unimelb.edu.au/tll/communities/genai-cop)**: Join our community of educators and researchers focused on the application of generative AI in education.
+- **[An Introduction to Large Language Models in Education](https://lamethods.github.io/book2/chapters/ch08-llms/ch08-llms.html)**: This book chapter examines the mechanisms that underpin LLMs —namely, transformer architecture, pre-training, and generative abilities.
+- **[AI, Explainable AI and Evaluative AI: Informed Data-Driven Decision-Making in Education](https://lamethods.github.io/book2/chapters/ch02-AIxAI/ch02-aixai.html)**: This book chapter aims to provide readers with an understanding of AI in education and XAI’s potential.
 
 
 ```{admonition} To cite this workshop program

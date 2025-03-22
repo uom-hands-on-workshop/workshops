@@ -22,7 +22,7 @@ parts:
           sections:
             - file: topics/scenario        
         - file: topics/activities2
-        - file: topics/activities3 
+    - file: topics/workshop2
   - caption: Tools
     chapters:
     - file: extras/spark

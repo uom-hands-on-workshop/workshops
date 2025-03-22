@@ -31,7 +31,7 @@ Participants will be able to [register to Workshop 1 here](https://www.eventbrit
 **Introduction to Generative AI in T&Lfine**
 - Basics of AI, uses of AI in education, tips and tricks, ethical implications, SparkAI.
 
-**AI-Resilient Assessment Design**
+**AI Cheating Lab**
 - Preparing educators with strategies to update and design assessments that minimise academic misconduct risks associated with the use of generative AI, emphasising the integrity and fairness of evaluations.
 
 **Developing Creative Teaching Materials**
