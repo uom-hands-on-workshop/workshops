@@ -21,8 +21,6 @@ LLMs are not connected to real-time databases or reference managers. Even when t
 
 ## 2. Poor Performance with Complex Maths
 
-## ➗ 2. Poor Performance with Complex Maths
-
 LLMs can handle simple arithmetic and basic calculus, but they often **struggle with multi-step reasoning, symbolic manipulation, and logic-heavy maths problems**. They don’t “understand” maths — they’re predicting what looks like a correct answer, which means they can easily make subtle but critical errors.
 
 **Try it yourself:**
