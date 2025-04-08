@@ -1,6 +1,4 @@
-## Workshop 2
-
-### AI Cheating Lab (Coming Soon...)
+## AI Cheating Lab
 
 **Think you've outsmarted AI?**
 Join us for a BRAND NEW and ADVANCED hands-on, interactive experience where we'll challenge your assumptions, push the limits of generative AI, and equip you with clever strategies to stay ahead of the game. Ready to rethink what's possible? Stay tuned!
