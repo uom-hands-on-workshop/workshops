@@ -1,6 +1,6 @@
 ## Activity 2 
 
-### Activity 2 - Productivity Challenge Instructions
+### Productivity Challenge Instructions
 
 Complete as many of the following tasks as you’d like. Use the provided examples and steps to guide your process. At the end of the activity, think-pair-share and discuss your experience.
 

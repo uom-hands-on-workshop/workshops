@@ -23,6 +23,11 @@ parts:
             - file: topics/scenario        
         - file: topics/activities2
     - file: topics/workshop2
+      sections:
+        - file: topics/activities4
+          sections:
+            - file: topics/activities4_1    
+        - file: topics/activities5
   - caption: Tools
     chapters:
     - file: extras/spark

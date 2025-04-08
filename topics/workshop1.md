@@ -1,4 +1,4 @@
-## Workshop 1
+## Introduction to GenAI
 
 ### Introduction to Generative AI in T&L
 
