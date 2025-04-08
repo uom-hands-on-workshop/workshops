@@ -1,15 +1,14 @@
 ## Overview
 
-### Topics
 
-#### Current Workshop
+### Current Workshop
 [**Introduction to Generative AI in T&L**](workshop1)
 - Basics of AI, uses of AI in education, tips and tricks, ethical implications, Spark.
 
 [**AI Cheating Lab**](workshop2)
 - Challenge your assumptions, push the limits of generative AI, and equip you with innovative strategies to stay ahead of the assessment game.
 
-#### Future Workshops
+### Future Workshops
 
 
 **Developing Creative Teaching Materials**
@@ -22,7 +21,7 @@
 - Integrating AI tools for responsible and continuous assessment and feedback.
 
 
-### Design
+#### Design
 
 All workshops will be organised in 90-minute sessions. Each 90-minute session is divided into two primary components:
 
