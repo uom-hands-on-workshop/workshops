@@ -20,11 +20,22 @@
 
 **Instructions**:
 
-- Try using genAI tools other than ChatGPT and Spark.
-- Explore how these tools perform regarding the limitations you discussed.
+- Explore how genAI tools perform against the limitations you identified
+    - Are the limitations still valid?
+    - Can the tools **overcome** the limitations you identified?
+    - Do some tools perform better in specific areas?
+    - Are there **new limitations** that emerged as you experimented?
 
-Here are a few tools you might try:
+**Tips**:
 
+- Try giving similar prompts across tools to compare responses.
+- Share any surprises or unexpected outcomes during the group reflection.
+
+_If you finish early or are unable to identify a current limitation, [you can explore several examples here](activities4_1)_
+
+---
+
+### Here are a few tools you might try:
 ##### Text-Based Tools:
 - **ChatGPT**: [https://chatgpt.com/?model=gpt-4o/](https://chatgpt.com/?model=gpt-4o/) *(free with account)*
 - **Claude**: [https://claude.ai/](https://claude.ai/) *(free with account)*
@@ -49,17 +60,6 @@ Here are a few tools you might try:
 - **Suno AI (music generation)**: [https://suno.ai/](https://suno.ai/)
 - **Voicemod Text to Song**: [https://www.voicemod.net/text-to-song/](https://www.voicemod.net/text-to-song/)
 
-
-**Questions to guide you**:
-
-- Can the tools **overcome** the limitations you identified?
-- Do some tools perform better in specific areas?
-- Are there **new limitations** that emerged as you experimented?
-
-**Tips**:
-
-- Try giving similar prompts across tools to compare responses.
-- Share any surprises or unexpected outcomes during the group reflection.
 
 
 
