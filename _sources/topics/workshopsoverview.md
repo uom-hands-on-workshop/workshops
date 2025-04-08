@@ -6,10 +6,11 @@
 [**Introduction to Generative AI in T&L**](workshop1)
 - Basics of AI, uses of AI in education, tips and tricks, ethical implications, Spark.
 
+[**AI Cheating Lab**](workshop2)
+- Challenge your assumptions, push the limits of generative AI, and equip you with innovative strategies to stay ahead of the assessment game.
+
 #### Future Workshops
 
-**AI-Resilient Assessment Design**
-- Preparing educators with strategies to update and design assessments that minimise academic misconduct risks associated with the use of generative AI, emphasising the integrity and fairness of evaluations.
 
 **Developing Creative Teaching Materials**
 - Using AI to create engaging and innovative educational content that is Canvas and PowerPoint compatible (creative media with AI – videos, images, sounds, and so on).
