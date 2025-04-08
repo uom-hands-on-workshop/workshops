@@ -5,8 +5,15 @@
 [**Introduction to Generative AI in T&L**](workshop1)
 - Basics of AI, uses of AI in education, tips and tricks, ethical implications, Spark.
 
+- [Register here](https://www.eventbrite.com.au/e/hands-on-workshop-introduction-to-generative-ai-in-tl-tickets-1316904499809?aff=oddtdtcreator).
+
+
 [**AI Cheating Lab**](workshop2)
 - Challenge your assumptions, push the limits of generative AI, and equip you with innovative strategies to stay ahead of the assessment game.
+
+- [Register here](https://www.eventbrite.com.au/e/genai-cheating-lab-pushing-assessment-boundaries-tickets-1316948160399?aff=oddtdtcreator).
+
+
 
 ### Future Workshops
 
@@ -33,5 +40,3 @@ Each workshop will be repeated up to five times over the course of four weeks. P
 Activities within workshops were designed considering the use of Spark (but may also involve the use of different LLM depending on explored scenarios and examples). Sessions will be held across different locations on our campus (Parkville, VCA, and others).
 
 To kick off the program, we will start with Workshop 1 and assess how it goes. We will offer this module many times throughout the second half of the year. We will monitor interest and adjust our plans as needed, using feedback from attendees to gauge their interest in further opportunities. This iterative approach will allow us to fine-tune the program based on participants' preferences and needs, ensuring it remains relevant and impactful.
-
-Participants can [register to Workshop 1 here](https://www.eventbrite.com.au/e/hands-on-workshop-introduction-to-generative-ai-in-tl-tickets-945962528387?aff=oddtdtcreator).
