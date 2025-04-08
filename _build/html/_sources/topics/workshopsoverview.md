@@ -8,7 +8,7 @@
 - [Register here](https://www.eventbrite.com.au/e/hands-on-workshop-introduction-to-generative-ai-in-tl-tickets-1316904499809?aff=oddtdtcreator).
 
 
-[**AI Cheating Lab**](workshop2)
+[**GenAI Cheating Lab**](workshop2)
 - Challenge your assumptions, push the limits of generative AI, and equip you with innovative strategies to stay ahead of the assessment game.
 
 - [Register here](https://www.eventbrite.com.au/e/genai-cheating-lab-pushing-assessment-boundaries-tickets-1316948160399?aff=oddtdtcreator).
