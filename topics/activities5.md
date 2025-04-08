@@ -32,6 +32,8 @@ Other example tasks:
 - Visual design briefs or diagrams
 - Peer feedback responses
 - Short video or audio scripts
+- A design problem
+- Problems that involve the creation of diagrams, sketchs or drawings
 
 ---
 
@@ -63,6 +65,7 @@ Other example tasks:
 
 - **Start simple**: Paste the task directly into ChatGPT or your chosen tool.
 - **Iterate**: If the output is poor, tell the tool what went wrong and ask it to fix it. Iterate multiple times.
+- **Give feedback**: If the AI output looks wrong let it know! LLM's can often be quite responsive to direct and specific feedback or instructions.
 - **Try personas**: Frame the task with a role prompt, e.g. *“You are an expert in structural analysis writing for undergraduate students...”*
 - **Experiment with tools**: Try ChatGPT, Claude, Gemini, Perplexity, NotebookLM etc. 
     - **ChatGPT**: [https://chatgpt.com/?model=gpt-4o/](https://chatgpt.com/?model=gpt-4o/) *(free with account)*

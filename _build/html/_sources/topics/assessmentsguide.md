@@ -11,7 +11,7 @@ These suggestions are aligned with the **University of Melbourne CSHE Assessment
 
 - Clarify **what** your assessment is really measuring (skills, knowledge, thinking processes).
 - Align tasks with your **Intended Learning Outcomes (ILOs)** and make sure they still assess what matters, even if students use AI.
-- Focus on **higher-order cognitive skills** (e.g. evaluation, synthesis, application).
+- Focus on **higher-order cognitive skills** (e.g. evaluation, synthesis, application) where possible.
 
 > “Would using AI help or hinder a student’s learning of the core skill this assessment is designed to evaluate?”
 
