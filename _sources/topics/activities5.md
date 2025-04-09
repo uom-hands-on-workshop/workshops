@@ -17,7 +17,7 @@ We’ll use this shared Padlet board to collaborate and upload materials: [https
 - Choose an **example of assessment item or task** from your domain (ideally something short or modular) that is similar to your current assessment approach (but that can be shared with peers - nothing confidential).
 - This should be something you can **judge the quality of in about 5 minutes**.
 - It could be something you're **worried AI might complete too easily**, or something you believe is more resilient.
-- Upload your assessment/task to the Padlet: [https://go.unimelb.edu.au/8vrp](https://go.unimelb.edu.au/8vrp)
+- Upload your assessment/task to the Padlet (following suggested template): [https://go.unimelb.edu.au/8vrp](https://go.unimelb.edu.au/8vrp)
 
 **Examples**:
 > *In my domain (Psychology), I selected a short written reflection task where students analyse a case study using psychological theories. Here is the task: ...*
