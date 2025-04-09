@@ -20,7 +20,8 @@ We’ll use this shared Padlet board to collaborate and upload materials: [https
 - Upload your assessment/task to the Padlet: [https://go.unimelb.edu.au/8vrp](https://go.unimelb.edu.au/8vrp)
 
 **Examples**:
-> *In my domain (Psychology), I selected a short written reflection task where students analyse a case study using psychological theories.*
+> *In my domain (Psychology), I selected a short written reflection task where students analyse a case study using psychological theories. Here is the task: ...*
+>*Design a unity gain 2nd order active high-pass filter with a cut-off frequency of 3.4kHz, a quality factor of 1. Use real-world (idealised) components in your design. Justify any design choices you have made and provide a diagram of the circuit.*
 
 Other example tasks:
 - Short written reflections or discussion board posts
@@ -32,7 +33,7 @@ Other example tasks:
 - Visual design briefs or diagrams
 - Peer feedback responses
 - Short video or audio scripts
-- A design problem
+- A design problem (software, infrastructure, architecture, ...)
 - Problems that involve the creation of diagrams, sketchs or drawings
 
 ---
@@ -72,7 +73,7 @@ Other example tasks:
     - **Claude**: [https://claude.ai/](https://claude.ai/) *(free with account)*
     - **Gemini**: [https://gemini.google.com/](https://gemini.google.com/)
     - **Perplexity**: [https://www.perplexity.ai/](https://www.perplexity.ai/)
-    - **NotebookLM** (AI note-based researcher): [https://notebooklm.google.com/](https://notebooklm.google.com/)
+    - **NotebookLM**: [https://notebooklm.google.com/](https://notebooklm.google.com/)
     - **SparkAI**: [https://spark.unimelb.edu.au/](https://spark.unimelb.edu.au/)
 - **Create pipelines**: Use multiple tools. One might write, another might refine, another might check for tone or accuracy.
 - **Check assumptions**: Some tools hallucinate—watch for confident nonsense.
