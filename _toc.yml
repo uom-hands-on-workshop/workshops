@@ -30,8 +30,8 @@ parts:
         - file: topics/activities5
   - caption: Rethinking Assessment
     chapters:
-    - file: topics/assessmentguide1
-    - file: topics/assessmentguide2
+    - file: topics/assessmentsguide1
+    - file: topics/assessmentsguide2
   - caption: Tools
     chapters:
     - file: extras/spark
