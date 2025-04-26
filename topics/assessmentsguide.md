@@ -1,11 +1,5 @@
 # Rethinking Assessment 
 
-Generative AI is now widely accessible to students across disciplines. Rather than attempting to eliminate its use, we should be **reimagining assessment** to develop critical skills, support academic integrity, and reflect real-world contexts.
-
-These suggestions are aligned with the **University of Melbourne CSHE Assessment Guide**  
-[Download the full guide here](https://melbourne-cshe.unimelb.edu.au/__data/assets/pdf_file/0004/4712062/Assessment-Guide_Web_Final.pdf)
-
----
 
 ## Rethink Assessment Purpose and Alignment
 

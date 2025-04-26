@@ -4,13 +4,13 @@
 
  - [Dr Eduardo Oliveira](https://findanexpert.unimelb.edu.au/profile/653031-eduardo-araujo-oliveira), School of Computing and Information Systems.
  - [Dr Shannon Rios](https://findanexpert.unimelb.edu.au/profile/985603-shannon-rios), FEIT Teaching and Learning Lab.
- - Cory dal Ponte, MDHS.
+ - Cory Dal Ponte, Learning Experience Designer (Organisational Development), PhD Student
 
 ## Workshops' Facilitators
 
  - [Dr Eduardo Oliveira](https://findanexpert.unimelb.edu.au/profile/653031-eduardo-araujo-oliveira), School of Computing and Information Systems.
  - [Dr Shannon Rios](https://findanexpert.unimelb.edu.au/profile/985603-shannon-rios), FEIT Teaching and Learning Lab.
- - Cory Dal Ponte, MDHS.
+ - Cory Dal Ponte, Learning Experience Designer (Organisational Development), PhD Student
 
 ## Reviewers
 

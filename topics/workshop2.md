@@ -1,9 +1,14 @@
 ## GenAI Cheating Lab
 
+
+```{admonition} Workshop Statement
+In this session, we are not prescribing specific actions or assessment designs to address academic cheating. Rather, we are offering suggestions — and inviting participants to reflect on new assessment strategies that recognise and respond to human–AI collaboration. We explore how assessments can be made more programmatic and layered to better meet the challenges posed by AI.
+
+Our role is not to provide formal advice — that remains the domain of CSHE and Learning Environments. Instead, our aim is to support a shift in mindset: moving away from the assumption that existing assessments are inherently safe, and challenging the view that banning or detecting AI use is sufficient for all assessment contexts.
+```
+
 **Think you've outsmarted AI?**
 Join us for a BRAND NEW and ADVANCED hands-on, interactive experience where we'll challenge your assumptions, push the limits of generative AI, and equip you with innovative strategies to stay ahead of the game. Ready to rethink what's possible? Stay tuned!
-
-
 
 **Total Duration**: 90 mins  
 
@@ -17,16 +22,15 @@ Join us for a BRAND NEW and ADVANCED hands-on, interactive experience where we'l
 
 
 ### Purpose of Workshop 2
-This workshop aims to deepen participants' understanding of how students can use AI tools effectively and efficiently, even beyond apparent AI limitations. Through hands-on activities and structured scaffolding, participants will experience firsthand the ways students might leverage AI technologies. By critically reflecting on these experiences, educators will be better positioned to thoughtfully design, refine, and adapt assessments, thereby proactively addressing potential issues related to academic integrity and AI-assisted cheating.
-
+This workshop aims to challenge assumptions about assessment security and explore how AI transforms student work into complex forms of collaboration. Through hands-on activities and guided reflection, participants will experience how students might engage with AI tools — and consider the broader implications for assessment design. Rather than offering prescriptive solutions, this workshop supports educators to rethink, refine, and layer their assessments in ways that respond thoughtfully to the realities of human–AI collaboration and academic integrity challenges.
 
 ### Expected Outcomes
 Upon completion of this workshop, participants should be able to:
 
-1. Clearly identify typical strengths and weaknesses of current generative AI tools.
-2. Apply effective prompting strategies and tool integrations to address AI limitations in various problem-solving contexts.
-3. Critically analyse and iteratively scaffold assessment questions and problems to enhance clarity, integrity, and AI-awareness.
-4. Implement practical strategies to proactively minimise AI-assisted cheating and encourage meaningful student engagement in assessments.
+1. Identify typical strengths and weaknesses of current generative AI tools.
+2. Apply effective prompting strategies and tool integrations to navigate AI limitations across problem-solving tasks.
+3. Critically analyse and iteratively scaffold assessment tasks to enhance clarity, and promote AI-awareness.
+4. Implement practical strategies that foster meaningful, authentic human-AI collaboration.
 
 ### Out of Scope
 
