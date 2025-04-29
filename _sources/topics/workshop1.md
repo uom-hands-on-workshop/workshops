@@ -8,6 +8,7 @@
 
 **Please bring your computer to have fun with us :)**  
 
+**[Slides can be accessed here!](https://www.canva.com/design/DAGI0g25ToQ/j54UeFdMdelZOwnJf7zMXg/view?utm_content=DAGI0g25ToQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h8b6dc6463a)**
 
 ### Purpose of Workshop 1
 
