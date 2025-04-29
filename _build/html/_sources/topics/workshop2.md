@@ -20,6 +20,7 @@ Join us for a BRAND NEW and ADVANCED hands-on, interactive experience where we'l
 
 **Please bring your computer to have fun with us :) (phone or tablet won't be enough but you can always pair up with someone else)**  
 
+**[Slides can be accessed here!](https://www.canva.com/design/DAGiUMtHzNg/m5DAOIEJmCrolfdQpGBeJA/view?utm_content=DAGiUMtHzNg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7fd019462d)**
 
 ### Purpose of Workshop 2
 This workshop aims to challenge assumptions about assessment security and explore how AI transforms student work into complex forms of collaboration. Through hands-on activities and guided reflection, participants will experience how students might engage with AI tools — and consider the broader implications for assessment design. Rather than offering prescriptive solutions, this workshop supports educators to rethink, refine, and layer their assessments in ways that respond thoughtfully to the realities of human–AI collaboration and academic integrity challenges.
