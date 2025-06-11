@@ -143,3 +143,10 @@ Show how AI can:
 
 Final comments and Q&A.  
 
+---
+
+## Additional Resources
+
+- **[An Introduction to Large Language Models in Education](https://lamethods.github.io/book2/chapters/ch08-llms/ch08-llms.html)**: This book chapter examines the mechanisms that underpin LLMs —namely, transformer architecture, pre-training, and generative abilities.
+- **[AI, Explainable AI and Evaluative AI: Informed Data-Driven Decision-Making in Education](https://lamethods.github.io/book2/chapters/ch02-AIxAI/ch02-aixai.html)**: This book chapter aims to provide readers with an understanding of AI in education and XAI’s potential.
+- **[Scaffolding GenAI Literacy and Fluency at Scale: A Practical Self-Assessment Framework for Personalised Learning](https://osf.io/u8crd_v2)
