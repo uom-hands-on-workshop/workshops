@@ -145,9 +145,10 @@ Final comments and Q&A.
 
 ---
 
-## Additional Resources
-
+## Some of my latest work in this space ;)
+**2025**
 - **[An Introduction to Large Language Models in Education](https://lamethods.github.io/book2/chapters/ch08-llms/ch08-llms.html)**
 - **[AI, Explainable AI and Evaluative AI: Informed Data-Driven Decision-Making in Education](https://lamethods.github.io/book2/chapters/ch02-AIxAI/ch02-aixai.html)**
+- **[LLMs for Explainable Artificial Intelligence: Automating Natural Language Explanations of Predictive Analytics Models](https://lamethods.github.io/book2/chapters/ch11-llmsxai/ch11-llmsxai.html)**
 - **[Scaffolding GenAI Literacy and Fluency at Scale: A Practical Self-Assessment Framework for Personalised Learning](https://osf.io/u8crd_v2)**
-- **[Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance](https://doi.org/10.1111/bjet.13544)**
+- **[Exploring Human-AI Collaboration in Educational Contexts: Insights from Writing Analytics and Authorship Attribution](https://dl.acm.org/doi/pdf/10.1145/3706468.3706536)**
