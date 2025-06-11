@@ -135,7 +135,6 @@ Show how AI can:
 - [Support deep research tasks](https://chatgpt.com/s/dr_6823d179b1108191b8e0790c8a77df5d)  
 - [Enable just-in-time clinical queries](https://notebooklm.google.com/notebook/5aa36cd4-0cb9-4ab8-8384-243dd0809b9a)
 
-![DeepResearch](resources/deepresearch.png)
 
 ---
 
