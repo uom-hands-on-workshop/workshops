@@ -1,4 +1,5 @@
-# AI Use in Clinical Education (RCH, June 19) – Session Plan
+# AI Use in Clinical Education – Session Plan
+**RCH - June 19**
 
 ## Session Goals
 
