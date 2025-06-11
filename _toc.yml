@@ -3,16 +3,7 @@
 
 format: jb-book
 root: introduction
-parts:
-  - caption: AI Literacy
-    chapters:
-    - file: extras/ailiteracy
-      sections:
-        - file: extras/knowai
-        - file: extras/useai
-        - file: extras/evaluateai
-        - file: extras/ethicsai                
-    - file: extras/summary          
+parts:       
   - caption: Workshops
     chapters:
     - file: topics/workshopsoverview
