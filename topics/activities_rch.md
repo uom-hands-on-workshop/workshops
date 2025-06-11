@@ -61,7 +61,7 @@ Co-create a new patient scenario (e.g. "A patient became unresponsive in the reh
 
 ### CPRPatient Builder Prompts
 
-[CustomGPT](resources/customgpt.png)
+![CustomGPT](resources/customgpt.png)
 (Inspired on the work from Dal Ponte, C., & Dwyer, K. (2024). Enhancing productivity with custom GPTs to support curriculum development. ASCILITE Publications, 91-92.)
 
 **Instructions:**  
@@ -135,8 +135,7 @@ Show how AI can:
 - Support deep research tasks  
 - Enable just-in-time clinical queries  
 
-[DeepResearch](resources/deepresearch.png)
-
+![DeepResearch](resources/deepresearch.png)
 
 ---
 
