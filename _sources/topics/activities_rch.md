@@ -71,10 +71,24 @@ The session will run on Thursday, 20 June at 1:00pm at the Royal Children’s Ho
 Registrations are now open, limited to 20 participants, and can be accessed via this [link].
 ```
 
-5. **Image**
+5. **Image for session plan**
 ```
 Generate a realistic image of a clinical educator demonstrating external cardiac compressions on a child-sized CPR mannequin, at the Royal Children's Hospital (Melbourne), with students observing and rotating through stations. 
 ```
+
+6. **CPR timer for the session**
+```
+Design a paediatric CPR screen simulation to guide learners through the correct rhythm and ratio of compressions to breaths. The simulation should:
+
+-Create a clean visual interface (e.g. compression indicator + breath animation).
+-Display the current step ("Compression 7", "Breath 1", etc.).
+-Add a looping cycle of 15 compressions (blue pulsing circle) followed by 2 breaths (green circle – 1 second long for the breaths).
+-A metronome sound plays at each compression step.
+-Timing is set to 550 ms per step, matching roughly 110 BPM.
+```
+
+**[Prompt engineering best practices for ChatGPT](https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt)**
+
 ---
 
 ## Part 2: AI for Scenario Development
@@ -155,6 +169,7 @@ If the user uses poor bedside manner or interrogates harshly, the assistant acts
 Let's start!
 ```
 
+**[ChatGPT Custom Instructions FAQ](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions-faq)**
 ---
 
 ## Part 3: AI for Teaching and Learning (T&L)
