@@ -193,7 +193,6 @@ Final comments and Q&A.
 
 
 **Some of my latest work in this space ;)**
-**2025**
 
 - **[Facets of AI Personalization: A Systematic Review of Fine-tuned Large Language Models for Teaching and Learning](https://papers.ssrn.com/abstract=5287369)**
 - **[An Introduction to Large Language Models in Education](https://lamethods.github.io/book2/chapters/ch08-llms/ch08-llms.html)**
