@@ -170,6 +170,7 @@ Let's start!
 ```
 
 **[ChatGPT Custom Instructions FAQ](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions-faq)**
+
 ---
 
 ## Part 3: AI for Teaching and Learning (T&L)
@@ -190,8 +191,11 @@ Final comments and Q&A.
 
 ---
 
-## Some of my latest work in this space ;)
+
+**Some of my latest work in this space ;)**
 **2025**
+
+- **[Facets of AI Personalization: A Systematic Review of Fine-tuned Large Language Models for Teaching and Learning](https://papers.ssrn.com/abstract=5287369)**
 - **[An Introduction to Large Language Models in Education](https://lamethods.github.io/book2/chapters/ch08-llms/ch08-llms.html)**
 - **[AI, Explainable AI and Evaluative AI: Informed Data-Driven Decision-Making in Education](https://lamethods.github.io/book2/chapters/ch02-AIxAI/ch02-aixai.html)**
 - **[LLMs for Explainable Artificial Intelligence: Automating Natural Language Explanations of Predictive Analytics Models](https://lamethods.github.io/book2/chapters/ch11-llmsxai/ch11-llmsxai.html)**
