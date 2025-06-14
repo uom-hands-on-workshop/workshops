@@ -30,21 +30,51 @@ Begin with a basic prompt. Gradually refine it to demonstrate tone, audience, cu
 
 1. **Session plan**
 ``` 
-Create a one-hour session outline on effective management of CPR on infants for a mixed group of nursing and medical students.
+Design a practical, hands-on paediatric CPR teaching session for clinical educators or student healthcare professionals. The session will be delivered in a hospital or clinic (not in a traditional classroom). Focus specifically on external cardiac compression techniques using child-sized mannequins. Include instructions for compressions on firm surfaces, recommended depth, rate, breath-to-compression ratio, and different hand techniques depending on age (including the two-thumb encircling method for newborns). Create a session outline including:
+
+-Learning outcomes
+-Required equipment
+-Icebreaker or engagement starter
+-Step-by-step skill rotation stations
+-Safety and facilitation tips
+-Assessment or feedback approach
+-Session timing.
 ```
 2.  **Polishing session plan**
 ```
-Can we add 3 learning takeaway messages for this one-hour session?
+Expand and format the CPR lesson plan into a detailed teaching guide for a clinical educator. Use clear section headings:
+
+-Title
+-Target Learners
+-Duration
+-Learning Objectives
+-Materials and Setup
+-Session Plan (including demonstration and rotation)
+-Compression techniques by age group
+-Facilitation Notes
+-Assessment Options (peer feedback, checklist)
+-Debrief Questions and Wrap-Up
+
+Please format it for use in a professional training session. 
 ```
+
 3.  **Saving session plan**
 ```
-Convert this session plan into a structured .docx format suitable for printing.
+Convert the full CPR lesson plan into a Microsoft Word document format (.docx) for download. Make sure you use clear headings, bold section titles and a clean professional layout. Include a footer with: 'Paediatric CPR Teaching Session | RCH'.
 ```
 4.  **Promoting session plan**
 ```
-Write a promotional email inviting staff to this session.
+Write a short, engaging LinkedIn post and a professional email to promote a new paediatric CPR teaching session focused on  cardiac compression techniques. 
+
+The session will run on Thursday, 20 June at 1:00pm at the Royal Children’s Hospital.
+
+Registrations are now open, limited to 20 participants, and can be accessed via this [link].
 ```
 
+5. **Image**
+```
+Generate a realistic image of a clinical educator demonstrating external cardiac compressions on a child-sized CPR mannequin, at the Royal Children's Hospital (Melbourne), with students observing and rotating through stations. 
+```
 ---
 
 ## Part 2: AI for Scenario Development
@@ -53,7 +83,7 @@ Write a promotional email inviting staff to this session.
 
 Showcase the development and use of two custom GPTs:  
 1. **CPRPatient Builder** – generates realistic clinical scenarios  
-2. **CPRCase / Actor** – simulates role-play interactions  
+2. **CPRCase / Scenario** – simulates role-play interactions  
 
 **Interactive Activity**
 Co-create a new patient scenario (e.g. "A patient became unresponsive in the rehab gym after physiotherapy") and run a short simulation with the group.
