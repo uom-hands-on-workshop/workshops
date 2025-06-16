@@ -87,6 +87,15 @@ Design a paediatric CPR screen simulation to guide learners through the correct 
 -Timing is set to 550 ms per step, matching roughly 110 BPM.
 ```
 
+7. **Alternativelly... (for you to try another time ;)**
+```
+(Role) You are an expert clinical educator who teaches CPR skills to clinician students in hospital and simulation-based settings (not traditional classrooms).
+
+(Task) Help me create a 30 minutes lesson plan to teach paediatric CPR, focusing on external cardiac compressions and ventilation techniques. To start, please show me 3 ways in which I can organise this 30 minutes session in different ways. After I pick one of your suggestions, I will ask for other instructional components such as direct instructions, readings/videos, skill rotation ideas, and discussion questions. Every time I ask for something, give me 3 versions so I can choose the most appropriate one.
+
+(Format) Give me the resources I ask for at a beginner clinical level — simple, clear, and practical enough for learners who are familiar with healthcare but new to CPR delivery in paediatric cases.
+```
+
 **[Prompt engineering best practices for ChatGPT](https://help.openai.com/en/articles/10032626-prompt-engineering-best-practices-for-chatgpt)**
 
 ---
