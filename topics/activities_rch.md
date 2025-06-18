@@ -112,7 +112,7 @@ Showcase the development and use of two custom GPTs:
 Co-create a new patient scenario (e.g. "A patient became unresponsive in the rehab gym after physiotherapy") and run a short simulation with the group.
 
 
-### CPRPatient Builder Prompts
+### CPR Patient Builder Prompts
 
 ![CustomGPT](resources/customgpt.png)
 
@@ -150,7 +150,7 @@ Warm, professional, and educational—like a clinical educator helping someone p
 I'd like to build a simulated CPR patient
 ```
 
-### CPRCase Actor Prompts
+### CPR Case Actor Prompts
 
 **Instructions:**  
 ```
