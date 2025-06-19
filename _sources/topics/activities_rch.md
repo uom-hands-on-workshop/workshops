@@ -30,7 +30,7 @@ Begin with a basic prompt. Gradually refine it to demonstrate tone, audience, cu
 
 1. **Session plan**
 ``` 
-Design a practical, hands-on paediatric CPR teaching session for clinical educators or student healthcare professionals. The session will be delivered in a hospital or clinic (not in a traditional classroom). Focus specifically on external cardiac compression techniques using child-sized mannequins. Include instructions for compressions on firm surfaces, recommended depth, rate, breath-to-compression ratio, and different hand techniques depending on age (including the two-thumb encircling method for newborns). Create a session outline including:
+Design a practical, hands-on paediatric CPR teaching session for clinical educators or student healthcare professionals. The session will be delivered in a hospital or clinic (not in a traditional classroom). Focus specifically on external cardiac compression techniques using child-sized mannequins. Include instructions for compressions on firm surfaces, recommended depth, rate, breath-to-compression ratio, and different hand techniques depending on age (including the two-thumb encircling method for newborns). Create a one-hour session outline including:
 
 -Learning outcomes
 -Required equipment
