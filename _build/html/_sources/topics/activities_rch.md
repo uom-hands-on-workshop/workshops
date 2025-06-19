@@ -75,6 +75,7 @@ Registrations are now open, limited to 20 participants, and can be accessed via 
 ```
 Generate a realistic image of a clinical educator demonstrating external cardiac compressions on a child-sized CPR mannequin, at the Royal Children's Hospital (Melbourne), with students observing and rotating through stations. 
 ```
+![CustomGPT](resources/rchcpr.png)
 
 6. **CPR timer for the session**
 ```
