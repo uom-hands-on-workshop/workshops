@@ -204,6 +204,7 @@ Final comments and Q&A.
 **Some of my latest work (2025) in this space ;)**
 
 - **[Delving Into the Psychology of Machines: Exploring the Structure of Self-Regulated Learning via LLM-Generated Survey Responses](https://arxiv.org/abs/2506.13384)**
+- **[Human-AI Collaboration or Academic Misconduct? Measuring AI Use in Student Writing Through Stylometric Evidence](https://arxiv.org/abs/2505.08828)**
 - **[Facets of AI Personalization: A Systematic Review of Fine-tuned Large Language Models for Teaching and Learning](https://papers.ssrn.com/abstract=5287369)**
 - **[An Introduction to Large Language Models in Education](https://lamethods.github.io/book2/chapters/ch08-llms/ch08-llms.html)**
 - **[AI, Explainable AI and Evaluative AI: Informed Data-Driven Decision-Making in Education](https://lamethods.github.io/book2/chapters/ch02-AIxAI/ch02-aixai.html)**
