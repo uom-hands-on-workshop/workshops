@@ -42,7 +42,7 @@ Design a practical, hands-on paediatric CPR teaching session for clinical educat
 ```
 2.  **Polishing session plan**
 ```
-Expand and format the CPR lesson plan into a detailed teaching guide for a clinical educator. Use clear section headings:
+Expand and format the CPR teaching session into a detailed lesson plan for a clinical educator. Use clear section headings:
 
 -Title
 -Target Learners
