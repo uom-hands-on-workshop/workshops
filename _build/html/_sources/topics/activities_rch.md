@@ -86,6 +86,7 @@ Design a paediatric CPR screen simulation to guide learners through the correct 
 -A metronome sound plays at each compression step.
 -Timing is set to 550 ms per step, matching roughly 110 BPM.
 ```
+- **[My one and only attempt](https://chatgpt.com/canvas/shared/68537062f57081918b8d9529548acc0b)**
 
 7. **Alternativelly... (for you to try another time ;)**
 ```
