@@ -88,6 +88,7 @@ Design a paediatric CPR screen simulation to guide learners through the correct 
 -Timing is set to 550 ms per step, matching roughly 110 BPM.
 ```
 - **[My one and only attempt - ChaGPT-4o](https://chatgpt.com/canvas/shared/68537062f57081918b8d9529548acc0b)**
+
 [CPR App](resources/cprgame4o.png)
 
 ```
@@ -100,6 +101,7 @@ It'd be great to provide some visual elements on accuracy and so on. And, visual
 ```
 
 - **[My one and only attempt - ChaGPT-5](https://chatgpt.com/canvas/shared/689823c7d9ac819197bf08341661c611)**
+
 [CPR App2](resources/cprgame5.png)
 
 7. **Alternativelly... (for you to try another time ;)**
