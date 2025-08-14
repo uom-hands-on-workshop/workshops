@@ -197,7 +197,9 @@ Let's start!
 ---
 
 **[ChatGPT Custom Instructions FAQ](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions-faq)**
-<!--
+
+
+
 ## ⚡ Quick Challenge: Build Your Own Assessment Helper
 You have 10 minutes to create your own version of a Custom GPT that helps educators design formative assessments.
 Your challenge is to:
@@ -211,9 +213,9 @@ Your challenge is to:
 
 After 10 minutes, we’ll regroup so I can reveal the exact prompts and solution I used when creating my own Assessment Helper, and you can compare how close you came.
 
--->
 
-<!--
+
+
 ### Assessment Helper
 
 **Instructions:**  
@@ -254,7 +256,7 @@ Step 6: Ask: "Would you like me to save this for you as a structured DOC file to
 ```
 Let's design a new formative assessment. 
 ```
--->
+
 
 ---
 
