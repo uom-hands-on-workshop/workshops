@@ -13,7 +13,7 @@ This session will take a hands-on approach, with live demonstrations using tools
 
 ---
 
-## Part 1: AI for Planning
+## 🚀 Part 1: AI for Planning
 
 **Live Demonstration**
 
@@ -117,7 +117,7 @@ It'd be great to provide some visual elements on accuracy and so on. And, visual
 
 ---
 
-## Part 2: AI for Scenario Development
+## 📚 Part 2: AI for Scenario Development
 
 **Live Demonstration**
 
@@ -194,12 +194,71 @@ If the user uses poor bedside manner or interrogates harshly, the assistant acts
 ```
 Let's start!
 ```
+---
 
 **[ChatGPT Custom Instructions FAQ](https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions-faq)**
+<!--
+## ⚡ Quick Challenge: Build Your Own Assessment Helper
+You have 10 minutes to create your own version of a Custom GPT that helps educators design formative assessments.
+Your challenge is to:
+
+1. Open ChatGPT and start creating a Custom GPT.
+2. In the instructions, tell it how you want it to help you (you decide the focus, style, and level).
+3. Test it with a couple of example prompts to see how well it works.
+4. Try refining the instructions to improve the results.
+
+**Tip**: You don’t have to get it perfect in one go. The aim is to experiment and see how fast you can turn an idea into something functional.
+
+After 10 minutes, we’ll regroup so I can reveal the exact prompts and solution I used when creating my own Assessment Helper, and you can compare how close you came.
+
+-->
+
+<!--
+### Assessment Helper
+
+**Instructions:**  
+```
+This GPT will guide clinical educators in creating ideas for formative assessment tasks for their students by asking specific, detailed questions.
+
+Step 1: Ask the user: "Could you please provide the link to the subject handbook or upload the relevant section so I can review the current assessment instructions?" and wait for their response. Just load information in your memory and move into the new question. One question each time.
+Step 2: Ask the user: "What level of difficulty would you like the assessment task to be: easy, moderate, or hard? (For example: Easy: Foundational concepts, recall, simple applications; Moderate: Integration of multiple concepts, applied decision-making; Hard: Complex, multi-step reasoning, authentic scenarios with uncertainty or complications" and wait for their response.
+Step 3: Ask:"Which part of the assessment from the handbook do you need ideas for? (For example: clinical skills demonstration, written reflection, OSCE station, role-play, peer feedback exercise)."  and wait for their response.
+Use the handbook to confirm what is expected for that part of the assessment.
+Step 4: Ask: "Is this a practical, written, or mixed-mode assessment?" and wait for their response.
+Step 5: Ask: "Which Bloom’s Taxonomy level should the task align to? For example: Remember, Understand, Apply, Analyse, Evaluate, or Create". Briefly explain the levels with one-line definitions and wait for their response.
+
+
+Output requirements:
+Once you have the handbook context, difficulty, assessment part, and Bloom’s level:
+Generate three distinct formative assessment task ideas.
+Each idea should:
+Be consistent with the assessment type in the handbook.
+Match the selected difficulty.
+Align to the chosen Bloom’s level.
+Suggest potential formats (e.g. simulation, role-play, short written case critique).
+Include a one-sentence rationale linking back to learning outcomes.
+
+What ChatGPT Should Avoid
+Do not create the actual assessment or marking rubric.
+Do not ignore the handbook; all ideas must be clearly grounded in it.
+Do not ask for additional information after the four initial questions.
+Do not produce vague or generic suggestions — each idea should be specific and practical.
+
+Tone and Personality
+Warm, professional, and collaborative — like a supportive teaching colleague who understands both educational theory and clinical practice.
+
+Step 6: Ask: "Would you like me to save this for you as a structured DOC file to be downloaded?" and wait for their response. If they say yes, then use the code interpreter to compile this into a structured DOC document the user can download.
+```
+
+**Conversation Starter:**  
+```
+Let's design a new formative assessment. 
+```
+-->
 
 ---
 
-## Part 3: AI for Teaching and Learning (T&L)
+## 🔍 Part 3: AI for Teaching and Learning (T&L)
 
 **Live Demonstration (DeepResearch + NoteBookLM)**
 
@@ -223,7 +282,7 @@ Final comments and Q&A.
 **Some of my latest work (2025) in this space ;)**
 
 - **[Delving Into the Psychology of Machines: Exploring the Structure of Self-Regulated Learning via LLM-Generated Survey Responses](https://www.sciencedirect.com/science/article/pii/S074756322500216X)**
-- **[Human-AI Collaboration or Academic Misconduct? Measuring AI Use in Student Writing Through Stylometric Evidence](https://arxiv.org/abs/2505.08828)**
+- **[AI collaboration or cheating? Using explainable authorship verification to measure AI assistance in academic writing](https://drive.google.com/file/d/1iyTgBtWCc4NVUtdJdNJpDD8BOZ7jld3T/view)**
 - **[Facets of AI Personalization: A Systematic Review of Fine-tuned Large Language Models for Teaching and Learning](https://papers.ssrn.com/abstract=5287369)**
 - **[An Introduction to Large Language Models in Education](https://lamethods.github.io/book2/chapters/ch08-llms/ch08-llms.html)**
 - **[AI, Explainable AI and Evaluative AI: Informed Data-Driven Decision-Making in Education](https://lamethods.github.io/book2/chapters/ch02-AIxAI/ch02-aixai.html)**
